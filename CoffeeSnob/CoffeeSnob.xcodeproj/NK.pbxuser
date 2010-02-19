@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* CoffeeSnobAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1287, 739}}";
+			sepNavSelRange = "{320, 0}";
+			sepNavVisRange = "{0, 462}";
+			sepNavWindowFrame = "{{19, 6}, {1346, 867}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* CoffeeSnobAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1287, 784}}";
+			sepNavSelRange = "{230, 0}";
+			sepNavVisRange = "{3, 1073}";
+			sepNavWindowFrame = "{{19, 6}, {1346, 867}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* CoffeeSnob */ = {
+		activeExec = 0;
+		executables = (
+			4C446081111C8C9700BAEC5D /* CoffeeSnob */,
+		);
+	};
+	28216C950DB411BC00E5133A /* FirstViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1056, 746}}";
+			sepNavSelRange = "{545, 0}";
+			sepNavVisRange = "{0, 752}";
+			sepNavWindowFrame = "{{16, 0}, {1436, 878}}";
+		};
+	};
+	28216C960DB411BC00E5133A /* FirstViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1223, 2096}}";
+			sepNavSelRange = "{3684, 0}";
+			sepNavVisRange = "{2972, 1703}";
+			sepNavWindowFrame = "{{320, 4}, {1115, 874}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 4C446081111C8C9700BAEC5D /* CoffeeSnob */;
+		activeSDKPreference = iphoneos3.1.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* CoffeeSnob */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* CoffeeSnob */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 4C446097111C8C9C00BAEC5D /* Code sense */;
+		executables = (
+			4C446081111C8C9700BAEC5D /* CoffeeSnob */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					315,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 288129518;
+			PBXWorkspaceStateSaveDate = 288129518;
+		};
+		sourceControlManager = 4C446096111C8C9C00BAEC5D /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1377, 727}}";
+			sepNavSelRange = "{327, 0}";
+			sepNavVisRange = "{0, 369}";
+		};
+	};
+	4C06B16C111CDF8C00EEE115 /* SBJSON.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {946, 3376}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 347}";
+		};
+	};
+	4C446081111C8C9700BAEC5D /* CoffeeSnob */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = CoffeeSnob;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	4C446096111C8C9C00BAEC5D /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	4C446097111C8C9C00BAEC5D /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	4C83F545111CE380002FE85E /* GDataXMLNode.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {946, 3632}}";
+			sepNavSelRange = "{1384, 0}";
+			sepNavVisRange = "{1384, 315}";
+			sepNavWindowFrame = "{{4, 0}, {1436, 878}}";
+		};
+	};
+	4C83F546111CE380002FE85E /* GDataXMLNode.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 29504}}";
+			sepNavSelRange = "{4659, 0}";
+			sepNavVisRange = "{10958, 1009}";
+		};
+	};
+	4CAFC381111DECB400409128 /* CoffeeShopAnnotation.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1287, 739}}";
+			sepNavSelRange = "{366, 0}";
+			sepNavVisRange = "{0, 515}";
+			sepNavWindowFrame = "{{19, 6}, {1346, 867}}";
+		};
+	};
+	4CAFC382111DECB400409128 /* CoffeeShopAnnotation.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {946, 336}}";
+			sepNavSelRange = "{257, 0}";
+			sepNavVisRange = "{0, 304}";
+			sepNavWindowFrame = "{{19, 6}, {1346, 867}}";
+		};
+	};
+	4CEFEECA111DDB78001B5381 /* CoffeeShopRepository.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1377, 750}}";
+			sepNavSelRange = "{615, 0}";
+			sepNavVisRange = "{0, 767}";
+		};
+	};
+	4CEFEECB111DDB78001B5381 /* CoffeeShopRepository.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1056, 1456}}";
+			sepNavSelRange = "{316, 0}";
+			sepNavVisRange = "{3, 1345}";
+			sepNavWindowFrame = "{{4, 0}, {1436, 878}}";
+		};
+	};
+	4CEFEF6E111DE1D4001B5381 /* CoffeeShop.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1377, 750}}";
+			sepNavSelRange = "{279, 10}";
+			sepNavVisRange = "{0, 413}";
+			sepNavWindowFrame = "{{4, 0}, {1436, 878}}";
+		};
+	};
+	4CEFEF6F111DE1D4001B5381 /* CoffeeShop.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1377, 750}}";
+			sepNavSelRange = "{232, 0}";
+			sepNavVisRange = "{0, 251}";
+			sepNavWindowFrame = "{{19, 6}, {1346, 867}}";
+		};
+	};
+	8D1107310486CEB800E47090 /* CoffeeSnob-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{19, 6}, {1346, 867}}";
+		};
+	};
+}
