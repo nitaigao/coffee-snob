@@ -1,0 +1,12 @@
+In file included from /Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopAnnotation.h:12,
+                 from /Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopAnnotation.m:9:
+/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShop.h:24: error: expected ')' before 'CoffeeShopAnnotation'
+/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopAnnotation.m:15: error: no declaration of property 'coffeeShopName' found in the interface
+/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopAnnotation.m: In function '-[CoffeeShopAnnotation title]':
+/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopAnnotation.m:18: error: 'coffeeShopName' undeclared (first use in this function)
+/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopAnnotation.m:18: error: (Each undeclared identifier is reported only once
+/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopAnnotation.m:18: error: for each function it appears in.)
+/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopAnnotation.m:19: warning: control reaches end of non-void function
+/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopAnnotation.m: At top level:
+/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopAnnotation.m:21: warning: property 'coffeeShop' requires method '-coffeeShop' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopAnnotation.m:21: warning: property 'coffeeShop' requires the method 'setCoffeeShop:' to be defined - use @synthesize, @dynamic or provide a method implementation

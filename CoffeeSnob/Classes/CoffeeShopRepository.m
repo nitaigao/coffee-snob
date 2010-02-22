@@ -11,28 +11,29 @@
 #import <CoreLocation/CoreLocation.h>
 #import <CoreLocation/CLLocation.h>
 
-#import "JSON/JSON.h"
 #import "GDataXMLNode.h"
 
 #import "CoffeeShop.h"
-
 
 @implementation CoffeeShopRepository
 
 @synthesize loadedDelegate;
 @synthesize coffeeResponseData;
 
-- (CoffeeShopRepository*) initFromURL:(NSURL*)url withDelegate:(id<CoffeeShopRepositoryDelegate>) delegate {
-	
+NSString* const MAPURL = @"http://maps.google.co.uk/maps/ms?ie=UTF8&hl=en&msa=0&output=georss&msid=101901681374445814721.00046d3c1ee801655a44c";
+
+- (id)init {
+	[super init];
 	coffeeResponseData = [[NSMutableData data]retain];
 	coffeeShops = [[NSMutableArray alloc]init];
-	
-	NSURLRequest *request = [NSURLRequest requestWithURL: url ];
-	[[NSURLConnection alloc] initWithRequest:request delegate:self];
-	self.loadedDelegate = delegate;
-	
 	return self;
+}
+
+- (void) findAll:(id<CoffeeShopRepositoryDelegate>) delegate {
 	
+	NSURLRequest *request = [NSURLRequest requestWithURL: [NSURL URLWithString:MAPURL] ];
+	[[NSURLConnection alloc] initWithRequest:request delegate:self];
+	self.loadedDelegate = delegate;	
 }
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data {
@@ -70,7 +71,7 @@
 				NSString* longitude = [latitudeLongitude objectAtIndex:0];
 				NSString* latitude = [latitudeLongitude objectAtIndex:1];
 				
-				coffeeShop.coordinate = [[CLLocation alloc]initWithLatitude:[longitude doubleValue] longitude:[latitude doubleValue] ];
+				coffeeShop.location = [[CLLocation alloc]initWithLatitude:[longitude doubleValue] longitude:[latitude doubleValue] ];
 			}
 		}
 		

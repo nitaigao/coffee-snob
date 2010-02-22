@@ -8,16 +8,19 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
+#import "CoffeeShopAnnotation.h"
 
 
 @interface CoffeeShop : NSObject {
 	
 	NSString* name;
-	CLLocation* coordinate;
+	CLLocation* location;
 
 }
 
 @property (nonatomic, retain) NSString* name;
-@property (nonatomic, retain) CLLocation* coordinate;
+@property (nonatomic, retain) CLLocation* location;
+
+- (CoffeeShopAnnotation*) getMapAnnotation;
 
 @end

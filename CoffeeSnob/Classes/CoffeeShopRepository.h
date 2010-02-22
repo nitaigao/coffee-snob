@@ -24,7 +24,7 @@
 
 }
 
-- (CoffeeShopRepository*) initFromURL:(NSURL*)url withDelegate:(id<CoffeeShopRepositoryDelegate>) delegate;
+- (void) findAll:(id<CoffeeShopRepositoryDelegate>) delegate;
 
 @property (nonatomic, retain) NSMutableData *coffeeResponseData;
 @property (nonatomic, retain) id<CoffeeShopRepositoryDelegate> loadedDelegate;

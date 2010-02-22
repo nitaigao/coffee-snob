@@ -12,10 +12,10 @@
 @implementation CoffeeShopAnnotation
 
 @synthesize coordinate;
-@synthesize coffeeShop;
+@synthesize coffeeShopName;
 
 - (NSString *)title {
-	return coffeeShop.name;
+	return coffeeShopName;
 }
 
 @end

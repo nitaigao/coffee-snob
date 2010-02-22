@@ -9,16 +9,14 @@
 #import <Foundation/Foundation.h>
 #import <MapKit/MapKit.h>
 
-#import "CoffeeShop.h"
-
 @interface CoffeeShopAnnotation : NSObject<MKAnnotation> {
 	CLLocationCoordinate2D coordinate;
-	CoffeeShop* coffeeShop;
+	NSString* coffeeShopName;
 }
 
 - (NSString *)title;
 
 @property (nonatomic, assign) CLLocationCoordinate2D coordinate;
-@property (nonatomic, assign) CoffeeShop *coffeeShop;
+@property (nonatomic, assign) NSString* coffeeShopName;
 
 @end

@@ -12,6 +12,13 @@
 @implementation CoffeeShop
 
 @synthesize name;
-@synthesize coordinate;
+@synthesize location;
+
+- (CoffeeShopAnnotation*) getMapAnnotation {
+	CoffeeShopAnnotation* coffeeShopAnnotation = [[CoffeeShopAnnotation alloc]init];
+	coffeeShopAnnotation.coffeeShopName = name;
+	coffeeShopAnnotation.coordinate = location.coordinate;
+	return coffeeShopAnnotation;
+}
 
 @end
