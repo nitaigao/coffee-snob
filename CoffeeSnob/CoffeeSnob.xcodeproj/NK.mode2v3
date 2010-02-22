@@ -197,7 +197,49 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>4C94C85D11334ADD000C207E</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>CoffeeMap.m</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>4C94C86011334AE0000C207E</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>CoffeeMap.m</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>4C94C89511335083000C207E</string>
+						<key>history</key>
+						<array>
+							<string>4C94C87311334DF4000C207E</string>
+							<string>4C94C86411334B0D000C207E</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1115, 777}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>320 60 1115 818 0 0 1440 878 </string>
+			</dict>
+		</dict>
+	</array>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -270,7 +312,7 @@
 									<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 									<array>
 										<array>
-											<integer>6</integer>
+											<integer>15</integer>
 											<integer>1</integer>
 											<integer>0</integer>
 										</array>
@@ -439,8 +481,8 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>4C28D66B112C81FC00DA3834</string>
-				<string>4C28D66C112C81FC00DA3834</string>
+				<string>4C94C85E11334AE0000C207E</string>
+				<string>4C94C85F11334AE0000C207E</string>
 				<string>1C9437FD063B20B00039CFAC</string>
 				<string>1C9437FE063B20B00039CFAC</string>
 				<string>1C9437FF063B20B00039CFAC</string>
@@ -454,7 +496,7 @@
 	<key>PerspectivesBarVisible</key>
 	<false/>
 	<key>PinnedNavigatorIdentifier</key>
-	<string>4C4CED39112C77A200AACB7A</string>
+	<string>4C94C85D11334ADD000C207E</string>
 	<key>ShelfIsVisible</key>
 	<false/>
 	<key>SourceDescription</key>
@@ -479,10 +521,13 @@
 	<integer>0</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>4C94C89411335081000C207E</string>
+		<string>4C94C87D11334DF4000C207E</string>
+		<string>1C530D5B069F1CE1000CFCEE</string>
 		<string>1C530D54069F1CE1000CFCEE</string>
 		<string>1C530D52069F1CE1000CFCEE</string>
-		<string>4C4CED39112C77A200AACB7A</string>
-		<string>/Users/NK/Development/iPhone/CoffeeSnob/CoffeeSnob.xcodeproj</string>
+		<string>/Users/NK/Development/iphone/CoffeeSnob/CoffeeSnob.xcodeproj</string>
+		<string>4C94C85D11334ADD000C207E</string>
 	</array>
 	<key>WindowString</key>
 	<string>7 69 316 808 0 0 1440 878 </string>
@@ -699,7 +744,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D52069F1CE1000CFCEE</string>
-				<string>4C28D66D112C81FC00DA3834</string>
+				<string>4C94C86211334AE0000C207E</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -821,13 +866,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D54069F1CE1000CFCEE</string>
-				<string>4C28D66E112C81FC00DA3834</string>
+				<string>4C94C87511334DF4000C207E</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>4C28D66F112C81FC00DA3834</string>
-				<string>4C28D670112C81FC00DA3834</string>
-				<string>4C28D671112C81FC00DA3834</string>
-				<string>4C28D672112C81FC00DA3834</string>
-				<string>4C28D673112C81FC00DA3834</string>
+				<string>4C94C87611334DF4000C207E</string>
+				<string>4C94C87711334DF4000C207E</string>
+				<string>4C94C87811334DF4000C207E</string>
+				<string>4C94C87911334DF4000C207E</string>
+				<string>4C94C87A11334DF4000C207E</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -989,7 +1034,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D5B069F1CE1000CFCEE</string>
-				<string>4CDC01F6112C7D4300288FD7</string>
+				<string>4C94C87B11334DF4000C207E</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

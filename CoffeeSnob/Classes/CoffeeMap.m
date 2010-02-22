@@ -25,30 +25,20 @@
 }
 
 - (void)addCoffeeShops:(NSArray*)coffeeShops {		
-	for(int i = 0; i < coffeeShops.count; i++) {
-		
-		CoffeeShop* shop = [coffeeShops objectAtIndex:i];
-		
+	for(CoffeeShop *shop in coffeeShops) {		
 		double distanceFromUser = [shop.location getDistanceFrom:mapView.userLocation.location];
-		
-		if (distanceFromUser < 0 ) {
-			distanceFromUser = distanceFromUser * -1;
-		}
+		distanceFromUser = distanceFromUser < 0 ? distanceFromUser * -1 : distanceFromUser;
 		
 		NSNumber* absoluteDistanceFromUser = [[NSNumber alloc]initWithDouble: distanceFromUser];
 		[sortedShops addObject:absoluteDistanceFromUser];
-		
-		NSString* absoluteDistanceFromUserString = [NSString stringWithFormat:@"%@", absoluteDistanceFromUser];
-		[coffeeShopsWithDistance setValue:shop forKey:absoluteDistanceFromUserString];
+		[coffeeShopsWithDistance setValue:shop forKey:[absoluteDistanceFromUser stringValue]];
 	}
 	
 	[sortedShops sortUsingSelector:@selector(compare:)];	
 }
 
 - (void) showClosestToUser {
-	NSNumber* bestCoffeeShopKey = [sortedShops objectAtIndex:0];
-	NSString* bestCoffeeShopKeyString = [NSString stringWithFormat:@"%@", bestCoffeeShopKey];
-	CoffeeShop* bestCoffeeShop = [coffeeShopsWithDistance objectForKey:bestCoffeeShopKeyString];
+	CoffeeShop* bestCoffeeShop = [coffeeShopsWithDistance objectForKey:[[sortedShops objectAtIndex:0] stringValue]];
 
 	CoffeeShopAnnotation* coffeeShopAnnotation = [bestCoffeeShop getMapAnnotation];
 	[mapView addAnnotation:coffeeShopAnnotation];
