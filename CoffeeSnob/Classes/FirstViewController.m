@@ -25,6 +25,8 @@
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation {
 	
+	NSLog( @"%d", newLocation.horizontalAccuracy );
+	
 	MKCoordinateRegion region;
 	region.center = newLocation.coordinate;	//Set Zoom level using Span
 	MKCoordinateSpan span;
@@ -33,6 +35,12 @@
 	region.span = span;
 	
 	[coffeeView setRegion:region animated:TRUE];
+	
+	coffeeView.showsUserLocation = YES;
+	
+	//NSURL *url = [NSURL URLWithString:@"http://maps.google.co.uk/maps/ms?ie=UTF8&hl=en&vps=6&jsv=202c&msa=0&output=georss&msid=114353289294947720044.00047eff935bbb8a92738"];
+	//NSURL *url = [NSURL URLWithString:@"http://maps.google.co.uk/maps/ms?ie=UTF8&hl=en&msa=0&output=georss&msid=101901681374445814721.00046d3c1ee801655a44c"];
+	//self.coffeeShopRepository = [[CoffeeShopRepository alloc]initFromURL:url withDelegate:self];
 		
 }
 
@@ -101,19 +109,14 @@
 	
     [super viewDidLoad];
 	
-	[coffeeView.userLocation addObserver:self forKeyPath:@"location" options:(NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld) context:NULL];
-	coffeeView.showsUserLocation = YES;
-	
-}
-
--(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
-	
-	NSURL *url = [NSURL URLWithString:@"http://maps.google.co.uk/maps/ms?ie=UTF8&hl=en&vps=6&jsv=202c&msa=0&output=georss&msid=114353289294947720044.00047eff935bbb8a92738"];
-	//NSURL *url = [NSURL URLWithString:@"http://maps.google.co.uk/maps/ms?ie=UTF8&hl=en&msa=0&output=georss&msid=101901681374445814721.00046d3c1ee801655a44c"];
-	self.coffeeShopRepository = [[CoffeeShopRepository alloc]initFromURL:url withDelegate:self];
-	[coffeeView.userLocation removeObserver:self forKeyPath:@"location"];
+	self.locationManager = [[CLLocationManager alloc] init];
+	self.locationManager.delegate = self;
+	self.locationManager.desiredAccuracy = kCLLocationAccuracyKilometer;
+	self.locationManager.distanceFilter = 1; // or whatever
+	[self.locationManager startUpdatingLocation];
 
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
