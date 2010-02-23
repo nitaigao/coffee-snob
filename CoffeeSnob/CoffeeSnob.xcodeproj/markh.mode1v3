@@ -204,7 +204,7 @@
 				<key>PBXProjectModuleGUID</key>
 				<string>3D028C28112FF08C00B1F280</string>
 				<key>PBXProjectModuleLabel</key>
-				<string>CoffeeShop.m</string>
+				<string>CoffeeMap.m</string>
 				<key>PBXSplitModuleInNavigatorKey</key>
 				<dict>
 					<key>Split0</key>
@@ -212,32 +212,32 @@
 						<key>PBXProjectModuleGUID</key>
 						<string>3D028C43112FF0D700B1F280</string>
 						<key>PBXProjectModuleLabel</key>
-						<string>CoffeeShop.m</string>
+						<string>CoffeeMap.m</string>
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>3D1CF5CD11331E930009F2A3</string>
+						<string>3D9EC4C4113342C20061AC90</string>
 						<key>history</key>
 						<array>
 							<string>3D028D721130622E00B1F280</string>
 							<string>3D028D731130622E00B1F280</string>
-							<string>3D028DC51131B61000B1F280</string>
 							<string>3D028E461131E11200B1F280</string>
 							<string>3D1CF40F113307540009F2A3</string>
 							<string>3D1CF411113307540009F2A3</string>
 							<string>3D1CF4F5113317050009F2A3</string>
 							<string>3D1CF4F6113317050009F2A3</string>
 							<string>3D1CF4F8113317050009F2A3</string>
-							<string>3D1CF52C1133182E0009F2A3</string>
 							<string>3D1CF52D1133182E0009F2A3</string>
-							<string>3D1CF5AA11331D9E0009F2A3</string>
-							<string>3D1CF5AC11331D9E0009F2A3</string>
 							<string>3D1CF5AE11331D9E0009F2A3</string>
 							<string>3D1CF5AF11331D9E0009F2A3</string>
-							<string>3D1CF5CA11331E930009F2A3</string>
-							<string>3D1CF5CB11331E930009F2A3</string>
-							<string>3D1CF5CC11331E930009F2A3</string>
-							<string>3D1CF52B1133182E0009F2A3</string>
+							<string>3D9EC45F11333E720061AC90</string>
+							<string>3D9EC46211333E720061AC90</string>
+							<string>3D9EC46411333E720061AC90</string>
+							<string>3D9EC4BF113342C20061AC90</string>
+							<string>3D9EC4C0113342C20061AC90</string>
+							<string>3D9EC4C1113342C20061AC90</string>
+							<string>3D9EC4C2113342C20061AC90</string>
+							<string>3D9EC4C3113342C20061AC90</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -274,10 +274,10 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>3D1CF5CE11331E930009F2A3</string>
+						<string>3D9EC4C5113342C20061AC90</string>
 						<key>history</key>
 						<array>
-							<string>3D1CF5B211331D9E0009F2A3</string>
+							<string>3D9EC46711333E720061AC90</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -374,7 +374,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>11</integer>
+									<integer>15</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -415,7 +415,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CoffeeShopRepository.h</string>
+								<string>CoffeeMap.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -423,11 +423,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CoffeeShopRepository.h</string>
+										<string>CoffeeMap.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>3D1CF5C911331E930009F2A3</string>
+										<string>3D9EC4BE113342C20061AC90</string>
 										<key>history</key>
 										<array>
 											<string>3D028CAA113000FD00B1F280</string>
@@ -438,11 +438,12 @@
 											<string>3D1CF4F0113317050009F2A3</string>
 											<string>3D1CF4F2113317050009F2A3</string>
 											<string>3D1CF5281133182E0009F2A3</string>
-											<string>3D1CF5A411331D9E0009F2A3</string>
 											<string>3D1CF5A511331D9E0009F2A3</string>
 											<string>3D1CF5A611331D9E0009F2A3</string>
 											<string>3D1CF5A711331D9E0009F2A3</string>
-											<string>3D1CF5A811331D9E0009F2A3</string>
+											<string>3D9EC3FA113332CF0061AC90</string>
+											<string>3D9EC48711333F110061AC90</string>
+											<string>3D9EC47511333EA00061AC90</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -500,9 +501,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>3D1CF3041132F2E00009F2A3</string>
+				<string>3D9EC3CF11332F750061AC90</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>3D1CF3051132F2E00009F2A3</string>
+				<string>3D9EC3D011332F750061AC90</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -642,14 +643,15 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>3D9EC4C6113342C20061AC90</string>
+		<string>3D9EC47A11333EA30061AC90</string>
 		<string>3D1CF503113317050009F2A3</string>
-		<string>3D1CF3B51132FFE90009F2A3</string>
-		<string>3D1CF3271132F4450009F2A3</string>
-		<string>3D1CF3121132F2E00009F2A3</string>
+		<string>3D9EC3DB11332F750061AC90</string>
+		<string>3D9EC3DD11332F750061AC90</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>3D2443C0112EF716001801D5</string>
 		<string>3D028C27112FF08C00B1F280</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/markh/Development/iphone/CoffeeSnob/CoffeeSnob.xcodeproj</string>
 		<string>3D028C28112FF08C00B1F280</string>
 	</array>
@@ -675,7 +677,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CoffeeShopRepository.m</string>
+								<string>CoffeeMap.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -733,7 +735,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>3D2443C0112EF716001801D5</string>
-				<string>3D1CF3091132F2E00009F2A3</string>
+				<string>3D9EC3D311332F750061AC90</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -777,8 +779,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {316, 202}}</string>
-											<string>{{316, 0}, {378, 202}}</string>
+											<string>{{0, 0}, {316, 203}}</string>
+											<string>{{316, 0}, {378, 203}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -793,8 +795,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {694, 202}}</string>
-											<string>{{0, 202}, {694, 179}}</string>
+											<string>{{0, 0}, {694, 203}}</string>
+											<string>{{0, 203}, {694, 178}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -827,7 +829,7 @@
 										<real>148</real>
 									</array>
 									<key>Frame</key>
-									<string>{{316, 0}, {378, 202}}</string>
+									<string>{{316, 0}, {378, 203}}</string>
 									<key>RubberWindowFrame</key>
 									<string>347 374 694 422 0 0 1440 878 </string>
 								</dict>
@@ -855,13 +857,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>3D1CF30A1132F2E00009F2A3</string>
+				<string>3D9EC3D411332F750061AC90</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>3D1CF30B1132F2E00009F2A3</string>
-				<string>3D1CF30C1132F2E00009F2A3</string>
-				<string>3D1CF30D1132F2E00009F2A3</string>
-				<string>3D1CF30E1132F2E00009F2A3</string>
-				<string>3D1CF30F1132F2E00009F2A3</string>
+				<string>3D9EC3D511332F750061AC90</string>
+				<string>3D9EC3D611332F750061AC90</string>
+				<string>3D9EC3D711332F750061AC90</string>
+				<string>3D9EC3D811332F750061AC90</string>
+				<string>3D9EC3D911332F750061AC90</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -988,8 +990,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -1025,7 +1025,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>3D1CF3101132F2E00009F2A3</string>
+				<string>3D9EC3DA11332F750061AC90</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -1035,7 +1035,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>
@@ -1286,8 +1286,8 @@
 			<true/>
 			<key>TableOfContents</key>
 			<array>
-				<string>3D1CF3B51132FFE90009F2A3</string>
-				<string>3D1CF3B61132FFE90009F2A3</string>
+				<string>3D9EC47A11333EA30061AC90</string>
+				<string>3D9EC47B11333EA30061AC90</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
 				<string>1CA1AED706398EBD00589147</string>
 			</array>
@@ -1296,7 +1296,7 @@
 			<key>WindowString</key>
 			<string>282 446 744 409 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
-			<string>3D1CF3B51132FFE90009F2A3</string>
+			<string>3D9EC47A11333EA30061AC90</string>
 			<key>WindowToolIsVisible</key>
 			<false/>
 		</dict>
@@ -1526,7 +1526,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>3D1CF503113317050009F2A3</string>
-				<string>3D1CF504113317050009F2A3</string>
+				<string>3D9EC46911333E730061AC90</string>
 				<string>3D1CF502113317050009F2A3</string>
 			</array>
 			<key>WindowString</key>
