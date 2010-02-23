@@ -10,9 +10,9 @@
 
 #import "CoffeeShop.h"
 
-@interface CoffeeMap : NSObject {
+@interface CoffeeMap : NSObject<MKMapViewDelegate> {
 	
-	IBOutlet MKMapView *mapView;
+	IBOutlet MKMapView* mapView;
 	
 	NSMutableArray* sortedShops;
 	NSMutableDictionary* coffeeShopsWithDistance;
