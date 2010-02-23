@@ -132,9 +132,9 @@ i<Foundation/Foundation.h>
 i"CoffeeShop.h"
 
 N/Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeMap.m
-c000000004B8318D6000000000000094F
-t1266882774
-s2383
+c000000004B83D53E00000000000009C8
+t1266931006
+s2504
 i"CoffeeMap.h"
 
 N/Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShop.h
@@ -295,7 +295,7 @@ s102
 
 N/Users/NK/Development/iphone/CoffeeSnob/build/Release-iphoneos/CoffeeMap.app/CoffeeMap
 t1266882793
-s60196
+s66224
 
 N/Users/NK/Development/iphone/CoffeeSnob/build/Release-iphoneos/CoffeeMap.app/Info.plist
 t1266882792

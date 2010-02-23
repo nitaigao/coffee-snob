@@ -37,12 +37,16 @@
 	[sortedShops sortUsingSelector:@selector(compare:)];	
 }
 
+- (void) createAnnotationForShop: (CoffeeShop *) bestCoffeeShop  {
+  CoffeeShopAnnotation* coffeeShopAnnotation = [bestCoffeeShop getMapAnnotation];
+	[mapView addAnnotation:coffeeShopAnnotation];
+	[[mapView viewForAnnotation:coffeeShopAnnotation]setSelected:TRUE animated:TRUE];
+
+}
 - (void) showClosestToUser {
 	CoffeeShop* bestCoffeeShop = [coffeeShopsWithDistance objectForKey:[[sortedShops objectAtIndex:0] stringValue]];
 
-	CoffeeShopAnnotation* coffeeShopAnnotation = [bestCoffeeShop getMapAnnotation];
-	[mapView addAnnotation:coffeeShopAnnotation];
-	[[mapView viewForAnnotation:coffeeShopAnnotation]setSelected:TRUE animated:TRUE];
+	[self createAnnotationForShop: bestCoffeeShop];
 	
 	double longitudeDifference = (bestCoffeeShop.location.coordinate.longitude - mapView.userLocation.coordinate.longitude);
 	double latitudeDifference = (bestCoffeeShop.location.coordinate.latitude - mapView.userLocation.coordinate.latitude);
@@ -50,14 +54,14 @@
 	double longitudeDefferenceMidpoint = longitudeDifference / 2;
 	double latitudeDifferenceMidpoint = latitudeDifference / 2;
 	
-	double centerMapLongitude = mapView.userLocation.coordinate.longitude + longitudeDefferenceMidpoint;
-	double centerMapLatitude = mapView.userLocation.coordinate.latitude + latitudeDifferenceMidpoint;
-	
-	CLLocation* centerMapLocation = [[CLLocation alloc]initWithLatitude:centerMapLatitude longitude:centerMapLongitude];
-	
 	MKCoordinateSpan span;
 	span.latitudeDelta = (latitudeDifference > 0) ? latitudeDifference : -latitudeDifference;
 	span.longitudeDelta = (longitudeDifference > 0) ? longitudeDifference : -longitudeDifference;
+	
+	double centerMapLongitude = mapView.userLocation.coordinate.longitude + longitudeDefferenceMidpoint;
+	double centerMapLatitude = mapView.userLocation.coordinate.latitude + latitudeDifferenceMidpoint;
+	
+	CLLocation* centerMapLocation = [[CLLocation alloc]initWithLatitude:centerMapLatitude longitude:centerMapLongitude];	
 	
 	MKCoordinateRegion region;
 	region.center = centerMapLocation.coordinate;

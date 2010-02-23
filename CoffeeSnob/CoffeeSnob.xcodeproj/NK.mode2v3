@@ -197,49 +197,7 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>4C94C85D11334ADD000C207E</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>CoffeeMap.m</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>4C94C86011334AE0000C207E</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>CoffeeMap.m</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>4C94C89511335083000C207E</string>
-						<key>history</key>
-						<array>
-							<string>4C94C87311334DF4000C207E</string>
-							<string>4C94C86411334B0D000C207E</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {1115, 777}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>320 60 1115 818 0 0 1440 878 </string>
-			</dict>
-		</dict>
-	</array>
+	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -481,8 +439,8 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>4C94C85E11334AE0000C207E</string>
-				<string>4C94C85F11334AE0000C207E</string>
+				<string>4C27E9B711340E1F00CD4B2B</string>
+				<string>4C27E9B811340E1F00CD4B2B</string>
 				<string>1C9437FD063B20B00039CFAC</string>
 				<string>1C9437FE063B20B00039CFAC</string>
 				<string>1C9437FF063B20B00039CFAC</string>
@@ -521,13 +479,9 @@
 	<integer>0</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>4C94C89411335081000C207E</string>
-		<string>4C94C87D11334DF4000C207E</string>
-		<string>1C530D5B069F1CE1000CFCEE</string>
-		<string>1C530D54069F1CE1000CFCEE</string>
 		<string>1C530D52069F1CE1000CFCEE</string>
-		<string>/Users/NK/Development/iphone/CoffeeSnob/CoffeeSnob.xcodeproj</string>
 		<string>4C94C85D11334ADD000C207E</string>
+		<string>/Users/NK/Development/iphone/CoffeeSnob/CoffeeSnob.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>7 69 316 808 0 0 1440 878 </string>
@@ -744,7 +698,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D52069F1CE1000CFCEE</string>
-				<string>4C94C86211334AE0000C207E</string>
+				<string>4C27E9B911340E1F00CD4B2B</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -1535,7 +1489,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>4CAFC3D8111DF04800409128</string>
-				<string>4C415533111E2AAC0039E827</string>
+				<string>4C74192E11340CBF0057BE41</string>
 				<string>4CAFC3D7111DF04800409128</string>
 			</array>
 			<key>WindowString</key>
