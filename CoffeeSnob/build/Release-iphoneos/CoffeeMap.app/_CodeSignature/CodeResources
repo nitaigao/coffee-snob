@@ -6,15 +6,15 @@
 	<dict>
 		<key>MainWindow.nib</key>
 		<data>
+<<<<<<< HEAD:CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/_CodeSignature/CodeResources
 		fVEVa/gj4+bDYSWpBivWSEmnTY0=
+=======
+		I3j5kZZQk3COGFQuSFRRvb7LTTQ=
+>>>>>>> bf6ab7aacb394d58b63415df44d40f2353d3679e:CoffeeSnob/build/Release-iphoneos/CoffeeMap.app/_CodeSignature/CodeResources
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
-		</data>
-		<key>SecondView.nib</key>
-		<data>
-		36zeoYPV34MtaWhloEySI25bVM0=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
