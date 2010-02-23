@@ -7,13 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@protocol CoffeeShopRepositoryDelegate <NSObject>
-
-@optional
-- (void)shopsLoaded:(NSMutableArray*)coffeeShops;
-
-@end
+#import "CoffeeShopRepositoryDelegate.h"
 
 @interface CoffeeShopRepository : NSObject {
 	

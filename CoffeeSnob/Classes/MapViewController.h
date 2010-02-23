@@ -10,16 +10,13 @@
 #import <MapKit/MapKit.h>
 #import <CoreLocation/CoreLocation.h>
 
-#import "CoffeeShopRepository.h"
-#import "CoffeeMap.h"
+#import "CoffeeShopMap.h"
 
-
-@interface MainViewController : UIViewController< CLLocationManagerDelegate, CoffeeShopRepositoryDelegate >{
-	
+@interface MapViewController : UIViewController<CLLocationManagerDelegate>{
 	CLLocationManager* locationManager;
 	NSLock *lock;
 	bool isGettingCoffee;
-	IBOutlet CoffeeMap* coffeeMap;
+	IBOutlet CoffeeShopMap* coffeeMap;
 }
 
 @end

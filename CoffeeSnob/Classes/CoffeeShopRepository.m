@@ -30,7 +30,6 @@ NSString* const MAPURL = @"http://maps.google.co.uk/maps/ms?ie=UTF8&hl=en&msa=0&
 }
 
 - (void) findAll:(id<CoffeeShopRepositoryDelegate>) delegate {
-	
 	NSURLRequest *request = [NSURLRequest requestWithURL: [NSURL URLWithString:MAPURL] ];
 	[[NSURLConnection alloc] initWithRequest:request delegate:self];
 	self.loadedDelegate = delegate;	

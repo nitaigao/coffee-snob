@@ -6,11 +6,9 @@
 //  Copyright Black Art Studios 2010. All rights reserved.
 //
 
-#import "MainViewController.h"
-#import "CoffeeShopAnnotation.h"
-#import "CoffeeShop.h"
+#import "MapViewController.h"
 
-@implementation MainViewController
+@implementation MapViewController
 
 - (id)initWithCoder:(NSCoder *)aDecoder {
 	[super initWithCoder:aDecoder];
@@ -26,8 +24,6 @@
 	locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters;
 	locationManager.distanceFilter = 1; // or whatever
 	[locationManager startUpdatingLocation];
-	[coffeeMap setController:self];
-	
 }
 
 -(BOOL)canBecomeFirstResponder {
@@ -40,43 +36,23 @@
 
 - (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event {
 	if (event.type == UIEventSubtypeMotionShake) {		
-		[coffeeMap showCoffeeShopToUser];
+		[coffeeMap showNextCoffeeShopToUser];
 	}
 }
 
-- (void)showCoffeeShopDetails:(NSString*)title {
-	NSLog(@"%@", title);
+- (void)showCoffeeShopDetails:(id)sender {
+	//NSLog(@"%@", title);
 }
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation {
-	
 	[lock lock];
 	if (newLocation.horizontalAccuracy < 500 && !isGettingCoffee) {
 		isGettingCoffee = true;
 		[locationManager stopUpdatingLocation];
 		[coffeeMap showUserLocation];
-		[[[CoffeeShopRepository alloc] init] findAll:self];			
+		[coffeeMap loadCoffeeShops];
 	}
 	[lock unlock];
-}
-
--(void)shopsLoaded:(NSMutableArray *)coffeeShops {
-	
-	[coffeeMap addCoffeeShops:coffeeShops];
-	[coffeeMap showCoffeeShopToUser];
-	
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-}
-
-- (void)viewDidUnload {
-}
-
-
-- (void)dealloc {
-    [super dealloc];
 }
 
 @end
