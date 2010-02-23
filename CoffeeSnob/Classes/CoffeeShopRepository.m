@@ -83,7 +83,6 @@ NSString* const MAPURL = @"http://maps.google.co.uk/maps/ms?ie=UTF8&hl=en&msa=0&
 	}  
 }
 
-
 - (NSMutableArray*) findAll {
 	return coffeeShops;
 };

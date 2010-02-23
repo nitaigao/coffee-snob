@@ -27,8 +27,22 @@
 	locationManager.distanceFilter = 1; // or whatever
 	[locationManager startUpdatingLocation];
 	[coffeeMap setController:self];
+	
 }
 
+-(BOOL)canBecomeFirstResponder {
+    return YES;
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+	[self becomeFirstResponder];
+}
+
+- (void)motionEnded:(UIEventSubtype)motion withEvent:(UIEvent *)event {
+	if (event.type == UIEventSubtypeMotionShake) {		
+		[coffeeMap showCoffeeShopToUser];
+	}
+}
 
 - (void)showCoffeeShopDetails:(NSString*)title {
 	NSLog(@"%@", title);
@@ -49,7 +63,8 @@
 -(void)shopsLoaded:(NSMutableArray *)coffeeShops {
 	
 	[coffeeMap addCoffeeShops:coffeeShops];
-	[coffeeMap showClosestToUser];
+	[coffeeMap showCoffeeShopToUser];
+	
 }
 
 - (void)didReceiveMemoryWarning {

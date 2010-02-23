@@ -15,6 +15,7 @@
 	[super init];
 	sortedShops = [[NSMutableArray alloc]init];
 	coffeeShopsWithDistance = [[NSMutableDictionary alloc]init];
+	currentShopIndex = -1;
 	return self;
 }
 
@@ -35,7 +36,7 @@
 		pinView = [[[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"CustomPinAnnotation"] autorelease];
 		pinView.pinColor = MKPinAnnotationColorRed;
 		pinView.canShowCallout = YES;
-		
+		pinView.selected = TRUE;
 		UIButton* rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
 		[rightButton addTarget:self action:@selector(myShowDetailsMethod:) forControlEvents:UIControlEventTouchUpInside];
 		pinView.rightCalloutAccessoryView = rightButton;
@@ -60,7 +61,8 @@
 	}
 }
 
-- (void)addCoffeeShops:(NSArray*)coffeeShops {		
+- (void)addCoffeeShops:(NSArray*)coffeeShops {	
+	
 	for(CoffeeShop *shop in coffeeShops) {		
 		double distanceFromUser = [shop.location getDistanceFrom:mapView.userLocation.location];
 		distanceFromUser = distanceFromUser < 0 ? distanceFromUser * -1 : distanceFromUser;
@@ -73,18 +75,20 @@
 }
 
 - (void) createAnnotationForShop: (CoffeeShop *) bestCoffeeShop  {
-  CoffeeShopAnnotation* coffeeShopAnnotation = [bestCoffeeShop getMapAnnotation];
+	CoffeeShopAnnotation* coffeeShopAnnotation = [bestCoffeeShop getMapAnnotation];
 	[mapView addAnnotation:coffeeShopAnnotation];
-	[mapView selectAnnotation:[mapView.annotations objectAtIndex:1] animated:YES];
-
+	[mapView selectAnnotation:coffeeShopAnnotation animated:YES];	
 }
-- (void) showClosestToUser {
-	CoffeeShop* bestCoffeeShop = [coffeeShopsWithDistance objectForKey:[[sortedShops objectAtIndex:0] stringValue]];
 
-	[self createAnnotationForShop: bestCoffeeShop];
+- (void) showCoffeeShopToUser {
 	
-	double longitudeDifference = (bestCoffeeShop.location.coordinate.longitude - mapView.userLocation.coordinate.longitude);
-	double latitudeDifference = (bestCoffeeShop.location.coordinate.latitude - mapView.userLocation.coordinate.latitude);
+	currentShopIndex++;
+	CoffeeShop* coffeeShop = [coffeeShopsWithDistance objectForKey:[[sortedShops objectAtIndex:currentShopIndex] stringValue]];
+
+	[self createAnnotationForShop: coffeeShop];
+	
+	double longitudeDifference = (coffeeShop.location.coordinate.longitude - mapView.userLocation.coordinate.longitude);
+	double latitudeDifference = (coffeeShop.location.coordinate.latitude - mapView.userLocation.coordinate.latitude);
 	
 	double longitudeDefferenceMidpoint = longitudeDifference / 2;
 	double latitudeDifferenceMidpoint = latitudeDifference / 2;

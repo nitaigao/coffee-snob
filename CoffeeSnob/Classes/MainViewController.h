@@ -19,10 +19,7 @@
 	CLLocationManager* locationManager;
 	NSLock *lock;
 	bool isGettingCoffee;
-	
 	IBOutlet CoffeeMap* coffeeMap;
 }
-
-- (void)showCoffeeShopDetails;
 
 @end
