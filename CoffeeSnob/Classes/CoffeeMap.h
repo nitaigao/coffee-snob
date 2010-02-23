@@ -16,11 +16,13 @@
 	
 	NSMutableArray* sortedShops;
 	NSMutableDictionary* coffeeShopsWithDistance;
+	UIViewController *viewController;
 
 }
 
 - (void)showUserLocation;
 - (void)addCoffeeShops:(NSArray*)coffeeShops;
 - (void)showClosestToUser;
+- (void) setController:(UIViewController*)controller;
 
 @end

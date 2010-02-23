@@ -26,6 +26,12 @@
 	locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters;
 	locationManager.distanceFilter = 1; // or whatever
 	[locationManager startUpdatingLocation];
+	[coffeeMap setController:self];
+}
+
+
+- (void)showCoffeeShopDetails:(NSString*)title {
+	NSLog(@"%@", title);
 }
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation {

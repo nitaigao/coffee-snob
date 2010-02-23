@@ -23,4 +23,6 @@
 	IBOutlet CoffeeMap* coffeeMap;
 }
 
+- (void)showCoffeeShopDetails;
+
 @end

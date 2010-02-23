@@ -15,55 +15,52 @@
 	[super init];
 	sortedShops = [[NSMutableArray alloc]init];
 	coffeeShopsWithDistance = [[NSMutableDictionary alloc]init];
-	//map.self;
 	return self;
 }
 
+- (void) setController:(UIViewController*)controller {
+	viewController = controller;
+}
 
 - (void)showUserLocation {
+	mapView.delegate = self;
 	mapView.showsUserLocation = YES;
 }
 
-- (MKAnnotationView *)mapView:(MKMapView *)map viewForAnnotation:(id <MKAnnotation>)annotation {
-    
-	// If it's the user location, just return nil.
-    if ([annotation isKindOfClass:[MKUserLocation class]])
-        return nil;
-
-	// Try to dequeue an existing pin view first.
+- (MKPinAnnotationView *) createPin: (MKMapView *) map annotation: (id) annotation  {
 	MKPinAnnotationView* pinView = (MKPinAnnotationView*)[map dequeueReusableAnnotationViewWithIdentifier:@"CustomPinAnnotation"];
-	
+
 	if (!pinView)
 	{
-		// If an existing pin view was not available, create one
-		pinView = [[[MKPinAnnotationView alloc] initWithAnnotation:annotation
-												   reuseIdentifier:@"CustomPinAnnotation"]
-				   autorelease];
+		pinView = [[[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"CustomPinAnnotation"] autorelease];
 		pinView.pinColor = MKPinAnnotationColorRed;
-		pinView.animatesDrop = YES;
 		pinView.canShowCallout = YES;
 		
-		// Add a detail disclosure button to the callout.
-		UIButton* rightButton = [UIButton buttonWithType:
-								 UIButtonTypeDetailDisclosure];
-		[rightButton addTarget:self action:@selector(myShowDetailsMethod:)
-			  forControlEvents:UIControlEventTouchUpInside];
+		UIButton* rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+		[rightButton addTarget:self action:@selector(myShowDetailsMethod:) forControlEvents:UIControlEventTouchUpInside];
 		pinView.rightCalloutAccessoryView = rightButton;
 	}
 	else
+	{
 		pinView.annotation = annotation;
+	}
 	
 	return pinView;
-
 }
 
--(IBAction)myShowDetailsMethod{
-	NSLog(@"Here");
+- (MKAnnotationView *)mapView:(MKMapView *)map viewForAnnotation:(id <MKAnnotation>)annotation {
+    if ([annotation isKindOfClass:[MKUserLocation class]]) return nil;
+	return [self createPin: map annotation: annotation];
+}
+
+-(IBAction)myShowDetailsMethod:(UIButton*)button{
+	if ([viewController respondsToSelector:@selector(showCoffeeShopDetails:)]) {
+		CoffeeShopAnnotation *annotation = [mapView.selectedAnnotations objectAtIndex:0];
+		[viewController performSelector:@selector(showCoffeeShopDetails:) withObject:annotation.title];
+	}
 }
 
 - (void)addCoffeeShops:(NSArray*)coffeeShops {		
-	//need better place for this....
-	mapView.delegate = self;
 	for(CoffeeShop *shop in coffeeShops) {		
 		double distanceFromUser = [shop.location getDistanceFrom:mapView.userLocation.location];
 		distanceFromUser = distanceFromUser < 0 ? distanceFromUser * -1 : distanceFromUser;
