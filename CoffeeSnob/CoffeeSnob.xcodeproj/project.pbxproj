@@ -20,6 +20,8 @@
 		4C636D02111E0CAB005B9286 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C636D01111E0CAB005B9286 /* icon.png */; };
 		4C83F547111CE380002FE85E /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C83F546111CE380002FE85E /* GDataXMLNode.m */; };
 		4C9CBBD9111C918E00C945AD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9CBBD8111C918E00C945AD /* CoreLocation.framework */; };
+		4CC3D9CE1135CA6300E0925C /* UISpec_1_0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC3D9CD1135CA6300E0925C /* UISpec_1_0.a */; };
+		4CC3DA4B1135D02300E0925C /* Describe_CoffeeShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC3DA4A1135D02300E0925C /* Describe_CoffeeShop.m */; };
 		4CE587461134A07200BFC93A /* CoffeeShopList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE587451134A07200BFC93A /* CoffeeShopList.m */; };
 		4CE587971134A30200BFC93A /* CoffeeShopMapDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE587961134A30200BFC93A /* CoffeeShopMapDelegate.m */; };
 		4CE588951134A85400BFC93A /* CoffeeShopMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE588941134A85400BFC93A /* CoffeeShopMapAnnotation.m */; };
@@ -48,6 +50,9 @@
 		4C83F545111CE380002FE85E /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = Classes/GDataXMLNode.h; sourceTree = "<group>"; };
 		4C83F546111CE380002FE85E /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = Classes/GDataXMLNode.m; sourceTree = "<group>"; };
 		4C9CBBD8111C918E00C945AD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4CC3D9CD1135CA6300E0925C /* UISpec_1_0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = UISpec_1_0.a; path = Vendor/UISpec/UISpec_1_0.a; sourceTree = "<group>"; };
+		4CC3DA491135D02300E0925C /* Describe_CoffeeShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Describe_CoffeeShop.h; sourceTree = "<group>"; };
+		4CC3DA4A1135D02300E0925C /* Describe_CoffeeShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Describe_CoffeeShop.m; sourceTree = "<group>"; };
 		4CE587441134A07200BFC93A /* CoffeeShopList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeShopList.h; sourceTree = "<group>"; };
 		4CE587451134A07200BFC93A /* CoffeeShopList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeShopList.m; sourceTree = "<group>"; };
 		4CE587951134A30200BFC93A /* CoffeeShopMapDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeShopMapDelegate.h; sourceTree = "<group>"; };
@@ -75,6 +80,7 @@
 				4C9CBBD9111C918E00C945AD /* CoreLocation.framework in Frameworks */,
 				4C06B1B1111CE1AD00EEE115 /* CoreFoundation.framework in Frameworks */,
 				4CEEC417111D804500D52DA2 /* libxml2.dylib in Frameworks */,
+				4CC3D9CE1135CA6300E0925C /* UISpec_1_0.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +90,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4CE587F91134A4F400BFC93A /* Domain */,
+				4CE587F91134A4F400BFC93A /* Model */,
 				4CE587F81134A4DF00BFC93A /* Controllers */,
 				1D3623240D0F684500981E51 /* CoffeeSnobAppDelegate.h */,
 				1D3623250D0F684500981E51 /* CoffeeSnobAppDelegate.m */,
@@ -103,6 +109,7 @@
 		29B97314FDCFA39411CA2CEA /* CoffeeSnob */ = {
 			isa = PBXGroup;
 			children = (
+				4CC3D9C91135C97300E0925C /* Specs */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources-iPhone */,
@@ -143,8 +150,26 @@
 				4C9CBBD8111C918E00C945AD /* CoreLocation.framework */,
 				4C06B1B0111CE1AD00EEE115 /* CoreFoundation.framework */,
 				4CEEC416111D804500D52DA2 /* libxml2.dylib */,
+				4CC3D9CD1135CA6300E0925C /* UISpec_1_0.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CC3D9C91135C97300E0925C /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				4CC3DA481135D01B00E0925C /* Model */,
+			);
+			name = Specs;
+			sourceTree = "<group>";
+		};
+		4CC3DA481135D01B00E0925C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4CC3DA491135D02300E0925C /* Describe_CoffeeShop.h */,
+				4CC3DA4A1135D02300E0925C /* Describe_CoffeeShop.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		4CE587F81134A4DF00BFC93A /* Controllers */ = {
@@ -156,7 +181,7 @@
 			name = Controllers;
 			sourceTree = "<group>";
 		};
-		4CE587F91134A4F400BFC93A /* Domain */ = {
+		4CE587F91134A4F400BFC93A /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				4CEFEF6E111DE1D4001B5381 /* CoffeeShop.h */,
@@ -173,7 +198,7 @@
 				4CEFEECB111DDB78001B5381 /* CoffeeShopRepository.m */,
 				4CE588281134A5B900BFC93A /* CoffeeShopRepositoryDelegate.h */,
 			);
-			name = Domain;
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +265,7 @@
 				4CE587461134A07200BFC93A /* CoffeeShopList.m in Sources */,
 				4CE587971134A30200BFC93A /* CoffeeShopMapDelegate.m in Sources */,
 				4CE588951134A85400BFC93A /* CoffeeShopMapAnnotation.m in Sources */,
+				4CC3DA4B1135D02300E0925C /* Describe_CoffeeShop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +282,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CoffeeSnob_Prefix.pch;
 				INFOPLIST_FILE = "CoffeeSnob-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Vendor/UISpec\"",
+				);
 				PRODUCT_NAME = CoffeeMap;
 			};
 			name = Debug;
@@ -268,6 +298,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CoffeeSnob_Prefix.pch;
 				INFOPLIST_FILE = "CoffeeSnob-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Vendor/UISpec\"",
+				);
 				PRODUCT_NAME = CoffeeMap;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -281,7 +315,10 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				HEADER_SEARCH_PATHS = (
+					"Vendor/UISpec/Headers/**",
+					/usr/include/libxml2,
+				);
 				PREBINDING = NO;
 				SDKROOT = iphoneos3.1.2;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -296,7 +333,10 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				HEADER_SEARCH_PATHS = (
+					"Vendor/UISpec/Headers/**",
+					/usr/include/libxml2,
+				);
 				PREBINDING = NO;
 				SDKROOT = iphoneos3.2;
 			};

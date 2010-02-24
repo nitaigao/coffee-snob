@@ -40,6 +40,11 @@
 	}
 }
 
+
+- (IBAction) nextButtonClicked:(id)sender {
+	[coffeeMap showNextCoffeeShopToUser];
+}
+
 - (void)showCoffeeShopDetails:(id)sender {
 	//NSLog(@"%@", title);
 }
