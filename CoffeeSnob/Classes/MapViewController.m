@@ -40,8 +40,8 @@
 	}
 }
 
-- (void)showCoffeeShopDetails:(id)sender {
-	//NSLog(@"%@", title);
+- (void)coffeeShopSelected {
+	[coffeeMap showDirectionsToSelectedCoffeeShop];
 }
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation {

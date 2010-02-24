@@ -20,7 +20,7 @@
 		pinView.canShowCallout = YES;
 		pinView.selected = TRUE;
 		UIButton* rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
-		[rightButton addTarget:viewController action:@selector(showCoffeeShopDetails:) forControlEvents:UIControlEventTouchUpInside];
+		[rightButton addTarget:viewController action:@selector(coffeeShopSelected) forControlEvents:UIControlEventTouchUpInside];
 		pinView.rightCalloutAccessoryView = rightButton;
 	}
 	else
@@ -34,13 +34,6 @@
 - (MKAnnotationView *)mapView:(MKMapView *)map viewForAnnotation:(id <MKAnnotation>)annotation {
     if ([annotation isKindOfClass:[MKUserLocation class]]) return nil;
 	return [self createPin: map annotation: annotation];
-}
-
-- (IBAction)showCoffeeShopDetails:(id)sender {
-	//if ([viewController respondsToSelector:@selector(showCoffeeShopDetails:)]) {
-		//CoffeeShopAnnotation *annotation = [mapView.selectedAnnotations objectAtIndex:0];
-		//[viewController performSelector:@selector(showCoffeeShopDetails:) withObject:annotation.title];
-	//}
 }
 
 @end

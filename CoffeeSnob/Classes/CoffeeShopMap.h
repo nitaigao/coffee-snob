@@ -20,5 +20,6 @@
 - (void)showUserLocation;
 - (void)showNextCoffeeShopToUser;
 - (void)loadCoffeeShops;
+- (void)showDirectionsToSelectedCoffeeShop;
 
 @end

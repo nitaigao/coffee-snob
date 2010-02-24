@@ -58,5 +58,17 @@
 	[self showNextCoffeeShopToUser];
 }
 
+- (void)showDirectionsToSelectedCoffeeShop {
+	CLLocation* coffeeShoplocation = [self getSelectedCoffeeShopLocation];
+	NSString *startAddress = [NSString stringWithFormat: @"%f,%f", mapView.userLocation.coordinate.latitude, mapView.userLocation.coordinate.longitude];
+    NSString *destination = [NSString stringWithFormat: @"%f,%f", coffeeShoplocation.coordinate.latitude, coffeeShoplocation.coordinate.longitude];
+	NSString *url = [NSString stringWithFormat: @"http://maps.google.com/maps?saddr=%@&daddr=%@", startAddress, destination]; 
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
+}
+
+-(CLLocation *)getSelectedCoffeeShopLocation{	
+	CoffeeShopMapAnnotation* coffeeShopAnnotation = [mapView.selectedAnnotations objectAtIndex:0];
+	return [[CLLocation alloc]initWithLatitude:coffeeShopAnnotation.coordinate.latitude longitude:coffeeShopAnnotation.coordinate.longitude];
+}
 
 @end
