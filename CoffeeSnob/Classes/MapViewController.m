@@ -44,6 +44,10 @@
 	[coffeeMap showDirectionsToSelectedCoffeeShop];
 }
 
+- (IBAction) nextButtonClicked:(id)sender {
+	[coffeeMap showNextCoffeeShopToUser];
+}
+
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation {
 	[lock lock];
 	if (newLocation.horizontalAccuracy < 500 && !isGettingCoffee) {

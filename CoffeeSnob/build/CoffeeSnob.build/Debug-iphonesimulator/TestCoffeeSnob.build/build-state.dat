@@ -1,461 +1,0 @@
-TTestCoffeeSnob
-v7
-r0
-t288659569.468306
-cCheck dependencies
-cProcessInfoPlistFile /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest/Info.plist TestCoffeeSnob-Info.plist
-cCpResource build/Debug-iphonesimulator/TestCoffeeSnob.octest/MainViewController_spec.rb Classes/MainViewController_spec.rb
-cCompileC build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/GDataXMLNode.o /Users/NK/Development/iphone/CoffeeSnob/Classes/GDataXMLNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/MainViewController.o /Users/NK/Development/iphone/CoffeeSnob/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/CoffeeSnobAppDelegate.o /Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeSnobAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/CoffeeShopRepository.o /Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShopRepository.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/CoffeeShop.o /Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShop.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/CoffeeShopAnnotation.o /Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShopAnnotation.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/CoffeeMap.o /Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeMap.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest/TestCoffeeSnob normal i386
-cGenerateDSYMFile /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest.dSYM /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest/TestCoffeeSnob
-cPhaseScriptExecution "Run Script" /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Script-4C1F54C411348B6300321837.sh
-cTouch /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
-c000000004AF0C10000000000000000EE
-t1257292032
-s238
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-c000000004ABDC7C800000000001E7060
-t1253951432
-s1994848
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004ABDEE580000000000049D70
-t1253961304
-s302448
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocation.h
-c000000004ABDEE540000000000001454
-t1253961300
-s5204
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
-c000000004ABDEE5400000000000001AF
-t1253961300
-s431
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004ABDC93F0000000000001355
-t1253951807
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
-c000000004ABDEF74000000000000017D
-t1253961588
-s381
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
-c000000004ABDEF82000000000010D890
-t1253961602
-s1104016
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004ABDEE1D0000000000000788
-t1253961245
-s1928
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/libxml2/libxml/parser.h
-c000000004ABDC83D00000000000098A9
-t1253951549
-s39081
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/libxml2/libxml/tree.h
-c000000004ABDC83D0000000000008F14
-t1253951549
-s36628
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/libxml2/libxml/xmlstring.h
-c000000004ABDC83E000000000000155A
-t1253951550
-s5466
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/libxml2/libxml/xpath.h
-c000000004ABDC83E0000000000003F47
-t1253951550
-s16199
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/libxml2/libxml/xpathInternals.h
-c000000004ABDC83E0000000000004BF8
-t1253951550
-s19448
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/lib/libxml2.dylib
-c000000004ABDC83E0000000000123680
-t1253951550
-s1193600
-
-N/Users/NK/Development/iphone/CoffeeSnob/Classes/../MainViewController_spec.rb
-c000000004B845DCD000000000000015E
-t1266965965
-s350
-
-N/Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeMap.h
-c000000004B845323000000000000024E
-t1266963235
-s590
-i<Foundation/Foundation.h>
-i"CoffeeShop.h"
-
-N/Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeMap.m
-c000000004B8453230000000000000F7F
-t1266963235
-s3967
-i"CoffeeMap.h"
-
-N/Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShop.h
-c000000004B82E81D00000000000001E7
-t1266870301
-s487
-i<Foundation/Foundation.h>
-i<CoreLocation/CoreLocation.h>
-i"CoffeeShopAnnotation.h"
-
-N/Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShop.m
-c000000004B82E81D00000000000001FE
-t1266870301
-s510
-i"CoffeeShop.h"
-
-N/Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShopAnnotation.h
-c000000004B82E81D00000000000001EF
-t1266870301
-s495
-i<Foundation/Foundation.h>
-i<MapKit/MapKit.h>
-
-N/Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShopAnnotation.m
-c000000004B82E81D0000000000000154
-t1266870301
-s340
-i"CoffeeShopAnnotation.h"
-
-N/Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShopRepository.h
-c000000004B82E81D00000000000002D1
-t1266870301
-s721
-i<Foundation/Foundation.h>
-
-N/Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShopRepository.m
-c000000004B8453230000000000000AE2
-t1266963235
-s2786
-i"CoffeeShopRepository.h"
-i<CoreLocation/CoreLocation.h>
-i<CoreLocation/CLLocation.h>
-i"GDataXMLNode.h"
-i"CoffeeShop.h"
-
-N/Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeSnobAppDelegate.h
-c000000004B82E81D00000000000001CE
-t1266870301
-s462
-i<UIKit/UIKit.h>
-
-N/Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeSnobAppDelegate.m
-c000000004B82E81D0000000000000434
-t1266870301
-s1076
-i"CoffeeSnobAppDelegate.h"
-
-N/Users/NK/Development/iphone/CoffeeSnob/Classes/GDataXMLNode.h
-c000000004B82E81D0000000000001BD1
-t1266870301
-s7121
-i<Foundation/Foundation.h>
-i<libxml/tree.h>
-i<libxml/parser.h>
-i<libxml/xmlstring.h>
-i<libxml/xpath.h>
-i<libxml/xpathInternals.h>
-i"GDataDefines.h"
-
-N/Users/NK/Development/iphone/CoffeeSnob/Classes/GDataXMLNode.m
-c000000004B82E81D000000000000C8CC
-t1266870301
-s51404
-i"GDataXMLNode.h"
-
-N/Users/NK/Development/iphone/CoffeeSnob/Classes/MainViewController.h
-c000000004B8453230000000000000213
-t1266963235
-s531
-i<UIKit/UIKit.h>
-i<MapKit/MapKit.h>
-i<CoreLocation/CoreLocation.h>
-i"CoffeeShopRepository.h"
-i"CoffeeMap.h"
-
-N/Users/NK/Development/iphone/CoffeeSnob/Classes/MainViewController.m
-c000000004B8453230000000000000712
-t1266963235
-s1810
-i"MainViewController.h"
-i"CoffeeShopAnnotation.h"
-i"CoffeeShop.h"
-
-N/Users/NK/Development/iphone/CoffeeSnob/Classes/MainViewController_spec.rb
-c000000004B8460EF000000000000015E
-t1266966767
-s350
-
-N/Users/NK/Development/iphone/CoffeeSnob/MainViewController_spec.rb
-c000000004B845DCD000000000000015E
-t1266965965
-s350
-
-N/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/CoffeeMap.o
-t1266965966
-s43776
-
-N/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/CoffeeShop.o
-t1266965966
-s8852
-
-N/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/CoffeeShopAnnotation.o
-t1266965966
-s9284
-
-N/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/CoffeeShopRepository.o
-t1266965966
-s20796
-
-N/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/CoffeeSnobAppDelegate.o
-t1266965966
-s38148
-
-N/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/GDataXMLNode.o
-t1266965966
-s79100
-
-N/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/MainViewController.o
-t1266965966
-s39092
-
-N/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/TestCoffeeSnob.LinkFileList
-c000000004B845DCE00000000000003F5
-t1266965966
-s1013
-
-N/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Script-4C1F54C411348B6300321837.sh
-c000000004B845E430000000000000184
-t1266966083
-s388
-
-N/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest
-t1266966769
-s170
-
-N/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest.dSYM
-t1266966717
-s102
-
-N/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest/Info.plist
-t1266965966
-s483
-
-N/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest/MainViewController_spec.rb
-t1266966768
-s350
-
-N/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest/TestCoffeeSnob
-t1266966717
-s82772
-
-N/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/libCoffeeSnobLibrary.a
-c000000004B846097000000000003AA48
-t1266966679
-s240200
-
-NTestCoffeeSnob-Info.plist
-c000000004B8453E30000000000000281
-t1266963427
-s641
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies288659568#288659568#0(0"0(0#1#0"4300903632#0"0#
-
-CCompileC build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/CoffeeMap.o /Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeMap.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288658766.629165
-e288658766.787217
-r1
-xCompileC
-xbuild/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/CoffeeMap.o
-x/Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeMap.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@67"Compile /Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeMap.m288658766#288658766#0(0"0(0#0#59"/Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeMap.m4300903632#2138"    cd /Users/NK/Development/iphone/CoffeeSnob    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-generated-files.hmap -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-own-target-headers.hmap -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-all-target-headers.hmap -iquote /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-project-headers.hmap -F/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/Developer/Library/Frameworks -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/Developer/Library/Frameworks -I/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/libxml2 -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/DerivedSources/i386 -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/DerivedSources -c /Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeMap.m -o /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/CoffeeMap.o0#
-
-CCompileC build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/CoffeeShop.o /Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShop.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288658766.480630
-e288658766.629074
-r1
-xCompileC
-xbuild/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/CoffeeShop.o
-x/Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShop.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@68"Compile /Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShop.m288658766#288658766#0(0"0(0#0#60"/Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShop.m4300903632#2140"    cd /Users/NK/Development/iphone/CoffeeSnob    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-generated-files.hmap -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-own-target-headers.hmap -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-all-target-headers.hmap -iquote /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-project-headers.hmap -F/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/Developer/Library/Frameworks -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/Developer/Library/Frameworks -I/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/libxml2 -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/DerivedSources/i386 -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/DerivedSources -c /Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShop.m -o /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/CoffeeShop.o0#
-
-CCompileC build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/CoffeeShopAnnotation.o /Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShopAnnotation.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288658766.605594
-e288658766.755915
-r1
-xCompileC
-xbuild/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/CoffeeShopAnnotation.o
-x/Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShopAnnotation.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShopAnnotation.m288658766#288658766#0(0"0(0#0#70"/Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShopAnnotation.m4300903632#2160"    cd /Users/NK/Development/iphone/CoffeeSnob    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-generated-files.hmap -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-own-target-headers.hmap -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-all-target-headers.hmap -iquote /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-project-headers.hmap -F/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/Developer/Library/Frameworks -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/Developer/Library/Frameworks -I/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/libxml2 -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/DerivedSources/i386 -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/DerivedSources -c /Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShopAnnotation.m -o /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/CoffeeShopAnnotation.o0#
-
-CCompileC build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/CoffeeShopRepository.o /Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShopRepository.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288658766.420966
-e288658766.605502
-r1
-xCompileC
-xbuild/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/CoffeeShopRepository.o
-x/Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShopRepository.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShopRepository.m288658766#288658766#0(0"0(0#0#70"/Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShopRepository.m4300903632#2160"    cd /Users/NK/Development/iphone/CoffeeSnob    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-generated-files.hmap -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-own-target-headers.hmap -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-all-target-headers.hmap -iquote /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-project-headers.hmap -F/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/Developer/Library/Frameworks -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/Developer/Library/Frameworks -I/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/libxml2 -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/DerivedSources/i386 -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/DerivedSources -c /Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShopRepository.m -o /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/CoffeeShopRepository.o0#
-
-CCompileC build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/CoffeeSnobAppDelegate.o /Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeSnobAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288658766.323456
-e288658766.480543
-r1
-xCompileC
-xbuild/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/CoffeeSnobAppDelegate.o
-x/Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeSnobAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeSnobAppDelegate.m288658766#288658766#0(0"0(0#0#71"/Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeSnobAppDelegate.m4300903632#2162"    cd /Users/NK/Development/iphone/CoffeeSnob    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-generated-files.hmap -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-own-target-headers.hmap -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-all-target-headers.hmap -iquote /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-project-headers.hmap -F/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/Developer/Library/Frameworks -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/Developer/Library/Frameworks -I/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/libxml2 -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/DerivedSources/i386 -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/DerivedSources -c /Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeSnobAppDelegate.m -o /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/CoffeeSnobAppDelegate.o0#
-
-CCompileC build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/GDataXMLNode.o /Users/NK/Development/iphone/CoffeeSnob/Classes/GDataXMLNode.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288658766.157353
-e288658766.420887
-r1
-xCompileC
-xbuild/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/GDataXMLNode.o
-x/Users/NK/Development/iphone/CoffeeSnob/Classes/GDataXMLNode.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/NK/Development/iphone/CoffeeSnob/Classes/GDataXMLNode.m288658766#288658766#0(0"0(0#0#62"/Users/NK/Development/iphone/CoffeeSnob/Classes/GDataXMLNode.m4300903632#2144"    cd /Users/NK/Development/iphone/CoffeeSnob    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-generated-files.hmap -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-own-target-headers.hmap -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-all-target-headers.hmap -iquote /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-project-headers.hmap -F/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/Developer/Library/Frameworks -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/Developer/Library/Frameworks -I/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/libxml2 -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/DerivedSources/i386 -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/DerivedSources -c /Users/NK/Development/iphone/CoffeeSnob/Classes/GDataXMLNode.m -o /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/GDataXMLNode.o0#
-
-CCompileC build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/MainViewController.o /Users/NK/Development/iphone/CoffeeSnob/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s288658766.158128
-e288658766.323368
-r1
-xCompileC
-xbuild/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/MainViewController.o
-x/Users/NK/Development/iphone/CoffeeSnob/Classes/MainViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/NK/Development/iphone/CoffeeSnob/Classes/MainViewController.m288658766#288658766#0(0"0(0#0#68"/Users/NK/Development/iphone/CoffeeSnob/Classes/MainViewController.m4300903632#2156"    cd /Users/NK/Development/iphone/CoffeeSnob    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-generated-files.hmap -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-own-target-headers.hmap -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-all-target-headers.hmap -iquote /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-project-headers.hmap -F/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/Developer/Library/Frameworks -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/Developer/Library/Frameworks -I/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/libxml2 -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/DerivedSources/i386 -I/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/DerivedSources -c /Users/NK/Development/iphone/CoffeeSnob/Classes/MainViewController.m -o /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/MainViewController.o0#
-
-CCpResource build/Debug-iphonesimulator/TestCoffeeSnob.octest/MainViewController_spec.rb Classes/../MainViewController_spec.rb
-r0
-
-CCpResource build/Debug-iphonesimulator/TestCoffeeSnob.octest/MainViewController_spec.rb Classes/MainViewController_spec.rb
-s288659568.173938
-e288659568.178720
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/TestCoffeeSnob.octest/MainViewController_spec.rb
-xClasses/MainViewController_spec.rb
-lSLF07#2@39"Copy Classes/MainViewController_spec.rb288659568#288659568#0(0"0(0#0#74"/Users/NK/Development/iphone/CoffeeSnob/Classes/MainViewController_spec.rb4300903632#491"    cd /Users/NK/Development/iphone/CoffeeSnob    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/NK/Development/iphone/CoffeeSnob/Classes/MainViewController_spec.rb /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest0#
-
-CCpResource build/Debug-iphonesimulator/TestCoffeeSnob.octest/MainViewController_spec.rb MainViewController_spec.rb
-s288658766.152544
-e288658766.157274
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/TestCoffeeSnob.octest/MainViewController_spec.rb
-xMainViewController_spec.rb
-lSLF07#2@31"Copy MainViewController_spec.rb288658766#288658766#0(0"0(0#0#66"/Users/NK/Development/iphone/CoffeeSnob/MainViewController_spec.rb4300903632#483"    cd /Users/NK/Development/iphone/CoffeeSnob    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/NK/Development/iphone/CoffeeSnob/MainViewController_spec.rb /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest0#
-
-CGenerateDSYMFile /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest.dSYM /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest/TestCoffeeSnob
-s288659517.154987
-e288659517.170914
-r1
-xGenerateDSYMFile
-x/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest.dSYM
-x/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest/TestCoffeeSnob
-lSLF07#2@136"GenerateDSYMFile build/Debug-iphonesimulator/TestCoffeeSnob.octest.dSYM build/Debug-iphonesimulator/TestCoffeeSnob.octest/TestCoffeeSnob288659517#288659517#0(0"0(0#0#104"/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest/TestCoffeeSnob4300903632#413"    cd /Users/NK/Development/iphone/CoffeeSnob    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest/TestCoffeeSnob -o /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest.dSYM0#
-
-CLd /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest/TestCoffeeSnob normal i386
-s288659517.129659
-e288659517.154891
-r1
-xLd
-x/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest/TestCoffeeSnob
-xnormal
-xi386
-lSLF07#2@109"Link /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest/TestCoffeeSnob288659517#288659517#0(0"0(0#0#0"4300903632#1311"    cd /Users/NK/Development/iphone/CoffeeSnob    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -bundle -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -L/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator -L/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator -F/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/Developer/Library/Frameworks -F/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/Developer/Library/Frameworks -filelist /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/TestCoffeeSnob.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework SenTestingKit -framework UIKit -lxml2 -framework MapKit -framework CoreFoundation -framework CoreLocation -lCoffeeSnobLibrary -o /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest/TestCoffeeSnob0#
-
-CPhaseScriptExecution "Run Script" /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Script-4C1F54C411348B6300321837.sh
-s288659568.179422
-e288659569.465155
-r0
-xPhaseScriptExecution
-xRun Script
-x/Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Script-4C1F54C411348B6300321837.sh
-o0 specifications (0 requirements), 0 failures, 0 errors
-o2010-02-23 23:12:49.318 macruby[1097:60f] *** Terminating app due to uncaught exception 'RuntimeError', reason: 'framework `CoffeeSnobLibrary' not found'
-o*** Call stack at first throw:
-o(
-o	0   CoreFoundation                      0x00007fff87874444 __exceptionPreprocess + 180
-o	1   libobjc.A.dylib                     0x00007fff8437d0f3 objc_exception_throw + 45
-o	2   libmacruby.dylib                    0x000000010018186b rb_vm_raise + 443
-o	3   libmacruby.dylib                    0x0000000100041bfb rb_f_raise + 43
-o	4   libmacruby.dylib                    0x000000010017296c rb_vm_dispatch + 6876
-o	5   ???                                 0x0000000101147128 0x0 + 4313084200
-o	6   libmacruby.dylib                    0x0000000100040e25 ruby_finalize + 69
-o	7   libmacruby.dylib                    0x00000001000a7880 rb_exit + 16
-o	8   macruby                             0x0000000100000df6 main + 182
-o	9   macruby                             0x0000000100000d34 start + 52
-o	10  ???                                 0x0000000000000002 0x0 + 2
-o)
-oterminate called after throwing an instance of 'NSException'
-oScript-4C1F54C411348B6300321837.sh:14:in `block': framework `CoffeeSnobLibrary' not found (RuntimeError)
-o	from Script-4C1F54C411348B6300321837.sh:3:in `<main>'
-lSLF07#2@36"Run custom shell script 'Run Script'288659568#288659569#0(1355"0 specifications (0 requirements), 0 failures, 0 errors2010-02-23 23:12:49.318 macruby[1097:60f] *** Terminating app due to uncaught exception 'RuntimeError', reason: 'framework `CoffeeSnobLibrary' not found'*** Call stack at first throw:(	0   CoreFoundation                      0x00007fff87874444 __exceptionPreprocess + 180	1   libobjc.A.dylib                     0x00007fff8437d0f3 objc_exception_throw + 45	2   libmacruby.dylib                    0x000000010018186b rb_vm_raise + 443	3   libmacruby.dylib                    0x0000000100041bfb rb_f_raise + 43	4   libmacruby.dylib                    0x000000010017296c rb_vm_dispatch + 6876	5   ???                                 0x0000000101147128 0x0 + 4313084200	6   libmacruby.dylib                    0x0000000100040e25 ruby_finalize + 69	7   libmacruby.dylib                    0x00000001000a7880 rb_exit + 16	8   macruby                             0x0000000100000df6 main + 182	9   macruby                             0x0000000100000d34 start + 52	10  ???                                 0x0000000000000002 0x0 + 2)terminate called after throwing an instance of 'NSException'Script-4C1F54C411348B6300321837.sh:14:in `block': framework `CoffeeSnobLibrary' not found (RuntimeError)	from Script-4C1F54C411348B6300321837.sh:3:in `<main>'Command /bin/sh failed with exit code 620(13@56"0 specifications (0 requirements), 0 failures, 0 errors288659569#0#56#0(1@0"0(13@154"2010-02-23 23:12:49.318 macruby[1097:60f] *** Terminating app due to uncaught exception 'RuntimeError', reason: 'framework `CoffeeSnobLibrary' not found'288659569#56#154#0(1@0"0(13@31"*** Call stack at first throw:288659569#210#31#0(1@0"0(13@2"(288659569#241#2#0(1@0"0(13@88"	0   CoreFoundation                      0x00007fff87874444 __exceptionPreprocess + 180288659569#243#88#0(1@0"0(13@86"	1   libobjc.A.dylib                     0x00007fff8437d0f3 objc_exception_throw + 45288659569#331#86#0(1@0"0(13@78"	2   libmacruby.dylib                    0x000000010018186b rb_vm_raise + 443288659569#417#78#0(1@0"0(13@76"	3   libmacruby.dylib                    0x0000000100041bfb rb_f_raise + 43288659569#495#76#0(1@0"0(13@82"	4   libmacruby.dylib                    0x000000010017296c rb_vm_dispatch + 6876288659569#571#82#0(1@0"0(13@77"	5   ???                                 0x0000000101147128 0x0 + 4313084200288659569#653#77#0(1@0"0(13@79"	6   libmacruby.dylib                    0x0000000100040e25 ruby_finalize + 69288659569#730#79#0(1@0"0(13@73"	7   libmacruby.dylib                    0x00000001000a7880 rb_exit + 16288659569#809#73#0(1@0"0(13@71"	8   macruby                             0x0000000100000df6 main + 182288659569#882#71#0(1@0"0(13@71"	9   macruby                             0x0000000100000d34 start + 52288659569#953#71#0(1@0"0(13@68"	10  ???                                 0x0000000000000002 0x0 + 2288659569#1024#68#0(1@0"0(13@2")288659569#1092#2#0(1@0"0(13@61"terminate called after throwing an instance of 'NSException'288659569#1094#61#0(1@0"0(13@105"Script-4C1F54C411348B6300321837.sh:14:in `block': framework `CoffeeSnobLibrary' not found (RuntimeError)288659569#1155#105#0(1@0"0(13@55"	from Script-4C1F54C411348B6300321837.sh:3:in `<main>'288659569#1260#55#0(1@0"0(4@39"Command /bin/sh failed with exit code 6288659569#18446744073709551615#0#0(1@0"0(0#0#0"4300903632#17666"    cd /Users/NK/Development/iphone/CoffeeSnob    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER NK    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/NK/Development/iphone/CoffeeSnob/build    setenv BUILD_ROOT /Users/NK/Development/iphone/CoffeeSnob/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/xl/xlX8BegdGKiCXIVR624TT++++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/xl/xlX8BegdGKiCXIVR624TT++++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest    setenv CODE_SIGN_CONTEXT_CLASS XCCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/xl/xlX8BegdGKiCXIVR624TT++++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH TestCoffeeSnob.octest    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/CoffeeSnob.dst    setenv DWARF_DSYM_FILE_NAME TestCoffeeSnob.octest.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH TestCoffeeSnob.octest/Executables    setenv EXECUTABLE_FOLDER_PATH TestCoffeeSnob.octest    setenv EXECUTABLE_NAME TestCoffeeSnob    setenv EXECUTABLE_PATH TestCoffeeSnob.octest/TestCoffeeSnob    setenv FILE_LIST /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH TestCoffeeSnob.octest/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/Developer/Library/Frameworks /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/Developer/Library/Frameworks"    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME TestCoffeeSnob.octest    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_FIX_AND_CONTINUE NO    setenv GCC_ENABLE_OBJC_EXCEPTIONS YES    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRODUCT_TYPE_PREPROCESSOR_DEFINITIONS " __IPHONE_OS_VERSION_MIN_REQUIRED=30000"    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/include /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/libxml2"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE TestCoffeeSnob-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH TestCoffeeSnob.octest/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/CoffeeSnob.dst    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER NK    setenv INSTALL_ROOT /tmp/CoffeeSnob.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH TestCoffeeSnob.octest/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/TestCoffeeSnob-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator\"  \"/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator\""    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal/i386/TestCoffeeSnob.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_bundle    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv MAC_OS_X_VERSION_ACTUAL 1062    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0602    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Objects-normal    setenv OBJROOT /Users/NK/Development/iphone/CoffeeSnob/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-framework Foundation -framework SenTestingKit -framework UIKit"    setenv PACKAGE_TYPE com.apple.package-type.wrapper    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH TestCoffeeSnob.octest/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/PkgInfo    setenv PKGINFO_PATH TestCoffeeSnob.octest/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH TestCoffeeSnob.octest/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH TestCoffeeSnob.octest/PrivateHeaders    setenv PRODUCT_NAME TestCoffeeSnob    setenv PRODUCT_SETTINGS_PATH /Users/NK/Development/iphone/CoffeeSnob/TestCoffeeSnob-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.bundle    setenv PROFILING_CODE NO    setenv PROJECT CoffeeSnob    setenv PROJECT_DERIVED_FILE_DIR /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/DerivedSources    setenv PROJECT_DIR /Users/NK/Development/iphone/CoffeeSnob    setenv PROJECT_FILE_PATH /Users/NK/Development/iphone/CoffeeSnob/CoffeeSnob.xcodeproj    setenv PROJECT_NAME CoffeeSnob    setenv PROJECT_TEMP_DIR /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build    setenv PUBLIC_HEADERS_FOLDER_PATH TestCoffeeSnob.octest/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH TestCoffeeSnob.octest/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk    setenv SDK_NAME iphonesimulator3.1.2    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH TestCoffeeSnob.octest/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/xl/xlX8BegdGKiCXIVR624TT++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH TestCoffeeSnob.octest/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/NK/Development/iphone/CoffeeSnob    setenv SRCROOT /Users/NK/Development/iphone/CoffeeSnob    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE non-global    setenv SYMBOL_REPOSITORY_DIR /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/SymbolRepositories    setenv SYMROOT /Users/NK/Development/iphone/CoffeeSnob/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1    setenv TARGETNAME TestCoffeeSnob    setenv TARGET_BUILD_DIR /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator    setenv TARGET_NAME TestCoffeeSnob    setenv TARGET_TEMP_DIR /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build    setenv TEMP_DIR /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build    setenv TEMP_FILES_DIR /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build    setenv TEMP_FILE_DIR /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build    setenv TEMP_ROOT /Users/NK/Development/iphone/CoffeeSnob/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH TestCoffeeSnob.octest    setenv UNSTRIPPED_PRODUCT NO    setenv USER NK    setenv USER_APPS_DIR /Users/NK/Applications    setenv USER_LIBRARY_DIR /Users/NK/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH TestCoffeeSnob.octest/version.plist    setenv VERSION_INFO_BUILDER NK    setenv VERSION_INFO_FILE TestCoffeeSnob_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:TestCoffeeSnob  PROJECT:CoffeeSnob-\""    setenv WRAPPER_EXTENSION octest    setenv WRAPPER_NAME TestCoffeeSnob.octest    setenv WRAPPER_SUFFIX .octest    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0322    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphonesimulator/TestCoffeeSnob.build/Script-4C1F54C411348B6300321837.sh6#
-
-CProcessInfoPlistFile /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest/Info.plist TestCoffeeSnob-Info.plist
-s288658766.127227
-e288658766.152462
-r1
-xProcessInfoPlistFile
-x/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest/Info.plist
-xTestCoffeeSnob-Info.plist
-lSLF07#2@33"Process TestCoffeeSnob-Info.plist288658766#288658766#0(0"0(0#0#65"/Users/NK/Development/iphone/CoffeeSnob/TestCoffeeSnob-Info.plist4300903632#399"    cd /Users/NK/Development/iphone/CoffeeSnob    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TestCoffeeSnob-Info.plist -expandbuildsettings -format binary -platform iphonesimulator -o /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest/Info.plist0#
-
-CTouch /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest
-s288659569.465225
-e288659569.468279
-r1
-xTouch
-x/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest
-lSLF07#2@95"Touch /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest288659569#288659569#0(0"0(0#0#0"4300903632#290"    cd /Users/NK/Development/iphone/CoffeeSnob    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphonesimulator/TestCoffeeSnob.octest0#
-

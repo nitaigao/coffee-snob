@@ -197,59 +197,7 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>3D0E9AF7113564D10047991F</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>CoffeeShopMapDelegate.m</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>3D0E9B1B113566560047991F</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>CoffeeShopMapDelegate.m</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>3D0E9BE31135D6310047991F</string>
-						<key>history</key>
-						<array>
-							<string>3D0E9B681135B9F30047991F</string>
-							<string>3D0E9B691135B9F30047991F</string>
-							<string>3D0E9B6A1135B9F30047991F</string>
-							<string>3D0E9BB21135BEBC0047991F</string>
-							<string>3D0E9BB31135BEBC0047991F</string>
-							<string>3D0E9BB41135BEBC0047991F</string>
-							<string>3D0E9BB61135BEBC0047991F</string>
-							<string>3D0E9BDF1135D6310047991F</string>
-							<string>3D0E9BE01135D6310047991F</string>
-							<string>3D0E9BE11135D6310047991F</string>
-							<string>3D0E9BE21135D6310047991F</string>
-							<string>3D0E9B6D1135B9F30047991F</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {1178, 698}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>261 139 1178 739 0 0 1440 878 </string>
-			</dict>
-		</dict>
-	</array>
+	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -329,8 +277,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>12</integer>
-									<integer>2</integer>
+									<integer>18</integer>
+									<integer>16</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -383,7 +331,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>3D0E9BDE1135D6310047991F</string>
+										<string>3D0E9C011135D7E80047991F</string>
 										<key>history</key>
 										<array>
 											<string>3D028CAA113000FD00B1F280</string>
@@ -602,9 +550,9 @@
 		<string>3D0E9B2B113566560047991F</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
+		<string>3D0E9AF7113564D10047991F</string>
 		<string>3D2443C0112EF716001801D5</string>
 		<string>/Users/markh/Development/iphone/CoffeeSnob/CoffeeSnob.xcodeproj</string>
-		<string>3D0E9AF7113564D10047991F</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 138 262 740 0 0 1440 878 </string>

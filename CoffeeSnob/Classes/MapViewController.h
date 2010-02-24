@@ -19,4 +19,6 @@
 	IBOutlet CoffeeShopMap* coffeeMap;
 }
 
+- (IBAction) nextButtonClicked:(id)sender;
+
 @end
