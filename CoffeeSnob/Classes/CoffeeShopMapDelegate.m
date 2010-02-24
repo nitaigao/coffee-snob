@@ -36,11 +36,11 @@
 	return [self createPin: map annotation: annotation];
 }
 
-/*-(IBAction)showCoffeeShopDetails:(id)sender {
-	if ([viewController respondsToSelector:@selector(showCoffeeShopDetails:)]) {
-		CoffeeShopAnnotation *annotation = [mapView.selectedAnnotations objectAtIndex:0];
-		[viewController performSelector:@selector(showCoffeeShopDetails:) withObject:annotation.title];
-	}
-}*/
+- (IBAction)showCoffeeShopDetails:(id)sender {
+	//if ([viewController respondsToSelector:@selector(showCoffeeShopDetails:)]) {
+		//CoffeeShopAnnotation *annotation = [mapView.selectedAnnotations objectAtIndex:0];
+		//[viewController performSelector:@selector(showCoffeeShopDetails:) withObject:annotation.title];
+	//}
+}
 
 @end
