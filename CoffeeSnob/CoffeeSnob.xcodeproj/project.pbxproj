@@ -53,8 +53,8 @@
 		4CE587951134A30200BFC93A /* CoffeeShopMapDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeShopMapDelegate.h; sourceTree = "<group>"; };
 		4CE587961134A30200BFC93A /* CoffeeShopMapDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeShopMapDelegate.m; sourceTree = "<group>"; };
 		4CE588281134A5B900BFC93A /* CoffeeShopRepositoryDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeShopRepositoryDelegate.h; sourceTree = "<group>"; };
-		4CE588931134A85400BFC93A /* CoffeeShopMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoffeeShopMapAnnotation.h; path = ../../../.Trash/CoffeeShopMapAnnotation.h; sourceTree = SOURCE_ROOT; };
-		4CE588941134A85400BFC93A /* CoffeeShopMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoffeeShopMapAnnotation.m; path = ../../../.Trash/CoffeeShopMapAnnotation.m; sourceTree = SOURCE_ROOT; };
+		4CE588931134A85400BFC93A /* CoffeeShopMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeShopMapAnnotation.h; sourceTree = "<group>"; };
+		4CE588941134A85400BFC93A /* CoffeeShopMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeShopMapAnnotation.m; sourceTree = "<group>"; };
 		4CEEC416111D804500D52DA2 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		4CEFEECA111DDB78001B5381 /* CoffeeShopRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeShopRepository.h; sourceTree = "<group>"; };
 		4CEFEECB111DDB78001B5381 /* CoffeeShopRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeShopRepository.m; sourceTree = "<group>"; };
