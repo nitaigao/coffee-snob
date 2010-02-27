@@ -14,7 +14,27 @@
 - (id)init {
 	[super init];
 	coffeeShops = [[CoffeeShopList alloc]init];
+	locationManager = [[CLLocationManager alloc] init];
+	lock = [[NSLock alloc]init];
 	return self;
+}
+
+- (void)startUpdatingLocation {
+	isGettingCoffee = false;
+	locationManager.delegate = self;
+	locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters;
+	locationManager.distanceFilter = 1; // or whatever
+	[locationManager startUpdatingLocation];	
+}
+
+- (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation {
+	[lock lock];
+	if (newLocation.horizontalAccuracy < 500 && !isGettingCoffee) {
+		isGettingCoffee = true;
+		[locationManager stopUpdatingLocation];
+		[viewController locationUpdated];
+	}
+	[lock unlock];
 }
 
 - (void)showUserLocation {
