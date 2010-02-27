@@ -16,6 +16,7 @@
 		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
 		3D1CF513113317A50009F2A3 /* CoffeeShopMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1CF512113317A50009F2A3 /* CoffeeShopMap.m */; };
 		3DA6457F11393E92005D3F3F /* CoffeeShopMapAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6457E11393E92005D3F3F /* CoffeeShopMapAnnotationView.m */; };
+		3DA646D611395054005D3F3F /* coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DA646D511395054005D3F3F /* coffee.jpg */; };
 		4C06B1B1111CE1AD00EEE115 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C06B1B0111CE1AD00EEE115 /* CoreFoundation.framework */; };
 		4C4460A5111C8D5500BAEC5D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4460A4111C8D5500BAEC5D /* MapKit.framework */; };
 		4C636D02111E0CAB005B9286 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C636D01111E0CAB005B9286 /* icon.png */; };
@@ -45,6 +46,7 @@
 		3D1CF512113317A50009F2A3 /* CoffeeShopMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeShopMap.m; sourceTree = "<group>"; };
 		3DA6457D11393E92005D3F3F /* CoffeeShopMapAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeShopMapAnnotationView.h; sourceTree = "<group>"; };
 		3DA6457E11393E92005D3F3F /* CoffeeShopMapAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeShopMapAnnotationView.m; sourceTree = "<group>"; };
+		3DA646D511395054005D3F3F /* coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = coffee.jpg; path = ../../../Downloads/coffee.jpg; sourceTree = SOURCE_ROOT; };
 		4C06B1B0111CE1AD00EEE115 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		4C4460A4111C8D5500BAEC5D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		4C636D01111E0CAB005B9286 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources-iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				3DA646D511395054005D3F3F /* coffee.jpg */,
 				4C636D01111E0CAB005B9286 /* icon.png */,
 				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* CoffeeSnob-Info.plist */,
@@ -241,6 +244,7 @@
 			files = (
 				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
 				4C636D02111E0CAB005B9286 /* icon.png in Resources */,
+				3DA646D611395054005D3F3F /* coffee.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

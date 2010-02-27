@@ -1,12 +1,13 @@
 TCoffeeSnob
 v7
 r0
-t288966643.205266
+t288968815.912994
 cCheck dependencies
 cCpResource build/Debug-iphoneos/CoffeeMap.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
 cProcessInfoPlistFile /Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/Info.plist CoffeeSnob-Info.plist
 cCompileXIB /Users/markh/Development/iphone/CoffeeSnob/MainWindow.xib
 cCopyPNGFile /Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/icon.png icon.png
+cCpResource build/Debug-iphoneos/CoffeeMap.app/coffee.jpg ../../../Downloads/coffee.jpg
 cProcessPCH /var/folders/B9/B9o2M651HnC7InjEtkGjbk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CoffeeSnob_Prefix-fjngzyvlhqpmetcujftjolicxkxy/CoffeeSnob_Prefix.pch.gch CoffeeSnob_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/Objects-normal/armv6/main.o /Users/markh/Development/iphone/CoffeeSnob/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/Objects-normal/armv6/CoffeeSnobAppDelegate.o /Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeSnobAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
@@ -440,6 +441,11 @@ c00000000000000000000000000000000
 t2
 s0
 
+N/Users/markh/Development/iphone/CoffeeSnob/../../../Downloads/coffee.jpg
+c000000004B8918BF000000000000211C
+t1267275967
+s8476
+
 N/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeMap.h
 c000000004B844FB9000000000000024E
 t1266962361
@@ -543,9 +549,9 @@ i<MapKit/MapKit.h>
 i"CoffeeShopMapAnnotation.h"
 
 N/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapAnnotationView.m
-c000000004B890FFB00000000000003B1
-t1267273723
-s945
+c000000004B8918EF00000000000003D9
+t1267276015
+s985
 i"CoffeeShopMapAnnotationView.h"
 
 N/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapDelegate.h
@@ -557,10 +563,11 @@ i<CoreLocation/CoreLocation.h>
 i<MapKit/MapKit.h>
 
 N/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapDelegate.m
-c000000004B859EA000000000000004E2
-t1267048096
-s1250
+c000000004B8918E000000000000007A4
+t1267276000
+s1956
 i"CoffeeShopMapDelegate.h"
+i"CoffeeShopMapAnnotationView.h"
 
 N/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopRepository.h
 c000000004B85299F0000000000000284
@@ -720,20 +727,19 @@ s7811
 i"SBJsonWriter.h"
 
 N/Users/markh/Development/iphone/CoffeeSnob/Classes/MainViewController.h
-c000000004B844B110000000000000213
-t1266961169
-s531
+c000000004B89107100000000000001B7
+t1267273841
+s439
 i<UIKit/UIKit.h>
 i<MapKit/MapKit.h>
 i<CoreLocation/CoreLocation.h>
-i"CoffeeShopRepository.h"
-i"CoffeeMap.h"
+i"CoffeeShopMap.h"
 
 N/Users/markh/Development/iphone/CoffeeSnob/Classes/MainViewController.m
 c000000004B89107100000000000003C0
 t1267273841
 s960
-i"MapViewController.h"
+i"MainViewController.h"
 
 N/Users/markh/Development/iphone/CoffeeSnob/Classes/MapViewController.h
 c000000004B890AEC00000000000001B6
@@ -815,12 +821,12 @@ t1267048825
 s12004
 
 N/Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/Objects-normal/armv6/CoffeeShopMapAnnotationView.o
-t1267273723
-s12476
+t1267276015
+s13772
 
 N/Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/Objects-normal/armv6/CoffeeShopMapDelegate.o
-t1267048825
-s36920
+t1267276001
+s34896
 
 N/Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/Objects-normal/armv6/CoffeeShopRepository.o
 t1267048825
@@ -879,16 +885,16 @@ t1267269547
 s6556
 
 N/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app
-t1267273842
-s374
+t1267276015
+s408
 
 N/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app.dSYM
-t1267273842
+t1267276015
 s102
 
 N/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/CoffeeMap
-t1267273842
-s88208
+t1267276015
+s82152
 
 N/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/Info.plist
 t1267048823
@@ -909,6 +915,10 @@ s485
 N/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/SecondView.nib
 t1266859584
 s2510
+
+N/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/coffee.jpg
+t1267276000
+s8476
 
 N/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/embedded.mobileprovision
 t1267048825
@@ -957,7 +967,7 @@ s890
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies288966643#288966643#0(0"0(0#1#0"4300885448#0"0#
+lSLF07#2@18"Check dependencies288968815#288968815#0(0"0(0#1#0"4300885448#0"0#
 
 CCodeSign /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app
 s288625004.902254
@@ -968,12 +978,12 @@ x/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app
 lSLF07#2@43"CodeSign build/Debug-iphoneos/CoffeeMap.app288625004#288625005#0(0"0(0#0#74"/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app4300903632#689"    cd /Users/NK/Development/iphone/CoffeeSnob    setenv IGNORE_CODESIGN_ALLOCATE_RADAR_7181968 /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Nicholas Kostelnik (8JMRM7KQD6)" --resource-rules=/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/ResourceRules.plist --entitlements /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/CoffeeMap.xcent /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app0#
 
 CCodeSign /Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app
-s288966642.348122
-e288966642.477930
+s288968815.782681
+e288968815.912953
 r1
 xCodeSign
 x/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app
-lSLF07#2@43"CodeSign build/Debug-iphoneos/CoffeeMap.app288966642#288966642#0(0"0(0#0#77"/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app4300885448#680"    cd /Users/markh/Development/iphone/CoffeeSnob    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Nicholas Kostelnik (8JMRM7KQD6)" --resource-rules=/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/ResourceRules.plist --entitlements /Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/CoffeeMap.xcent /Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app0#
+lSLF07#2@43"CodeSign build/Debug-iphoneos/CoffeeMap.app288968815#288968815#0(0"0(0#0#77"/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app4300885448#680"    cd /Users/markh/Development/iphone/CoffeeSnob    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Nicholas Kostelnik (8JMRM7KQD6)" --resource-rules=/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/ResourceRules.plist --entitlements /Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/CoffeeMap.xcent /Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app0#
 
 CCompileC build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/Objects-normal/armv6/CoffeeMap.o /Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeMap.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s288625004.764353
@@ -1106,8 +1116,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@84"Compile /Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapAnnotation.m288741625#288741625#0(0"0(0#0#76"/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapAnnotation.m4300885448#1992"    cd /Users/markh/Development/iphone/CoffeeSnob    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/CoffeeMap-generated-files.hmap -I/Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/CoffeeMap-own-target-headers.hmap -I/Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/CoffeeMap-all-target-headers.hmap -iquote /Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/CoffeeMap-project-headers.hmap -F/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos -I/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/include -IVendor/UISpec/Headers -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/libxml2 -I/Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/DerivedSources/armv6 -I/Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/DerivedSources -include /var/folders/B9/B9o2M651HnC7InjEtkGjbk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CoffeeSnob_Prefix-fjngzyvlhqpmetcujftjolicxkxy/CoffeeSnob_Prefix.pch -c /Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapAnnotation.m -o /Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/Objects-normal/armv6/CoffeeShopMapAnnotation.o0#
 
 CCompileC build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/Objects-normal/armv6/CoffeeShopMapAnnotationView.o /Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapAnnotationView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s288966523.682751
-e288966523.764272
+s288968815.533848
+e288968815.723014
 r1
 xCompileC
 xbuild/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/Objects-normal/armv6/CoffeeShopMapAnnotationView.o
@@ -1116,11 +1126,13 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapAnnotationView.m288966523#288966523#0(0"0(0#0#80"/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapAnnotationView.m4300885448#2000"    cd /Users/markh/Development/iphone/CoffeeSnob    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/CoffeeMap-generated-files.hmap -I/Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/CoffeeMap-own-target-headers.hmap -I/Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/CoffeeMap-all-target-headers.hmap -iquote /Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/CoffeeMap-project-headers.hmap -F/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos -I/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/include -IVendor/UISpec/Headers -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/libxml2 -I/Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/DerivedSources/armv6 -I/Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/DerivedSources -include /var/folders/B9/B9o2M651HnC7InjEtkGjbk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CoffeeSnob_Prefix-fjngzyvlhqpmetcujftjolicxkxy/CoffeeSnob_Prefix.pch -c /Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapAnnotationView.m -o /Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/Objects-normal/armv6/CoffeeShopMapAnnotationView.o0#
+o/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapAnnotationView.m: In function '-[CoffeeShopMapAnnotationView initWithAnnotation:reuseIdentifier:]':
+o/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapAnnotationView.m:24: warning: unused variable 'csAnnotation'
+lSLF07#2@88"Compile /Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapAnnotationView.m288968815#288968815#0(289"/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapAnnotationView.m: In function '-[CoffeeShopMapAnnotationView initWithAnnotation:reuseIdentifier:]':/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapAnnotationView.m:24: warning: unused variable 'csAnnotation'1(22@30"Unused variable 'csAnnotation'288968815#164#125#0(6@80"/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapAnnotationView.m288968815#24#0#24#0#19"unused variable '*'0(0#0#80"/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapAnnotationView.m4300885448#2000"    cd /Users/markh/Development/iphone/CoffeeSnob    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/CoffeeMap-generated-files.hmap -I/Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/CoffeeMap-own-target-headers.hmap -I/Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/CoffeeMap-all-target-headers.hmap -iquote /Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/CoffeeMap-project-headers.hmap -F/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos -I/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/include -IVendor/UISpec/Headers -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/libxml2 -I/Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/DerivedSources/armv6 -I/Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/DerivedSources -include /var/folders/B9/B9o2M651HnC7InjEtkGjbk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CoffeeSnob_Prefix-fjngzyvlhqpmetcujftjolicxkxy/CoffeeSnob_Prefix.pch -c /Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapAnnotationView.m -o /Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/Objects-normal/armv6/CoffeeShopMapAnnotationView.o0#
 
 CCompileC build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/Objects-normal/armv6/CoffeeShopMapDelegate.o /Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s288741625.227007
-e288741625.311605
+s288968800.900244
+e288968801.029947
 r1
 xCompileC
 xbuild/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/Objects-normal/armv6/CoffeeShopMapDelegate.o
@@ -1129,7 +1141,12 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapDelegate.m288741625#288741625#0(0"0(0#0#74"/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapDelegate.m4300885448#1988"    cd /Users/markh/Development/iphone/CoffeeSnob    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/CoffeeMap-generated-files.hmap -I/Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/CoffeeMap-own-target-headers.hmap -I/Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/CoffeeMap-all-target-headers.hmap -iquote /Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/CoffeeMap-project-headers.hmap -F/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos -I/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/include -IVendor/UISpec/Headers -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/libxml2 -I/Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/DerivedSources/armv6 -I/Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/DerivedSources -include /var/folders/B9/B9o2M651HnC7InjEtkGjbk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CoffeeSnob_Prefix-fjngzyvlhqpmetcujftjolicxkxy/CoffeeSnob_Prefix.pch -c /Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapDelegate.m -o /Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/Objects-normal/armv6/CoffeeShopMapDelegate.o0#
+o/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapDelegate.m: In function '-[CoffeeShopMapDelegate mapView:viewForAnnotation:]':
+o/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapDelegate.m:16: warning: 'CoffeeShopMapDelegate' may not respond to '-createView:annotation:'
+o/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapDelegate.m:16: warning: (Messages without a matching method signature
+o/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapDelegate.m:16: warning: will be assumed to return 'id' and accept
+o/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapDelegate.m:16: warning: '...' as arguments.)
+lSLF07#2@82"Compile /Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapDelegate.m288968800#288968801#0(673"/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapDelegate.m: In function '-[CoffeeShopMapDelegate mapView:viewForAnnotation:]':/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapDelegate.m:16: warning: 'CoffeeShopMapDelegate' may not respond to '-createView:annotation:'/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapDelegate.m:16: warning: (Messages without a matching method signature/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapDelegate.m:16: warning: will be assumed to return 'id' and accept/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapDelegate.m:16: warning: '...' as arguments.)2(22@68"'CoffeeShopMapDelegate' may not respond to '-createView:annotation:'288968801#143#157#0(6@74"/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapDelegate.m288968800#16#0#16#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)288968801#300#134#0(6@74"/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapDelegate.m288968800#16#0#16#0#0"0(0#0#74"/Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapDelegate.m4300885448#1988"    cd /Users/markh/Development/iphone/CoffeeSnob    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/CoffeeMap-generated-files.hmap -I/Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/CoffeeMap-own-target-headers.hmap -I/Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/CoffeeMap-all-target-headers.hmap -iquote /Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/CoffeeMap-project-headers.hmap -F/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos -I/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/include -IVendor/UISpec/Headers -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/usr/include/libxml2 -I/Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/DerivedSources/armv6 -I/Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/DerivedSources -include /var/folders/B9/B9o2M651HnC7InjEtkGjbk+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/CoffeeSnob_Prefix-fjngzyvlhqpmetcujftjolicxkxy/CoffeeSnob_Prefix.pch -c /Users/markh/Development/iphone/CoffeeSnob/Classes/CoffeeShopMapDelegate.m -o /Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/Objects-normal/armv6/CoffeeShopMapDelegate.o0#
 
 CCompileC build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/Objects-normal/armv6/CoffeeShopRepository.o /Users/NK/Development/iphone/CoffeeSnob/Classes/CoffeeShopRepository.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s288624838.675717
@@ -1435,6 +1452,15 @@ lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3
 CCpResource build/Debug-iphoneos/CoffeeMap.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/ResourceRules.plist
 r0
 
+CCpResource build/Debug-iphoneos/CoffeeMap.app/coffee.jpg ../../../Downloads/coffee.jpg
+s288968800.866489
+e288968800.899323
+r1
+xCpResource
+xbuild/Debug-iphoneos/CoffeeMap.app/coffee.jpg
+x../../../Downloads/coffee.jpg
+lSLF07#2@34"Copy ../../../Downloads/coffee.jpg288968800#288968801#0(0"0(0#0#72"/Users/markh/Development/iphone/CoffeeSnob/../../../Downloads/coffee.jpg4300885448#473"    cd /Users/markh/Development/iphone/CoffeeSnob    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/markh/Development/iphone/CoffeeSnob/../../../Downloads/coffee.jpg /Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app0#
+
 CGenerateDSYMFile /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app.dSYM /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/CoffeeMap
 s288625004.885564
 e288625004.899978
@@ -1445,13 +1471,13 @@ x/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/Coff
 lSLF07#2@101"GenerateDSYMFile build/Debug-iphoneos/CoffeeMap.app.dSYM build/Debug-iphoneos/CoffeeMap.app/CoffeeMap288625004#288625004#0(0"0(0#0#84"/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/CoffeeMap4300903632#371"    cd /Users/NK/Development/iphone/CoffeeSnob    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/CoffeeMap -o /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app.dSYM0#
 
 CGenerateDSYMFile /Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app.dSYM /Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/CoffeeMap
-s288966642.325315
-e288966642.345218
+s288968815.757565
+e288968815.779898
 r1
 xGenerateDSYMFile
 x/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app.dSYM
 x/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/CoffeeMap
-lSLF07#2@101"GenerateDSYMFile build/Debug-iphoneos/CoffeeMap.app.dSYM build/Debug-iphoneos/CoffeeMap.app/CoffeeMap288966642#288966642#0(0"0(0#0#87"/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/CoffeeMap4300885448#380"    cd /Users/markh/Development/iphone/CoffeeSnob    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/CoffeeMap -o /Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app.dSYM0#
+lSLF07#2@101"GenerateDSYMFile build/Debug-iphoneos/CoffeeMap.app.dSYM build/Debug-iphoneos/CoffeeMap.app/CoffeeMap288968815#288968815#0(0"0(0#0#87"/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/CoffeeMap4300885448#380"    cd /Users/markh/Development/iphone/CoffeeSnob    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/CoffeeMap -o /Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app.dSYM0#
 
 CLd /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/CoffeeMap normal armv6
 s288625004.856772
@@ -1464,14 +1490,14 @@ xarmv6
 lSLF07#2@89"Link /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/CoffeeMap288625004#288625004#0(0"0(0#0#0"4300903632#920"    cd /Users/NK/Development/iphone/CoffeeSnob    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -L/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphoneos -F/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphoneos -filelist /Users/NK/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/Objects-normal/armv6/CoffeeMap.LinkFileList -dead_strip -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -framework CoreLocation -framework CoreFoundation -lxml2 -o /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/CoffeeMap0#
 
 CLd /Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/CoffeeMap normal armv6
-s288966642.291828
-e288966642.325197
+s288968815.723128
+e288968815.757367
 r1
 xLd
 x/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/CoffeeMap
 xnormal
 xarmv6
-lSLF07#2@92"Link /Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/CoffeeMap288966642#288966642#0(0"0(0#0#0"4300885448#1061"    cd /Users/markh/Development/iphone/CoffeeSnob    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -L/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos -L/Users/markh/Development/iphone/CoffeeSnob/Vendor/UISpec -F/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos -filelist /Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/Objects-normal/armv6/CoffeeMap.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -framework CoreLocation -framework CoreFoundation -lxml2 -o /Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/CoffeeMap0#
+lSLF07#2@92"Link /Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/CoffeeMap288968815#288968815#0(0"0(0#0#0"4300885448#1061"    cd /Users/markh/Development/iphone/CoffeeSnob    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -L/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos -L/Users/markh/Development/iphone/CoffeeSnob/Vendor/UISpec -F/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos -filelist /Users/markh/Development/iphone/CoffeeSnob/build/CoffeeSnob.build/Debug-iphoneos/CoffeeSnob.build/Objects-normal/armv6/CoffeeMap.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -framework CoreLocation -framework CoreFoundation -lxml2 -o /Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/CoffeeMap0#
 
 CProcessInfoPlistFile /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app/Info.plist CoffeeSnob-Info.plist
 s288624837.864735
@@ -1578,10 +1604,10 @@ x/Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app
 lSLF07#2@80"Touch /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app288625004#288625004#0(0"0(0#0#0"4300903632#268"    cd /Users/NK/Development/iphone/CoffeeSnob    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/NK/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app0#
 
 CTouch /Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app
-s288966642.345415
-e288966642.347791
+s288968815.780082
+e288968815.782371
 r1
 xTouch
 x/Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app
-lSLF07#2@83"Touch /Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app288966642#288966642#0(0"0(0#0#0"4300885448#274"    cd /Users/markh/Development/iphone/CoffeeSnob    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app0#
+lSLF07#2@83"Touch /Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app288968815#288968815#0(0"0(0#0#0"4300885448#274"    cd /Users/markh/Development/iphone/CoffeeSnob    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/markh/Development/iphone/CoffeeSnob/build/Debug-iphoneos/CoffeeMap.app0#
 

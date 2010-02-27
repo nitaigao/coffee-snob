@@ -204,7 +204,7 @@
 				<key>PBXProjectModuleGUID</key>
 				<string>3DA6452A113936F2005D3F3F</string>
 				<key>PBXProjectModuleLabel</key>
-				<string>CoffeeShopMapAnnotation.h</string>
+				<string>CoffeeShopMapDelegate.m</string>
 				<key>PBXSplitModuleInNavigatorKey</key>
 				<dict>
 					<key>Split0</key>
@@ -212,28 +212,29 @@
 						<key>PBXProjectModuleGUID</key>
 						<string>3DA6453811393738005D3F3F</string>
 						<key>PBXProjectModuleLabel</key>
-						<string>CoffeeShopMapAnnotation.h</string>
+						<string>CoffeeShopMapDelegate.m</string>
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>3DA646801139478F005D3F3F</string>
+						<string>3DA646E21139508F005D3F3F</string>
 						<key>history</key>
 						<array>
-							<string>3DA6453911393738005D3F3F</string>
 							<string>3DA645CF11394271005D3F3F</string>
-							<string>3DA645D211394271005D3F3F</string>
 							<string>3DA645D611394271005D3F3F</string>
 							<string>3DA645EF113942AA005D3F3F</string>
 							<string>3DA645F1113942AA005D3F3F</string>
 							<string>3DA646441139455D005D3F3F</string>
-							<string>3DA646781139478F005D3F3F</string>
 							<string>3DA646791139478F005D3F3F</string>
-							<string>3DA6467A1139478F005D3F3F</string>
 							<string>3DA6467B1139478F005D3F3F</string>
-							<string>3DA6467C1139478F005D3F3F</string>
-							<string>3DA6467D1139478F005D3F3F</string>
-							<string>3DA6467E1139478F005D3F3F</string>
-							<string>3DA6467F1139478F005D3F3F</string>
+							<string>3DA646BA11394BD6005D3F3F</string>
+							<string>3DA646BB11394BD6005D3F3F</string>
+							<string>3DA646BC11394BD6005D3F3F</string>
+							<string>3DA646BD11394BD6005D3F3F</string>
+							<string>3DA646BE11394BD6005D3F3F</string>
+							<string>3DA646BF11394BD6005D3F3F</string>
+							<string>3DA646DF1139508F005D3F3F</string>
+							<string>3DA646E01139508F005D3F3F</string>
+							<string>3DA646E11139508F005D3F3F</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -249,7 +250,7 @@
 				<key>PBXModuleWindowStatusBarHidden2</key>
 				<false/>
 				<key>RubberWindowFrame</key>
-				<string>286 133 1178 739 0 0 1440 878 </string>
+				<string>286 132 1178 739 0 0 1440 878 </string>
 			</dict>
 		</dict>
 	</array>
@@ -322,20 +323,20 @@
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>4CC3D9C91135C97300E0925C</string>
-								<string>4CC3DA481135D01B00E0925C</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>4CE587F91134A4F400BFC93A</string>
+								<string>4CE587F81134A4DF00BFC93A</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
+								<string>19C28FACFE9D520D11CA2CBB</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>11</integer>
-									<integer>4</integer>
-									<integer>3</integer>
+									<integer>31</integer>
+									<integer>30</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -375,7 +376,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CoffeeShopMapAnnotation.h</string>
+								<string>coffee.jpg</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -383,11 +384,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CoffeeShopMapAnnotation.h</string>
+										<string>coffee.jpg</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>3DA646771139478F005D3F3F</string>
+										<string>3DA646DE1139508F005D3F3F</string>
 										<key>history</key>
 										<array>
 											<string>3D028CAA113000FD00B1F280</string>
@@ -401,14 +402,15 @@
 											<string>3DA6453211393738005D3F3F</string>
 											<string>3DA6453311393738005D3F3F</string>
 											<string>3DA6453411393738005D3F3F</string>
-											<string>3DA6453511393738005D3F3F</string>
 											<string>3DA645C911394271005D3F3F</string>
 											<string>3DA645CA11394271005D3F3F</string>
 											<string>3DA645CB11394271005D3F3F</string>
 											<string>3DA646731139478F005D3F3F</string>
 											<string>3DA646741139478F005D3F3F</string>
-											<string>3DA646751139478F005D3F3F</string>
-											<string>3DA646761139478F005D3F3F</string>
+											<string>3DA646B711394BD6005D3F3F</string>
+											<string>3DA646B811394BD6005D3F3F</string>
+											<string>3DA646DC1139508F005D3F3F</string>
+											<string>3DA646DD1139508F005D3F3F</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -608,6 +610,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>3D1CF503113317050009F2A3</string>
 		<string>3DA645DF11394271005D3F3F</string>
 		<string>3DA645E011394271005D3F3F</string>
 		<string>1C78EAAD065D492600B07095</string>
@@ -1464,7 +1467,11 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {500, 315}}</string>
 								<key>RubberWindowFrame</key>
-								<string>281 499 500 356 0 0 1440 878 </string>
+								<string>641 192 500 356 0 0 1440 878 </string>
+								<key>XCRefactoringSplitViewLowerHeight</key>
+								<real>112</real>
+								<key>XCRefactoringSplitViewTotalHeight</key>
+								<real>232</real>
 							</dict>
 							<key>Module</key>
 							<string>XCRefactoringModule</string>
@@ -1487,11 +1494,11 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>3D1CF503113317050009F2A3</string>
-				<string>3D0E9B771135BA8C0047991F</string>
+				<string>3DA646C311394BD6005D3F3F</string>
 				<string>3D1CF502113317050009F2A3</string>
 			</array>
 			<key>WindowString</key>
-			<string>281 499 500 356 0 0 1440 878 </string>
+			<string>641 192 500 356 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>3D1CF503113317050009F2A3</string>
 			<key>WindowToolIsVisible</key>
