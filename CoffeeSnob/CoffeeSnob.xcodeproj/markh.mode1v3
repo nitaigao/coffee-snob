@@ -204,7 +204,7 @@
 				<key>PBXProjectModuleGUID</key>
 				<string>3DA6452A113936F2005D3F3F</string>
 				<key>PBXProjectModuleLabel</key>
-				<string>CoffeeShopMapDelegate.m</string>
+				<string>CoffeeShopMapAnnotationView.m</string>
 				<key>PBXSplitModuleInNavigatorKey</key>
 				<dict>
 					<key>Split0</key>
@@ -212,30 +212,38 @@
 						<key>PBXProjectModuleGUID</key>
 						<string>3DA6453811393738005D3F3F</string>
 						<key>PBXProjectModuleLabel</key>
-						<string>CoffeeShopMapDelegate.m</string>
+						<string>CoffeeShopMapAnnotationView.m</string>
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>3DA646F911395238005D3F3F</string>
+						<string>3DA6485011398846005D3F3F</string>
 						<key>history</key>
 						<array>
 							<string>3DA645CF11394271005D3F3F</string>
 							<string>3DA645D611394271005D3F3F</string>
 							<string>3DA645EF113942AA005D3F3F</string>
 							<string>3DA645F1113942AA005D3F3F</string>
-							<string>3DA646441139455D005D3F3F</string>
 							<string>3DA646791139478F005D3F3F</string>
 							<string>3DA6467B1139478F005D3F3F</string>
-							<string>3DA646BA11394BD6005D3F3F</string>
-							<string>3DA646BB11394BD6005D3F3F</string>
 							<string>3DA646BC11394BD6005D3F3F</string>
 							<string>3DA646BD11394BD6005D3F3F</string>
-							<string>3DA646BE11394BD6005D3F3F</string>
-							<string>3DA646BF11394BD6005D3F3F</string>
-							<string>3DA646DF1139508F005D3F3F</string>
-							<string>3DA646E01139508F005D3F3F</string>
-							<string>3DA646F711395238005D3F3F</string>
-							<string>3DA646F811395238005D3F3F</string>
+							<string>3DA64724113969A2005D3F3F</string>
+							<string>3DA64725113969A2005D3F3F</string>
+							<string>3DA64726113969A2005D3F3F</string>
+							<string>3DA64727113969A2005D3F3F</string>
+							<string>3DA6476411396CF7005D3F3F</string>
+							<string>3DA6476511396CF7005D3F3F</string>
+							<string>3DA6476611396CF7005D3F3F</string>
+							<string>3DA6476711396CF7005D3F3F</string>
+							<string>3DA6479611397099005D3F3F</string>
+							<string>3DA6479711397099005D3F3F</string>
+							<string>3DA64814113984A5005D3F3F</string>
+							<string>3DA64816113984A5005D3F3F</string>
+							<string>3DA6481E113985BF005D3F3F</string>
+							<string>3DA6481F113985BF005D3F3F</string>
+							<string>3DA6484D11398846005D3F3F</string>
+							<string>3DA6484E11398846005D3F3F</string>
+							<string>3DA6484F11398846005D3F3F</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -251,7 +259,7 @@
 				<key>PBXModuleWindowStatusBarHidden2</key>
 				<false/>
 				<key>RubberWindowFrame</key>
-				<string>286 132 1178 739 0 0 1440 878 </string>
+				<string>300 139 1178 739 0 0 1440 878 </string>
 			</dict>
 		</dict>
 	</array>
@@ -286,6 +294,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -334,8 +344,9 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>33</integer>
-									<integer>30</integer>
+									<integer>19</integer>
+									<integer>4</integer>
+									<integer>3</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -375,7 +386,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CoffeeSnob-Info.plist</string>
+								<string>CoffeeShopMapAnnotation.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -383,11 +394,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CoffeeSnob-Info.plist</string>
+										<string>CoffeeShopMapAnnotation.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>3DA646F611395238005D3F3F</string>
+										<string>3DA6484C11398846005D3F3F</string>
 										<key>history</key>
 										<array>
 											<string>3D9EC3FA113332CF0061AC90</string>
@@ -395,21 +406,26 @@
 											<string>3D97EE7A113418BC00452A21</string>
 											<string>3D97EEAC11341CF800452A21</string>
 											<string>3D0E9B641135B9F30047991F</string>
-											<string>3DA6453011393738005D3F3F</string>
 											<string>3DA6453211393738005D3F3F</string>
 											<string>3DA6453311393738005D3F3F</string>
 											<string>3DA6453411393738005D3F3F</string>
 											<string>3DA645C911394271005D3F3F</string>
-											<string>3DA645CA11394271005D3F3F</string>
 											<string>3DA645CB11394271005D3F3F</string>
 											<string>3DA646731139478F005D3F3F</string>
-											<string>3DA646741139478F005D3F3F</string>
 											<string>3DA646B711394BD6005D3F3F</string>
-											<string>3DA646B811394BD6005D3F3F</string>
-											<string>3DA646DC1139508F005D3F3F</string>
-											<string>3DA646ED11395204005D3F3F</string>
-											<string>3DA646EE11395204005D3F3F</string>
-											<string>3DA6453111393738005D3F3F</string>
+											<string>3DA6471E113969A2005D3F3F</string>
+											<string>3DA6471F113969A2005D3F3F</string>
+											<string>3DA64720113969A2005D3F3F</string>
+											<string>3DA6475C11396CF7005D3F3F</string>
+											<string>3DA6475D11396CF7005D3F3F</string>
+											<string>3DA6475E11396CF7005D3F3F</string>
+											<string>3DA6475F11396CF7005D3F3F</string>
+											<string>3DA6476111396CF7005D3F3F</string>
+											<string>3DA6478D1139705C005D3F3F</string>
+											<string>3DA6480E113984A5005D3F3F</string>
+											<string>3DA6480F113984A5005D3F3F</string>
+											<string>3DA6484A11398846005D3F3F</string>
+											<string>3DA6484B11398846005D3F3F</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -640,7 +656,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CoffeeShopMap.h</string>
+								<string>CoffeeShopMap.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>

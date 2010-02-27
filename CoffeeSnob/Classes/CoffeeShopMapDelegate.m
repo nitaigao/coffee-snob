@@ -23,6 +23,10 @@
 	if (!view)
 	{
 		view = [[[CoffeeShopMapAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"CustomPinAnnotation"] autorelease];
+		
+		UIButton* rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+		[rightButton addTarget:viewController action:@selector(coffeeShopSelected) forControlEvents:UIControlEventTouchUpInside];
+		view.rightCalloutAccessoryView = rightButton;
 	}
 	else
 	{

@@ -8,9 +8,10 @@
 
 
 #import "CoffeeShopMapAnnotationView.h"
+#import "CoffeeShopViewController.h"
 
-#define kHeight 100
-#define kWidth  100
+#define kHeight 50
+#define kWidth  50
 #define kBorder 2
 
 @implementation CoffeeShopMapAnnotationView
@@ -22,15 +23,19 @@
 	self.backgroundColor = [UIColor whiteColor];
 	
 	CoffeeShopMapAnnotation* csAnnotation = (CoffeeShopMapAnnotation*)annotation;
-	
-	UIImage* image = [UIImage imageNamed:@"coffee.jpg"];
-	_imageView = [[UIImageView alloc] initWithImage:image];
-	
-	_imageView.frame = CGRectMake(kBorder, kBorder, kWidth - 2 * kBorder, kWidth - 2 * kBorder);
-	[self addSubview:_imageView];
+
+	CoffeeShopViewController* aViewController = [[CoffeeShopViewController alloc] initWithNibName:@"CoffeeShopView" bundle:[NSBundle mainBundle]];
+	[self addSubview: aViewController.view];
+
+	self.canShowCallout = YES;
+	self.selected = TRUE;
+
+	//UIImage* image = [UIImage imageNamed:@"coffee.jpg"];
+	//_imageView = [[UIImageView alloc] initWithImage:image];	
+	//_imageView.frame = CGRectMake(kBorder, kBorder, kWidth - 2 * kBorder, kWidth - 2 * kBorder);
+	//[self addSubview:_imageView];
 	
 	return self;
-	
 }
 
 -(void) dealloc
