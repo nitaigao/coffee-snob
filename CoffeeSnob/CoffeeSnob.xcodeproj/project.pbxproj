@@ -168,9 +168,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4C12F88C113AB3C200DAF84C /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				4CEFEF6E111DE1D4001B5381 /* CoffeeShop.h */,
+				4CEFEF6F111DE1D4001B5381 /* CoffeeShop.m */,
+				4CE587441134A07200BFC93A /* CoffeeShopList.h */,
+				4CE587451134A07200BFC93A /* CoffeeShopList.m */,
+				3D1CF511113317A50009F2A3 /* CoffeeShopMap.h */,
+				3D1CF512113317A50009F2A3 /* CoffeeShopMap.m */,
+			);
+			name = Domain;
+			sourceTree = "<group>";
+		};
+		4C12F88D113AB3C800DAF84C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4CE588281134A5B900BFC93A /* CoffeeShopRepositoryDelegate.h */,
+				4CEFEECA111DDB78001B5381 /* CoffeeShopRepository.h */,
+				4CEFEECB111DDB78001B5381 /* CoffeeShopRepository.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 		4C8A5F05113A960D000CA54B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4CE587951134A30200BFC93A /* CoffeeShopMapDelegate.h */,
+				4CE587961134A30200BFC93A /* CoffeeShopMapDelegate.m */,
+				4CE588931134A85400BFC93A /* CoffeeShopMapAnnotation.h */,
+				4CE588941134A85400BFC93A /* CoffeeShopMapAnnotation.m */,
 				3DA6457D11393E92005D3F3F /* CoffeeShopMapAnnotationView.h */,
 				3DA6457E11393E92005D3F3F /* CoffeeShopMapAnnotationView.m */,
 				4C8A5F06113A962B000CA54B /* LoadingView.h */,
@@ -208,19 +235,8 @@
 		4CE587F91134A4F400BFC93A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				4CE588931134A85400BFC93A /* CoffeeShopMapAnnotation.h */,
-				4CE588941134A85400BFC93A /* CoffeeShopMapAnnotation.m */,
-				4CEFEF6E111DE1D4001B5381 /* CoffeeShop.h */,
-				4CEFEF6F111DE1D4001B5381 /* CoffeeShop.m */,
-				4CE587441134A07200BFC93A /* CoffeeShopList.h */,
-				4CE587451134A07200BFC93A /* CoffeeShopList.m */,
-				3D1CF511113317A50009F2A3 /* CoffeeShopMap.h */,
-				3D1CF512113317A50009F2A3 /* CoffeeShopMap.m */,
-				4CE587951134A30200BFC93A /* CoffeeShopMapDelegate.h */,
-				4CE587961134A30200BFC93A /* CoffeeShopMapDelegate.m */,
-				4CEFEECA111DDB78001B5381 /* CoffeeShopRepository.h */,
-				4CEFEECB111DDB78001B5381 /* CoffeeShopRepository.m */,
-				4CE588281134A5B900BFC93A /* CoffeeShopRepositoryDelegate.h */,
+				4C12F88D113AB3C800DAF84C /* Data */,
+				4C12F88C113AB3C200DAF84C /* Domain */,
 			);
 			name = Model;
 			sourceTree = "<group>";

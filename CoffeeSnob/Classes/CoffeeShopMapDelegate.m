@@ -11,11 +11,6 @@
 
 @implementation CoffeeShopMapDelegate
 
-- (MKAnnotationView *)mapView:(MKMapView *)map viewForAnnotation:(id <MKAnnotation>)annotation {
-    if ([annotation isKindOfClass:[MKUserLocation class]]) return nil;
-	return [self createView: map annotation: annotation];
-}
-
 - (MKAnnotationView *)createView:(MKMapView *)map annotation:(id)annotation  {
 	
 	CoffeeShopMapAnnotationView* view = (CoffeeShopMapAnnotationView*)[map dequeueReusableAnnotationViewWithIdentifier:@"CustomPinAnnotation"];
@@ -34,6 +29,11 @@
 	}
 	
 	return view;
+}
+
+- (MKAnnotationView *)mapView:(MKMapView *)map viewForAnnotation:(id <MKAnnotation>)annotation {
+    if ([annotation isKindOfClass:[MKUserLocation class]]) return nil;
+	return [self createView: map annotation: annotation];
 }
 
 /*- (MKPinAnnotationView *)createPin:(MKMapView *)map annotation:(id)annotation  {

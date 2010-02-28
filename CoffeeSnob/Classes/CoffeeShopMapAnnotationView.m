@@ -22,7 +22,7 @@
 	self.frame = CGRectMake(0, 0, kWidth, kHeight);
 	self.backgroundColor = [UIColor whiteColor];
 	
-	CoffeeShopMapAnnotation* csAnnotation = (CoffeeShopMapAnnotation*)annotation;
+	//CoffeeShopMapAnnotation* csAnnotation = (CoffeeShopMapAnnotation*)annotation;
 
 	CoffeeShopViewController* aViewController = [[CoffeeShopViewController alloc] initWithNibName:@"CoffeeShopView" bundle:[NSBundle mainBundle]];
 	[self addSubview: aViewController.view];
