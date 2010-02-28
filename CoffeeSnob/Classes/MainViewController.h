@@ -26,7 +26,7 @@
 }
 
 - (IBAction) nextButtonClicked:(id)sender;
-- (IBAction) listButtonClicked:(id)sender;
+- (IBAction) flipButtonClicked:(id)sender;
 - (void) locationUpdated;
 - (void) shopsLoaded;
 
