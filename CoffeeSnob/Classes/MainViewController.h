@@ -11,12 +11,15 @@
 #import <CoreLocation/CoreLocation.h>
 
 #import "CoffeeShopMap.h"
+#import "LoadingView.h"
 
 @interface MainViewController : UIViewController{
-	IBOutlet CoffeeShopMap* coffeeMap;
+	IBOutlet CoffeeShopMap *coffeeMap;
+	IBOutlet LoadingView *loadingView;
 }
 
 - (IBAction) nextButtonClicked:(id)sender;
 - (void) locationUpdated;
+- (void) shopsLoaded;
 
 @end

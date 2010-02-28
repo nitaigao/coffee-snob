@@ -32,7 +32,9 @@
 	if (newLocation.horizontalAccuracy < 500 && !isGettingCoffee) {
 		isGettingCoffee = true;
 		[locationManager stopUpdatingLocation];
-		[viewController locationUpdated];
+		if ([viewController respondsToSelector:@selector(locationUpdated)]) {
+			[viewController performSelector:@selector(locationUpdated)];
+		}
 	}
 	[lock unlock];
 }
@@ -74,8 +76,17 @@
 }
 
 - (void)shopsLoaded:(NSMutableArray *)shops {
+	if ([viewController respondsToSelector:@selector(shopsLoaded)]) {
+		[viewController performSelector:@selector(shopsLoaded)];
+	}
+	
 	[coffeeShops addCoffeeShops:shops userLocation:mapView.userLocation.location];
 	[self showNextCoffeeShopToUser];
+}
+
+-(CLLocation *)getSelectedCoffeeShopLocation{	
+	CoffeeShopMapAnnotation* coffeeShopAnnotation = [mapView.selectedAnnotations objectAtIndex:0];
+	return [[CLLocation alloc]initWithLatitude:coffeeShopAnnotation.coordinate.latitude longitude:coffeeShopAnnotation.coordinate.longitude];
 }
 
 - (void)showDirectionsToSelectedCoffeeShop {
@@ -84,11 +95,6 @@
     NSString *destination = [NSString stringWithFormat: @"%f,%f", coffeeShoplocation.coordinate.latitude, coffeeShoplocation.coordinate.longitude];
 	NSString *url = [NSString stringWithFormat: @"http://maps.google.com/maps?saddr=%@&daddr=%@", startAddress, destination]; 
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
-}
-
--(CLLocation *)getSelectedCoffeeShopLocation{	
-	CoffeeShopMapAnnotation* coffeeShopAnnotation = [mapView.selectedAnnotations objectAtIndex:0];
-	return [[CLLocation alloc]initWithLatitude:coffeeShopAnnotation.coordinate.latitude longitude:coffeeShopAnnotation.coordinate.longitude];
 }
 
 @end

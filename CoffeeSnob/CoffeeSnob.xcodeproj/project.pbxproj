@@ -23,6 +23,8 @@
 		4C4460A5111C8D5500BAEC5D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4460A4111C8D5500BAEC5D /* MapKit.framework */; };
 		4C636D02111E0CAB005B9286 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C636D01111E0CAB005B9286 /* icon.png */; };
 		4C83F547111CE380002FE85E /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C83F546111CE380002FE85E /* GDataXMLNode.m */; };
+		4C8A5F08113A962B000CA54B /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A5F07113A962B000CA54B /* LoadingView.m */; };
+		4C8A5FB0113A9A39000CA54B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8A5FAF113A9A39000CA54B /* QuartzCore.framework */; };
 		4C9CBBD9111C918E00C945AD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9CBBD8111C918E00C945AD /* CoreLocation.framework */; };
 		4CE587461134A07200BFC93A /* CoffeeShopList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE587451134A07200BFC93A /* CoffeeShopList.m */; };
 		4CE587971134A30200BFC93A /* CoffeeShopMapDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE587961134A30200BFC93A /* CoffeeShopMapDelegate.m */; };
@@ -57,6 +59,9 @@
 		4C636D01111E0CAB005B9286 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		4C83F545111CE380002FE85E /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = Classes/GDataXMLNode.h; sourceTree = "<group>"; };
 		4C83F546111CE380002FE85E /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = Classes/GDataXMLNode.m; sourceTree = "<group>"; };
+		4C8A5F06113A962B000CA54B /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		4C8A5F07113A962B000CA54B /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		4C8A5FAF113A9A39000CA54B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		4C9CBBD8111C918E00C945AD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		4CE587441134A07200BFC93A /* CoffeeShopList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeShopList.h; sourceTree = "<group>"; };
 		4CE587451134A07200BFC93A /* CoffeeShopList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeShopList.m; sourceTree = "<group>"; };
@@ -85,6 +90,7 @@
 				4C9CBBD9111C918E00C945AD /* CoreLocation.framework in Frameworks */,
 				4C06B1B1111CE1AD00EEE115 /* CoreFoundation.framework in Frameworks */,
 				4CEEC417111D804500D52DA2 /* libxml2.dylib in Frameworks */,
+				4C8A5FB0113A9A39000CA54B /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +100,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4C8A5F05113A960D000CA54B /* Views */,
 				4CE587F91134A4F400BFC93A /* Model */,
 				4CE587F81134A4DF00BFC93A /* Controllers */,
 				1D3623240D0F684500981E51 /* CoffeeSnobAppDelegate.h */,
@@ -156,8 +163,20 @@
 				4C9CBBD8111C918E00C945AD /* CoreLocation.framework */,
 				4C06B1B0111CE1AD00EEE115 /* CoreFoundation.framework */,
 				4CEEC416111D804500D52DA2 /* libxml2.dylib */,
+				4C8A5FAF113A9A39000CA54B /* QuartzCore.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C8A5F05113A960D000CA54B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3DA6457D11393E92005D3F3F /* CoffeeShopMapAnnotationView.h */,
+				3DA6457E11393E92005D3F3F /* CoffeeShopMapAnnotationView.m */,
+				4C8A5F06113A962B000CA54B /* LoadingView.h */,
+				4C8A5F07113A962B000CA54B /* LoadingView.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 		4CC3D9C91135C97300E0925C /* Specs */ = {
@@ -189,21 +208,19 @@
 		4CE587F91134A4F400BFC93A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4CE588931134A85400BFC93A /* CoffeeShopMapAnnotation.h */,
+				4CE588941134A85400BFC93A /* CoffeeShopMapAnnotation.m */,
 				4CEFEF6E111DE1D4001B5381 /* CoffeeShop.h */,
 				4CEFEF6F111DE1D4001B5381 /* CoffeeShop.m */,
 				4CE587441134A07200BFC93A /* CoffeeShopList.h */,
 				4CE587451134A07200BFC93A /* CoffeeShopList.m */,
 				3D1CF511113317A50009F2A3 /* CoffeeShopMap.h */,
 				3D1CF512113317A50009F2A3 /* CoffeeShopMap.m */,
-				4CE588931134A85400BFC93A /* CoffeeShopMapAnnotation.h */,
-				4CE588941134A85400BFC93A /* CoffeeShopMapAnnotation.m */,
 				4CE587951134A30200BFC93A /* CoffeeShopMapDelegate.h */,
 				4CE587961134A30200BFC93A /* CoffeeShopMapDelegate.m */,
 				4CEFEECA111DDB78001B5381 /* CoffeeShopRepository.h */,
 				4CEFEECB111DDB78001B5381 /* CoffeeShopRepository.m */,
 				4CE588281134A5B900BFC93A /* CoffeeShopRepositoryDelegate.h */,
-				3DA6457D11393E92005D3F3F /* CoffeeShopMapAnnotationView.h */,
-				3DA6457E11393E92005D3F3F /* CoffeeShopMapAnnotationView.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -276,6 +293,7 @@
 				4CE588951134A85400BFC93A /* CoffeeShopMapAnnotation.m in Sources */,
 				3DA6457F11393E92005D3F3F /* CoffeeShopMapAnnotationView.m in Sources */,
 				3DA6475811396CD9005D3F3F /* CoffeeShopViewController.m in Sources */,
+				4C8A5F08113A962B000CA54B /* LoadingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

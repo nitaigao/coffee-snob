@@ -10,19 +10,20 @@
 
 @implementation MainViewController
 
-- (id)initWithCoder:(NSCoder *)aDecoder {
-	[super initWithCoder:aDecoder];
-		return self;
-}
-
 - (void)viewDidLoad {
     [super viewDidLoad];
+	[loadingView startAnimating:@"Finding You..."];
 	[coffeeMap startUpdatingLocation];
 }
 
 - (void)locationUpdated {
 	[coffeeMap showUserLocation];
+	[loadingView setMessage:@"Finding Shops..."];
 	[coffeeMap loadCoffeeShops];	
+}
+
+- (void) shopsLoaded {
+	[loadingView stopAnimatingAndHide];
 }
 
 -(BOOL)canBecomeFirstResponder {
