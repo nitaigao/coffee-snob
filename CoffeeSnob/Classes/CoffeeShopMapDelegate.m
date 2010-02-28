@@ -11,55 +11,48 @@
 
 @implementation CoffeeShopMapDelegate
 
-- (MKAnnotationView *)createView:(MKMapView *)map annotation:(id)annotation  {
-	
+NSString * const ANNOTATION_SELECTED = @"annotationselected";
+
+- (MKAnnotationView *)mapView:(MKMapView *)map viewForAnnotation:(id <MKAnnotation>)annotation {
+    if ([annotation isKindOfClass:[MKUserLocation class]]) return nil;
+	return [self createAnnotationView: map annotation: annotation];
+}
+
+- (MKAnnotationView *)createAnnotationView:(MKMapView *)map annotation:(id)annotation  {	
 	CoffeeShopMapAnnotationView* view = (CoffeeShopMapAnnotationView*)[map dequeueReusableAnnotationViewWithIdentifier:@"CustomPinAnnotation"];
-	
 	if (!view)
 	{
+		
 		view = [[[CoffeeShopMapAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"CustomPinAnnotation"] autorelease];
 		
-		UIButton* rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
-		[rightButton addTarget:viewController action:@selector(coffeeShopSelected) forControlEvents:UIControlEventTouchUpInside];
-		view.rightCalloutAccessoryView = rightButton;
+		//UIButton* rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+		//[rightButton addTarget:viewController action:@selector(coffeeShopDirections) forControlEvents:UIControlEventTouchUpInside];
+		//view.rightCalloutAccessoryView = rightButton;
+		
+		//Add an observer for the selected-property on the MKAnnotationView. Delegate to self.
+		[view addObserver:self
+				  forKeyPath:@"selected"
+					 options:NSKeyValueObservingOptionNew
+					 context:ANNOTATION_SELECTED];		
+		
 	}
 	else
 	{
 		view.annotation = annotation;
-	}
-	
+	}	
 	return view;
 }
 
-- (MKAnnotationView *)mapView:(MKMapView *)map viewForAnnotation:(id <MKAnnotation>)annotation {
-    if ([annotation isKindOfClass:[MKUserLocation class]]) return nil;
-	return [self createView: map annotation: annotation];
+- (void)observeValueForKeyPath:(NSString *)keyPath
+					  ofObject:(id)object
+						change:(NSDictionary *)change
+					   context:(void *)context{
+	
+	NSString *action = (NSString*)context;
+		
+	if([action isEqualToString:ANNOTATION_SELECTED]){
+		[viewController selectedMapAnnotationChanged:((CoffeeShopMapAnnotationView*) object).annotation];
+	}
 }
 
-/*- (MKPinAnnotationView *)createPin:(MKMapView *)map annotation:(id)annotation  {
-	MKPinAnnotationView* pinView = (MKPinAnnotationView*)[map dequeueReusableAnnotationViewWithIdentifier:@"CustomPinAnnotation"];
-	
-	if (!pinView)
-	{
-		pinView = [[[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"CustomPinAnnotation"] autorelease];
-		pinView.pinColor = MKPinAnnotationColorRed;
-		pinView.canShowCallout = YES;
-		pinView.selected = TRUE;
-		UIButton* rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
-		[rightButton addTarget:viewController action:@selector(coffeeShopSelected) forControlEvents:UIControlEventTouchUpInside];
-		pinView.rightCalloutAccessoryView = rightButton;
-	}
-	else
-	{
-		pinView.annotation = annotation;
-	}
-	
-	return pinView;
-}
-
-- (MKAnnotationView *)mapView:(MKMapView *)map viewForAnnotation:(id <MKAnnotation>)annotation {
-    if ([annotation isKindOfClass:[MKUserLocation class]]) return nil;
-	return [self createPin: map annotation: annotation];
-}
-*/
 @end

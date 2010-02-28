@@ -12,8 +12,8 @@
 #import "CoffeeShopMapAnnotation.h"
 
 
-@interface CoffeeShopMapAnnotationView : MKAnnotationView {
-	UIImageView* _imageView;
+@interface CoffeeShopMapAnnotationView : MKPinAnnotationView {
+	//UIImageView* imageView;
 }
 
 @end

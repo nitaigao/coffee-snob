@@ -7,8 +7,8 @@
 //
 
 #import "MainViewController.h"
-
 #import <QuartzCore/QuartzCore.h>
+#import "CoffeeShopMapAnnotation.h"
 
 @implementation MainViewController
 
@@ -30,10 +30,16 @@
 	[navigationBar setLeftBarButtonItem:listButton];
 }
 
+- (void) selectedMapAnnotationChanged:(CoffeeShopMapAnnotation*)annotation{
+	coffeeShopView.name.text = annotation.coffeeShopName;
+	NSString* imageName = [NSString stringWithFormat:@"%@.jpg", [annotation.coffeeShopName lowercaseString]];
+	coffeeShopView.image.image = [UIImage imageNamed:imageName];
+	[self.view addSubview:coffeeShopView];
+}
+
 -(BOOL)canBecomeFirstResponder {
     return YES;
 }
-
 
 -(void)viewDidAppear:(BOOL)animated {
 	[self becomeFirstResponder];
@@ -45,8 +51,12 @@
 	}
 }
 
-- (void)coffeeShopSelected {
+- (IBAction) directionsButtonClicked:(id)sender {
 	[coffeeMap showDirectionsToSelectedCoffeeShop];
+}
+
+- (IBAction) hideButtonClicked:(id)sender {
+	[coffeeShopView removeFromSuperview];
 }
 
 - (IBAction) nextButtonClicked:(id)sender {
@@ -54,6 +64,7 @@
 }
 
 - (IBAction) flipButtonClicked:(id)sender {
+	[coffeeShopView removeFromSuperview];
 	CGContextRef context = UIGraphicsGetCurrentContext();
 	[UIView beginAnimations:nil context:context];
 	[UIView setAnimationDuration:.75];

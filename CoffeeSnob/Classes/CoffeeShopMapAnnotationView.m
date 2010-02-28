@@ -8,7 +8,6 @@
 
 
 #import "CoffeeShopMapAnnotationView.h"
-#import "CoffeeShopViewController.h"
 
 #define kHeight 50
 #define kWidth  50
@@ -18,29 +17,24 @@
 
 - (id)initWithAnnotation:(id <MKAnnotation>)annotation reuseIdentifier:(NSString *)reuseIdentifier
 {
-	self = [super initWithAnnotation:annotation reuseIdentifier:reuseIdentifier];
-	self.frame = CGRectMake(0, 0, kWidth, kHeight);
-	self.backgroundColor = [UIColor whiteColor];
-	
-	//CoffeeShopMapAnnotation* csAnnotation = (CoffeeShopMapAnnotation*)annotation;
-
-	CoffeeShopViewController* aViewController = [[CoffeeShopViewController alloc] initWithNibName:@"CoffeeShopView" bundle:[NSBundle mainBundle]];
-	[self addSubview: aViewController.view];
-
+	self = [super initWithAnnotation:annotation reuseIdentifier:reuseIdentifier];	
 	self.canShowCallout = YES;
 	self.selected = TRUE;
-
+	self.pinColor = MKPinAnnotationColorRed;
+	
+	//self.backgroundColor = [UIColor whiteColor];
+	//self.frame = CGRectMake(0, 0, kWidth, kHeight);
 	//UIImage* image = [UIImage imageNamed:@"coffee.jpg"];
-	//_imageView = [[UIImageView alloc] initWithImage:image];	
-	//_imageView.frame = CGRectMake(kBorder, kBorder, kWidth - 2 * kBorder, kWidth - 2 * kBorder);
-	//[self addSubview:_imageView];
+	//imageView = [[UIImageView alloc] initWithImage:image];	
+	//imageView.frame = CGRectMake(kBorder, kBorder, kWidth - 2 * kBorder, kWidth - 2 * kBorder);
+	//[self addSubview:imageView];
 	
 	return self;
 }
 
 -(void) dealloc
 {
-	[_imageView release];
+	//[imageView release];
 	[super dealloc];
 }
 
