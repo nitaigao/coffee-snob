@@ -8,27 +8,33 @@
 
 #import "MainViewController.h"
 
+#import <QuartzCore/QuartzCore.h>
+
 @implementation MainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
 	[loadingView startAnimating:@"Finding You..."];
 	[coffeeMap startUpdatingLocation];
+	[navigationBar setLeftBarButtonItem:listButton];
 }
 
 - (void)locationUpdated {
 	[coffeeMap showUserLocation];
 	[loadingView setMessage:@"Finding Shops..."];
-	[coffeeMap loadCoffeeShops];	
+	//[coffeeMap loadCoffeeShops];	
 }
 
 - (void) shopsLoaded {
 	[loadingView stopAnimatingAndHide];
+	[navigationBar setRightBarButtonItem:nextButton];
+	[navigationBar setLeftBarButtonItem:listButton];
 }
 
 -(BOOL)canBecomeFirstResponder {
     return YES;
 }
+
 
 -(void)viewDidAppear:(BOOL)animated {
 	[self becomeFirstResponder];
@@ -46,6 +52,17 @@
 
 - (IBAction) nextButtonClicked:(id)sender {
 	[coffeeMap showNextCoffeeShopToUser];
+}
+
+
+- (IBAction) listButtonClicked:(id)sender {
+	CGContextRef context = UIGraphicsGetCurrentContext();
+	
+	[UIView beginAnimations:nil context:context];
+	[UIView setAnimationDuration:.75];
+	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:[self view] cache:YES];
+	[[self view] exchangeSubviewAtIndex:0 withSubviewAtIndex:1];
+	[UIView commitAnimations];
 }
 
 @end

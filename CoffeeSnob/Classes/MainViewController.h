@@ -16,9 +16,17 @@
 @interface MainViewController : UIViewController{
 	IBOutlet CoffeeShopMap *coffeeMap;
 	IBOutlet LoadingView *loadingView;
+	
+	IBOutlet UINavigationItem *navigationBar;
+	IBOutlet UIBarButtonItem *nextButton;
+	IBOutlet UIBarButtonItem *listButton;
+	
+	IBOutlet UIView *listView;
+	IBOutlet UIView *mapView;
 }
 
 - (IBAction) nextButtonClicked:(id)sender;
+- (IBAction) listButtonClicked:(id)sender;
 - (void) locationUpdated;
 - (void) shopsLoaded;
 
