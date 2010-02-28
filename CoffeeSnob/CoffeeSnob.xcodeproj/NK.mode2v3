@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>4C12F8A9113AB44700DAF84C</string>
+						<string>4CCEA378113AB9BD0090C6D0</string>
 						<key>history</key>
 						<array>
 							<string>4C8863BF113AB289007EB789</string>
@@ -228,8 +228,8 @@
 							<string>4C12F8A4113AB44700DAF84C</string>
 							<string>4C12F8A5113AB44700DAF84C</string>
 							<string>4C12F8A6113AB44700DAF84C</string>
-							<string>4C12F8A7113AB44700DAF84C</string>
-							<string>4C12F8A8113AB44700DAF84C</string>
+							<string>4CCEA373113AB9BD0090C6D0</string>
+							<string>4CCEA374113AB9BD0090C6D0</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -343,7 +343,7 @@
 										</array>
 									</array>
 									<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-									<string>{{0, 56}, {371, 736}}</string>
+									<string>{{0, 0}, {371, 736}}</string>
 								</dict>
 								<key>PBXTopSmartGroupGIDs</key>
 								<array/>
@@ -506,8 +506,8 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>4C12F89F113AB44700DAF84C</string>
-				<string>4C12F8A0113AB44700DAF84C</string>
+				<string>4CCEA371113AB9BD0090C6D0</string>
+				<string>4CCEA372113AB9BD0090C6D0</string>
 				<string>1C9437FD063B20B00039CFAC</string>
 				<string>1C9437FE063B20B00039CFAC</string>
 				<string>1C9437FF063B20B00039CFAC</string>
@@ -546,9 +546,13 @@
 	<integer>0</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>4CCEA376113AB9BD0090C6D0</string>
+		<string>4CCEA377113AB9BD0090C6D0</string>
+		<string>1C530D5B069F1CE1000CFCEE</string>
+		<string>1C530D54069F1CE1000CFCEE</string>
 		<string>1C530D52069F1CE1000CFCEE</string>
-		<string>4C88638B113AB1E8007EB789</string>
 		<string>/Users/NK/Development/iphone/CoffeeSnob/CoffeeSnob.xcodeproj</string>
+		<string>4C88638B113AB1E8007EB789</string>
 	</array>
 	<key>WindowString</key>
 	<string>7 55 388 822 0 0 1440 878 </string>
@@ -709,7 +713,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CoffeeShopMapAnnotationView.m</string>
+								<string>CoffeeShopViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -767,7 +771,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D52069F1CE1000CFCEE</string>
-				<string>4C12F8AA113AB44700DAF84C</string>
+				<string>4CCEA364113AB9B00090C6D0</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -780,7 +784,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C530D52069F1CE1000CFCEE</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -889,13 +893,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D54069F1CE1000CFCEE</string>
-				<string>4C88639E113AB228007EB789</string>
+				<string>4CCEA365113AB9B00090C6D0</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>4C88639F113AB228007EB789</string>
-				<string>4C8863A0113AB228007EB789</string>
-				<string>4C8863A1113AB228007EB789</string>
-				<string>4C8863A2113AB228007EB789</string>
-				<string>4C8863A3113AB228007EB789</string>
+				<string>4CCEA366113AB9B00090C6D0</string>
+				<string>4CCEA367113AB9B00090C6D0</string>
+				<string>4CCEA368113AB9B00090C6D0</string>
+				<string>4CCEA369113AB9B00090C6D0</string>
+				<string>4CCEA36A113AB9B00090C6D0</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -1057,7 +1061,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D5B069F1CE1000CFCEE</string>
-				<string>4C8863A4113AB228007EB789</string>
+				<string>4CCEA36B113AB9B00090C6D0</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
