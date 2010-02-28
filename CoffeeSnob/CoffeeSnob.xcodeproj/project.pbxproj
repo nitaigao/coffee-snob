@@ -22,6 +22,7 @@
 		3DA646E4113951C1005D3F3F /* coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DA646E3113951C1005D3F3F /* coffee.jpg */; };
 		4C06B1B1111CE1AD00EEE115 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C06B1B0111CE1AD00EEE115 /* CoreFoundation.framework */; };
 		4C4460A5111C8D5500BAEC5D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4460A4111C8D5500BAEC5D /* MapKit.framework */; };
+		4C47D9E8113B33E300F83BCA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47D9E7113B33E300F83BCA /* icon.png */; };
 		4C83F547111CE380002FE85E /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C83F546111CE380002FE85E /* GDataXMLNode.m */; };
 		4C8A5F08113A962B000CA54B /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A5F07113A962B000CA54B /* LoadingView.m */; };
 		4C8A5FB0113A9A39000CA54B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8A5FAF113A9A39000CA54B /* QuartzCore.framework */; };
@@ -57,6 +58,7 @@
 		3DA646E3113951C1005D3F3F /* coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coffee.jpg; sourceTree = "<group>"; };
 		4C06B1B0111CE1AD00EEE115 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		4C4460A4111C8D5500BAEC5D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4C47D9E7113B33E300F83BCA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../iPhone/CoffeeSnob/icon.png; sourceTree = SOURCE_ROOT; };
 		4C83F545111CE380002FE85E /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = Classes/GDataXMLNode.h; sourceTree = "<group>"; };
 		4C83F546111CE380002FE85E /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = Classes/GDataXMLNode.m; sourceTree = "<group>"; };
 		4C8A5F06113A962B000CA54B /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources-iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				4C47D9E7113B33E300F83BCA /* icon.png */,
 				3D2FC051113B0D9B002FD2AD /* tina, we salute you.jpg */,
 				3D2FC053113B0DA1002FD2AD /* le peche mignon.jpg */,
 				3DA646E3113951C1005D3F3F /* coffee.jpg */,
@@ -287,6 +290,7 @@
 				3DA646E4113951C1005D3F3F /* coffee.jpg in Resources */,
 				3D2FC052113B0D9B002FD2AD /* tina, we salute you.jpg in Resources */,
 				3D2FC054113B0DA1002FD2AD /* le peche mignon.jpg in Resources */,
+				4C47D9E8113B33E300F83BCA /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

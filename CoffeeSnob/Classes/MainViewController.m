@@ -64,15 +64,16 @@
 }
 
 - (IBAction) flipButtonClicked:(id)sender {
+	bool toMap = ![listButton.title compare:@"List"];
 	[coffeeShopView removeFromSuperview];
 	CGContextRef context = UIGraphicsGetCurrentContext();
 	[UIView beginAnimations:nil context:context];
 	[UIView setAnimationDuration:.75];
-	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromRight forView:[self view] cache:YES];
+	[UIView setAnimationTransition:toMap ? UIViewAnimationTransitionFlipFromLeft : UIViewAnimationTransitionFlipFromRight forView:[self view] cache:YES];
 	[self.view exchangeSubviewAtIndex:0 withSubviewAtIndex:1];
 	[UIView commitAnimations];
-	listButton.title = ![listButton.title compare:@"List"] ? @"Map" : @"List";
-	navigationBar.rightBarButtonItem = ![listButton.title compare:@"List"] ? nextButton : nil; 
+	listButton.title = toMap ? @"Map" : @"List";
+	navigationBar.rightBarButtonItem = toMap ? nextButton : nil; 
 }
 
 @end

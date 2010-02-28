@@ -13,10 +13,6 @@
 
 NSString * const ANNOTATION_SELECTED = @"annotationselected";
 
-- (MKAnnotationView *)mapView:(MKMapView *)map viewForAnnotation:(id <MKAnnotation>)annotation {
-    if ([annotation isKindOfClass:[MKUserLocation class]]) return nil;
-	return [self createAnnotationView: map annotation: annotation];
-}
 
 - (MKAnnotationView *)createAnnotationView:(MKMapView *)map annotation:(id)annotation  {	
 	CoffeeShopMapAnnotationView* view = (CoffeeShopMapAnnotationView*)[map dequeueReusableAnnotationViewWithIdentifier:@"CustomPinAnnotation"];
@@ -31,9 +27,9 @@ NSString * const ANNOTATION_SELECTED = @"annotationselected";
 		
 		//Add an observer for the selected-property on the MKAnnotationView. Delegate to self.
 		[view addObserver:self
-				  forKeyPath:@"selected"
-					 options:NSKeyValueObservingOptionNew
-					 context:ANNOTATION_SELECTED];		
+			   forKeyPath:@"selected"
+				  options:NSKeyValueObservingOptionNew
+				  context:ANNOTATION_SELECTED];		
 		
 	}
 	else
@@ -43,15 +39,23 @@ NSString * const ANNOTATION_SELECTED = @"annotationselected";
 	return view;
 }
 
+
+- (MKAnnotationView *)mapView:(MKMapView *)map viewForAnnotation:(id <MKAnnotation>)annotation {
+    if ([annotation isKindOfClass:[MKUserLocation class]]) return nil;
+	return [self createAnnotationView: map annotation: annotation];
+}
+
 - (void)observeValueForKeyPath:(NSString *)keyPath
-					  ofObject:(id)object
+					  ofObject:(CoffeeShopMapAnnotationView*)object
 						change:(NSDictionary *)change
 					   context:(void *)context{
 	
 	NSString *action = (NSString*)context;
 		
 	if([action isEqualToString:ANNOTATION_SELECTED]){
-		[viewController selectedMapAnnotationChanged:((CoffeeShopMapAnnotationView*) object).annotation];
+		if ([viewController respondsToSelector:@selector(selectedMapAnnotationChanged:)]) {
+			[viewController performSelector:@selector(selectedMapAnnotationChanged:) withObject:object.annotation];
+		}
 	}
 }
 
