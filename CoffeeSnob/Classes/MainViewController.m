@@ -16,6 +16,7 @@
     [super viewDidLoad];
 	[loadingView startAnimating:@"Finding You..."];
 	[coffeeMap startUpdatingLocation];
+	[coffeeShopView removeFromSuperview];
 }
 
 - (void)locationUpdated {
@@ -24,7 +25,7 @@
 	[coffeeMap loadCoffeeShops];	
 }
 
-- (void) shopsLoaded {
+- (void)shopsLoaded {
 	[loadingView stopAnimatingAndHide];
 	[navigationBar setRightBarButtonItem:nextButton];
 	[navigationBar setLeftBarButtonItem:listButton];
@@ -63,17 +64,21 @@
 	[coffeeMap showNextCoffeeShopToUser];
 }
 
-- (IBAction) flipButtonClicked:(id)sender {
-	bool toMap = ![listButton.title compare:@"List"];
-	[coffeeShopView removeFromSuperview];
+- (void)flipViews:(UIViewAnimationTransition) transition {
 	CGContextRef context = UIGraphicsGetCurrentContext();
 	[UIView beginAnimations:nil context:context];
 	[UIView setAnimationDuration:.75];
-	[UIView setAnimationTransition:toMap ? UIViewAnimationTransitionFlipFromLeft : UIViewAnimationTransitionFlipFromRight forView:[self view] cache:YES];
+	[UIView setAnimationTransition:transition forView:[self view] cache:YES];
 	[self.view exchangeSubviewAtIndex:0 withSubviewAtIndex:1];
 	[UIView commitAnimations];
-	listButton.title = toMap ? @"Map" : @"List";
-	navigationBar.rightBarButtonItem = toMap ? nextButton : nil; 
+}
+
+- (IBAction) flipButtonClicked:(id)sender {
+	bool isList = ![listButton.title compare:@"List"];
+	[coffeeShopView removeFromSuperview];
+	[self flipViews:isList ? UIViewAnimationTransitionFlipFromRight : UIViewAnimationTransitionFlipFromLeft];
+	listButton.title = isList ? @"Map" : @"List";
+	navigationBar.rightBarButtonItem = isList ? nil : nextButton; 
 }
 
 @end

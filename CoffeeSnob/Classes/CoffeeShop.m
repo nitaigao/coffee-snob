@@ -14,6 +14,31 @@
 @synthesize name;
 @synthesize location;
 
+- (id)initWithXml:(GDataXMLNode*)xml {
+	[self init];
+	for (int j = 0; j < xml.children.count; j++) {
+		GDataXMLNode *coffeeShopNodeXML = [xml.children objectAtIndex:j];
+		
+		if (![coffeeShopNodeXML.name compare:@"title"]) {
+			name = [coffeeShopNodeXML stringValue];
+		}
+		
+		if (![coffeeShopNodeXML.name compare:@"georss:point"]) {
+			
+			NSString* point = [coffeeShopNodeXML stringValue];
+			point = [point stringByReplacingOccurrencesOfString:@"  " withString:@""];
+			point = [point stringByReplacingOccurrencesOfString:@"\n" withString:@""];
+			
+			NSArray* latitudeLongitude = [point componentsSeparatedByString:@" "];
+			NSString* longitude = [latitudeLongitude objectAtIndex:0];
+			NSString* latitude = [latitudeLongitude objectAtIndex:1];
+			
+			location = [[CLLocation alloc]initWithLatitude:[longitude doubleValue] longitude:[latitude doubleValue] ];
+		}
+	}
+	return self;
+}
+
 - (CoffeeShopMapAnnotation*) getMapAnnotation {
 	CoffeeShopMapAnnotation* coffeeShopAnnotation = [[CoffeeShopMapAnnotation alloc]init];
 	coffeeShopAnnotation.coffeeShopName = name;

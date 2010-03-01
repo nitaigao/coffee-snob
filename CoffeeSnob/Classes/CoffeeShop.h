@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
 #import "CoffeeShopMapAnnotation.h"
-
+#import "GDataXMLNode.h"
 
 @interface CoffeeShop : NSObject {
 	NSString* name;
@@ -19,6 +19,7 @@
 @property (nonatomic, retain) NSString* name;
 @property (nonatomic, retain) CLLocation* location;
 
+- (id)initWithXml:(GDataXMLNode*)xml;
 - (CoffeeShopMapAnnotation*) getMapAnnotation;
 - (NSNumber*) getDistanceFrom:(CLLocation*)otherLocation;
 

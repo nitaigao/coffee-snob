@@ -12,7 +12,7 @@
 #import "CoffeeShopRepository.h"
 #import "CoffeeShopList.h"
 
-@interface CoffeeShopMap : NSObject<CoffeeShopRepositoryDelegate, CLLocationManagerDelegate> {
+@interface CoffeeShopMap : NSObject<CLLocationManagerDelegate> {
 	IBOutlet UIViewController *viewController;
 	IBOutlet MKMapView* mapView;
 	CLLocationManager* locationManager;

@@ -23,9 +23,6 @@
 	IBOutlet UINavigationItem *navigationBar;
 	IBOutlet UIBarButtonItem *nextButton;
 	IBOutlet UIBarButtonItem *listButton;
-	
-	IBOutlet UIView *listView;
-	IBOutlet UIView *mapView;
 }
 
 - (IBAction) nextButtonClicked:(id)sender;
