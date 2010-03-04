@@ -21,14 +21,6 @@
 	self.canShowCallout = YES;
 	self.selected = TRUE;
 	self.pinColor = MKPinAnnotationColorRed;
-	
-	//self.backgroundColor = [UIColor whiteColor];
-	//self.frame = CGRectMake(0, 0, kWidth, kHeight);
-	//UIImage* image = [UIImage imageNamed:@"coffee.jpg"];
-	//imageView = [[UIImageView alloc] initWithImage:image];	
-	//imageView.frame = CGRectMake(kBorder, kBorder, kWidth - 2 * kBorder, kWidth - 2 * kBorder);
-	//[self addSubview:imageView];
-	
 	return self;
 }
 

@@ -19,12 +19,7 @@ NSString * const ANNOTATION_DESELECTED = @"annotationdeselected";
 	CoffeeShopMapAnnotationView* view = (CoffeeShopMapAnnotationView*)[map dequeueReusableAnnotationViewWithIdentifier:@"CustomPinAnnotation"];
 	if (!view)
 	{
-		
 		view = [[[CoffeeShopMapAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"CustomPinAnnotation"] autorelease];
-		
-		//UIButton* rightButton = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
-		//[rightButton addTarget:viewController action:@selector(coffeeShopDirections) forControlEvents:UIControlEventTouchUpInside];
-		//view.rightCalloutAccessoryView = rightButton;
 		
 		//Add an observer for the selected-property on the MKAnnotationView. Delegate to self.
 		[view addObserver:self
