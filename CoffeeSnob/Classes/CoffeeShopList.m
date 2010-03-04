@@ -2,7 +2,7 @@
 //  CoffeeShopList.m
 //  CoffeeSnob
 //
-//  Created by Nicholas Kostelnik on 23/02/2010.
+//  Created by Nicholas Kostelnik on 04/03/2010.
 //  Copyright 2010 Black Art Studios. All rights reserved.
 //
 
@@ -10,27 +10,17 @@
 
 @implementation CoffeeShopList
 
-- (id)init {
-	[super init];
-	sortedShops = [[NSMutableArray alloc]init];
-	coffeeShopsWithDistance = [[NSMutableDictionary alloc]init];	
-	return self;
+- (void)shopsLoaded:(NSMutableArray*)shops {
+	coffeeShopData = shops;	
+	[coffeeShops reloadData];	
 }
 
-- (void)addCoffeeShops:(NSArray *)coffeeShops userLocation:(CLLocation*)userLocation {
-	for(CoffeeShop *shop in coffeeShops) {		
-		NSNumber* absoluteDistanceFromUser = [shop getDistanceFrom:userLocation];
-		[sortedShops addObject:absoluteDistanceFromUser];
-		[coffeeShopsWithDistance setValue:shop forKey:[absoluteDistanceFromUser stringValue]];
-	}
-	
-	[sortedShops sortUsingSelector:@selector(compare:)];	
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+	return coffeeShopData.count; 
 }
 
-- (CoffeeShop*)getNextCoffeeShop {
-	static NSInteger currentShopIndex = 0;
-	currentShopIndex = currentShopIndex >= sortedShops.count ? 0 : currentShopIndex;	
-	return [coffeeShopsWithDistance objectForKey:[[sortedShops objectAtIndex:currentShopIndex++] stringValue]];
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+	return nil;
 }
 
 @end

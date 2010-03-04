@@ -13,7 +13,7 @@
 
 - (id)init {
 	[super init];
-	coffeeShops = [[CoffeeShopList alloc]init];
+	coffeeShops = [[CoffeeShopsList alloc]init];
 	locationManager = [[CLLocationManager alloc] init];
 	lock = [[NSLock alloc]init];
 	return self;
@@ -71,15 +71,7 @@
 	[self zoomMapToUserAndShop: coffeeShop];
 }
 
-- (void)loadCoffeeShops { 
-	[[[CoffeeShopRepository alloc] init] findAll:self];	
-}
-
 - (void)shopsLoaded:(NSMutableArray *)shops {
-	if ([viewController respondsToSelector:@selector(shopsLoaded)]) {
-		[viewController performSelector:@selector(shopsLoaded)];
-	}
-	
 	[coffeeShops addCoffeeShops:shops userLocation:mapView.userLocation.location];
 	[self showNextCoffeeShopToUser];
 }

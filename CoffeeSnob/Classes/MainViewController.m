@@ -22,7 +22,7 @@
 - (void)locationUpdated {
 	[coffeeMap showUserLocation];
 	[loadingView setMessage:@"Finding Shops..."];
-	[coffeeMap loadCoffeeShops];	
+	[[[CoffeeShopRepository alloc] init] findAll:self];		
 }
 
 - (void)shopsLoaded {
@@ -67,6 +67,11 @@
 
 - (IBAction) nextButtonClicked:(id)sender {
 	[coffeeMap showNextCoffeeShopToUser];
+}
+
+- (void)shopsLoaded:(NSMutableArray *)shops {
+	[coffeeMap shopsLoaded:shops];
+	[coffeeList shopsLoaded:shops];
 }
 
 - (void)flipViews:(UIViewAnimationTransition) transition {
