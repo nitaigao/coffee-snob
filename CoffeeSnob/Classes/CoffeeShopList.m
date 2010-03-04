@@ -29,6 +29,7 @@
 
 - (CoffeeShop*)getNextCoffeeShop {
 	static NSInteger currentShopIndex = 0;
+	currentShopIndex = currentShopIndex >= sortedShops.count ? 0 : currentShopIndex;	
 	return [coffeeShopsWithDistance objectForKey:[[sortedShops objectAtIndex:currentShopIndex++] stringValue]];
 }
 

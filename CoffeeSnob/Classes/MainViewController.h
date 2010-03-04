@@ -32,6 +32,5 @@
 - (void) locationUpdated;
 - (void) shopsLoaded;
 - (void) selectedMapAnnotationChanged:(CoffeeShopMapAnnotation*)annotation;
-- (void) mapAnnotationSelected:(CoffeeShopMapAnnotation*)annotation;
 
 @end
