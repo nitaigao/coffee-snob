@@ -12,6 +12,7 @@
 @implementation CoffeeShopMapDelegate
 
 NSString * const ANNOTATION_SELECTED = @"annotationselected";
+NSString * const ANNOTATION_DESELECTED = @"annotationdeselected";
 
 
 - (MKAnnotationView *)createAnnotationView:(MKMapView *)map annotation:(id)annotation  {	
@@ -29,7 +30,12 @@ NSString * const ANNOTATION_SELECTED = @"annotationselected";
 		[view addObserver:self
 			   forKeyPath:@"selected"
 				  options:NSKeyValueObservingOptionNew
-				  context:ANNOTATION_SELECTED];		
+				  context:ANNOTATION_SELECTED];	
+		
+		[view addObserver:self
+			   forKeyPath:@"deselected"
+				  options:NSKeyValueObservingOptionNew
+				  context:ANNOTATION_DESELECTED];	
 		
 	}
 	else
@@ -51,6 +57,8 @@ NSString * const ANNOTATION_SELECTED = @"annotationselected";
 					   context:(void *)context{
 	
 	NSString *action = (NSString*)context;
+	
+	NSLog(@"%@", action);
 		
 	if([action isEqualToString:ANNOTATION_SELECTED]){
 		if ([viewController respondsToSelector:@selector(selectedMapAnnotationChanged:)]) {

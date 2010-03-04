@@ -7,11 +7,19 @@
 //
 
 #import "CoffeeShopView.h"
+#import <QuartzCore/QuartzCore.h>
 
 @implementation CoffeeShopView
 
 @synthesize name;
 @synthesize image;
+
+- (id)initWithCoder:(NSCoder *)aDecoder {
+	[super initWithCoder:aDecoder];
+	
+	self.layer.cornerRadius = 10;
+	return self;
+}
 
 - (void)dealloc {
     [super dealloc];

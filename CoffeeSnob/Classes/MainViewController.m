@@ -32,10 +32,15 @@
 }
 
 - (void) selectedMapAnnotationChanged:(CoffeeShopMapAnnotation*)annotation{
+	[coffeeShopView setHidden:YES];
 	coffeeShopView.name.text = annotation.coffeeShopName;
 	NSString* imageName = [NSString stringWithFormat:@"%@.jpg", [annotation.coffeeShopName lowercaseString]];
 	coffeeShopView.image.image = [UIImage imageNamed:imageName];
 	[self.view addSubview:coffeeShopView];
+}
+
+- (void) mapAnnotationSelected:(CoffeeShopMapAnnotation*)annotation {
+	[coffeeShopView setHidden:NO];	
 }
 
 -(BOOL)canBecomeFirstResponder {
