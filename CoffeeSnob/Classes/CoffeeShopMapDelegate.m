@@ -27,11 +27,6 @@ NSString * const ANNOTATION_DESELECTED = @"annotationdeselected";
 				  options:NSKeyValueObservingOptionNew
 				  context:ANNOTATION_SELECTED];	
 		
-		[view addObserver:self
-			   forKeyPath:@"deselected"
-				  options:NSKeyValueObservingOptionNew
-				  context:ANNOTATION_DESELECTED];	
-		
 	}
 	else
 	{
@@ -52,8 +47,6 @@ NSString * const ANNOTATION_DESELECTED = @"annotationdeselected";
 					   context:(void *)context{
 	
 	NSString *action = (NSString*)context;
-	
-	NSLog(@"%@", action);
 		
 	if([action isEqualToString:ANNOTATION_SELECTED]){
 		if ([viewController respondsToSelector:@selector(selectedMapAnnotationChanged:)]) {
