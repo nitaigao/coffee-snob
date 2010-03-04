@@ -47,7 +47,6 @@
 			1D6058900D05DD3D006BFB54 /* CoffeeSnob */,
 		);
 		breakpoints = (
-			4C6B3626114048F600D152BF /* CoffeeShopList.m:14 */,
 			4C6B3628114048F600D152BF /* CoffeeShopList.m:19 */,
 			4C6B362A114048F700D152BF /* CoffeeShopList.m:23 */,
 		);
@@ -151,9 +150,9 @@
 	};
 	3D1CF512113317A50009F2A3 /* CoffeeShopMap.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1222, 1488}}";
-			sepNavSelRange = "{2394, 0}";
-			sepNavVisRange = "{1052, 2490}";
+			sepNavIntBoundsRect = "{{0, 0}, {1222, 1504}}";
+			sepNavSelRange = "{2800, 0}";
+			sepNavVisRange = "{950, 2807}";
 			sepNavWindowFrame = "{{320, 4}, {1115, 874}}";
 		};
 	};
@@ -274,15 +273,15 @@
 	4C6B35A31140446200D152BF /* CoffeeShopList.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1222, 890}}";
-			sepNavSelRange = "{189, 0}";
+			sepNavSelRange = "{373, 0}";
 			sepNavVisRange = "{0, 374}";
 		};
 	};
 	4C6B35A41140446200D152BF /* CoffeeShopList.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {946, 400}}";
-			sepNavSelRange = "{562, 0}";
-			sepNavVisRange = "{259, 287}";
+			sepNavIntBoundsRect = "{{0, 0}, {1222, 867}}";
+			sepNavSelRange = "{41, 0}";
+			sepNavVisRange = "{0, 567}";
 		};
 	};
 	4C6B35B1114044E700D152BF /* PBXTextBookmark */ = {
@@ -355,24 +354,6 @@
 		vrLen = 1733;
 		vrLoc = 1021;
 	};
-	4C6B3626114048F600D152BF /* CoffeeShopList.m:14 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = 4C6B35A41140446200D152BF /* CoffeeShopList.m */;
-		functionName = "-shopsLoaded:";
-		hitCount = 0;
-		ignoreCount = 0;
-		lineNumber = 14;
-		location = CoffeeMap;
-		modificationTime = 289425726.010651;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
-	};
 	4C6B3628114048F600D152BF /* CoffeeShopList.m:19 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
@@ -387,7 +368,7 @@
 		ignoreCount = 0;
 		lineNumber = 19;
 		location = CoffeeMap;
-		modificationTime = 289425726.0522389;
+		modificationTime = 289427055.00358;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};
@@ -405,7 +386,7 @@
 		ignoreCount = 0;
 		lineNumber = 23;
 		location = CoffeeMap;
-		modificationTime = 289425726.0960031;
+		modificationTime = 289427055.025174;
 		originalNumberOfMultipleMatches = 1;
 		state = 1;
 	};

@@ -77,6 +77,9 @@
 }
 
 - (void)shopsLoaded:(NSMutableArray *)shops {
+	[loadingView stopAnimatingAndHide];
+	[navigationBar setRightBarButtonItem:nextButton];
+	[navigationBar setLeftBarButtonItem:listButton];
 	[coffeeMap shopsLoaded:shops];
 	[coffeeList shopsLoaded:shops];
 }
