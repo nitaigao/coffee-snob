@@ -32,9 +32,9 @@
 	};
 	28216C960DB411BC00E5133A /* MainViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {946, 1568}}";
-			sepNavSelRange = "{1940, 0}";
-			sepNavVisRange = "{1803, 209}";
+			sepNavIntBoundsRect = "{{0, 0}, {1222, 1680}}";
+			sepNavSelRange = "{2293, 0}";
+			sepNavVisRange = "{1351, 1725}";
 			sepNavWindowFrame = "{{391, 0}, {1044, 878}}";
 		};
 	};
@@ -47,8 +47,6 @@
 			1D6058900D05DD3D006BFB54 /* CoffeeSnob */,
 		);
 		breakpoints = (
-			4C6B3628114048F600D152BF /* CoffeeShopList.m:19 */,
-			4C6B362A114048F700D152BF /* CoffeeShopList.m:23 */,
 		);
 		codeSenseManager = 4C446097111C8C9C00BAEC5D /* Code sense */;
 		executables = (
@@ -105,30 +103,30 @@
 			PBXWorkspaceStateSaveDate = 289425999;
 		};
 		perUserProjectItems = {
-			4C6B35881140431D00D152BF = 4C6B35881140431D00D152BF /* PBXTextBookmark */;
-			4C6B35891140431D00D152BF = 4C6B35891140431D00D152BF /* PBXTextBookmark */;
-			4C6B358A1140431D00D152BF = 4C6B358A1140431D00D152BF /* PBXTextBookmark */;
-			4C6B358B1140431D00D152BF = 4C6B358B1140431D00D152BF /* PBXTextBookmark */;
-			4C6B35B1114044E700D152BF = 4C6B35B1114044E700D152BF /* PBXTextBookmark */;
-			4C6B35B2114044E700D152BF = 4C6B35B2114044E700D152BF /* PBXTextBookmark */;
-			4C6B35B3114044E700D152BF = 4C6B35B3114044E700D152BF /* PBXTextBookmark */;
-			4C6B35F61140477300D152BF = 4C6B35F61140477300D152BF /* PBXTextBookmark */;
-			4C6B35F71140477300D152BF = 4C6B35F71140477300D152BF /* PBXTextBookmark */;
-			4C6B35F81140477300D152BF = 4C6B35F81140477300D152BF /* PBXTextBookmark */;
-			4C6B35F91140477300D152BF = 4C6B35F91140477300D152BF /* PBXTextBookmark */;
-			4C6B3652114049F300D152BF = 4C6B3652114049F300D152BF /* PBXTextBookmark */;
-			4C6B3653114049F300D152BF = 4C6B3653114049F300D152BF /* PBXTextBookmark */;
-			4C6B3654114049F300D152BF = 4C6B3654114049F300D152BF /* PBXTextBookmark */;
-			4C6B3655114049F300D152BF = 4C6B3655114049F300D152BF /* PBXTextBookmark */;
-			4C6B3656114049F300D152BF = 4C6B3656114049F300D152BF /* PBXTextBookmark */;
-			4C6B3657114049F300D152BF = 4C6B3657114049F300D152BF /* PBXTextBookmark */;
-			4C6B3658114049F300D152BF = 4C6B3658114049F300D152BF /* PBXTextBookmark */;
-			4C6B3659114049F300D152BF = 4C6B3659114049F300D152BF /* PBXTextBookmark */;
-			4C6B365A114049F300D152BF = 4C6B365A114049F300D152BF /* PBXTextBookmark */;
-			4C6B365B114049F300D152BF = 4C6B365B114049F300D152BF /* PBXTextBookmark */;
-			4C6B366111404A4300D152BF = 4C6B366111404A4300D152BF /* PBXTextBookmark */;
-			4CDEE89711404A5300CAC004 /* PBXTextBookmark */ = 4CDEE89711404A5300CAC004 /* PBXTextBookmark */;
-			4CDEE8A411404B1B00CAC004 /* PBXTextBookmark */ = 4CDEE8A411404B1B00CAC004 /* PBXTextBookmark */;
+			4C6B35881140431D00D152BF /* PBXTextBookmark */ = 4C6B35881140431D00D152BF /* PBXTextBookmark */;
+			4C6B35891140431D00D152BF /* PBXTextBookmark */ = 4C6B35891140431D00D152BF /* PBXTextBookmark */;
+			4C6B358A1140431D00D152BF /* PBXTextBookmark */ = 4C6B358A1140431D00D152BF /* PBXTextBookmark */;
+			4C6B358B1140431D00D152BF /* PBXTextBookmark */ = 4C6B358B1140431D00D152BF /* PBXTextBookmark */;
+			4C6B35B1114044E700D152BF /* PBXTextBookmark */ = 4C6B35B1114044E700D152BF /* PBXTextBookmark */;
+			4C6B35B2114044E700D152BF /* PBXTextBookmark */ = 4C6B35B2114044E700D152BF /* PBXTextBookmark */;
+			4C6B35B3114044E700D152BF /* PBXTextBookmark */ = 4C6B35B3114044E700D152BF /* PBXTextBookmark */;
+			4C6B35F71140477300D152BF /* PBXTextBookmark */ = 4C6B35F71140477300D152BF /* PBXTextBookmark */;
+			4C6B3653114049F300D152BF /* PBXTextBookmark */ = 4C6B3653114049F300D152BF /* PBXTextBookmark */;
+			4C6B3654114049F300D152BF /* PBXTextBookmark */ = 4C6B3654114049F300D152BF /* PBXTextBookmark */;
+			4C6B3655114049F300D152BF /* PBXTextBookmark */ = 4C6B3655114049F300D152BF /* PBXTextBookmark */;
+			4C6B3656114049F300D152BF /* PBXTextBookmark */ = 4C6B3656114049F300D152BF /* PBXTextBookmark */;
+			4C6B3658114049F300D152BF /* PBXTextBookmark */ = 4C6B3658114049F300D152BF /* PBXTextBookmark */;
+			4C6B3659114049F300D152BF /* PBXTextBookmark */ = 4C6B3659114049F300D152BF /* PBXTextBookmark */;
+			4C6B365A114049F300D152BF /* PBXTextBookmark */ = 4C6B365A114049F300D152BF /* PBXTextBookmark */;
+			4CDEE8BB11404F8700CAC004 /* PBXTextBookmark */ = 4CDEE8BB11404F8700CAC004 /* PBXTextBookmark */;
+			4CDEE8BC11404F8700CAC004 /* PBXTextBookmark */ = 4CDEE8BC11404F8700CAC004 /* PBXTextBookmark */;
+			4CDEE8BF11404F8700CAC004 /* PBXTextBookmark */ = 4CDEE8BF11404F8700CAC004 /* PBXTextBookmark */;
+			4CDEE9061140537F00CAC004 /* PBXTextBookmark */ = 4CDEE9061140537F00CAC004 /* PBXTextBookmark */;
+			4CDEE9071140537F00CAC004 /* PBXTextBookmark */ = 4CDEE9071140537F00CAC004 /* PBXTextBookmark */;
+			4CDEE9081140537F00CAC004 /* PBXTextBookmark */ = 4CDEE9081140537F00CAC004 /* PBXTextBookmark */;
+			4CDEE9091140537F00CAC004 /* PBXTextBookmark */ = 4CDEE9091140537F00CAC004 /* PBXTextBookmark */;
+			4CDEE90B1140537F00CAC004 /* PBXTextBookmark */ = 4CDEE90B1140537F00CAC004 /* PBXTextBookmark */;
+			4CDEE90C1140537F00CAC004 /* PBXTextBookmark */ = 4CDEE90C1140537F00CAC004 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 4C446096111C8C9C00BAEC5D /* Source Control */;
 		userBuildSettings = {
@@ -273,15 +271,15 @@
 	4C6B35A31140446200D152BF /* CoffeeShopList.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1222, 890}}";
-			sepNavSelRange = "{373, 0}";
+			sepNavSelRange = "{322, 0}";
 			sepNavVisRange = "{0, 374}";
 		};
 	};
 	4C6B35A41140446200D152BF /* CoffeeShopList.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1222, 867}}";
-			sepNavSelRange = "{41, 0}";
-			sepNavVisRange = "{0, 567}";
+			sepNavIntBoundsRect = "{{0, 0}, {1050, 752}}";
+			sepNavSelRange = "{308, 0}";
+			sepNavVisRange = "{0, 336}";
 		};
 	};
 	4C6B35B1114044E700D152BF /* PBXTextBookmark */ = {
@@ -314,16 +312,6 @@
 		vrLen = 446;
 		vrLoc = 0;
 	};
-	4C6B35F61140477300D152BF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4CEFEF6F111DE1D4001B5381 /* CoffeeShop.m */;
-		name = "CoffeeShop.m: 36";
-		rLen = 0;
-		rLoc = 999;
-		rType = 0;
-		vrLen = 1681;
-		vrLoc = 0;
-	};
 	4C6B35F71140477300D152BF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 4CE587451134A07200BFC93A /* CoffeeShopsList.m */;
@@ -332,72 +320,6 @@
 		rLoc = 934;
 		rType = 0;
 		vrLen = 1053;
-		vrLoc = 0;
-	};
-	4C6B35F81140477300D152BF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 3D1CF512113317A50009F2A3 /* CoffeeShopMap.m */;
-		name = "CoffeeShopMap.m: 70";
-		rLen = 0;
-		rLoc = 2394;
-		rType = 0;
-		vrLen = 2490;
-		vrLoc = 1052;
-	};
-	4C6B35F91140477300D152BF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28216C960DB411BC00E5133A /* MainViewController.m */;
-		name = "MainViewController.m: 74";
-		rLen = 0;
-		rLoc = 2005;
-		rType = 0;
-		vrLen = 1733;
-		vrLoc = 1021;
-	};
-	4C6B3628114048F600D152BF /* CoffeeShopList.m:19 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = 4C6B35A41140446200D152BF /* CoffeeShopList.m */;
-		functionName = "-tableView:numberOfRowsInSection:";
-		hitCount = 0;
-		ignoreCount = 0;
-		lineNumber = 19;
-		location = CoffeeMap;
-		modificationTime = 289427055.00358;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
-	};
-	4C6B362A114048F700D152BF /* CoffeeShopList.m:23 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = 4C6B35A41140446200D152BF /* CoffeeShopList.m */;
-		functionName = "-tableView:cellForRowAtIndexPath:";
-		hitCount = 0;
-		ignoreCount = 0;
-		lineNumber = 23;
-		location = CoffeeMap;
-		modificationTime = 289427055.025174;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
-	};
-	4C6B3652114049F300D152BF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4C6B35A41140446200D152BF /* CoffeeShopList.m */;
-		name = "CoffeeShopList.m: 23";
-		rLen = 0;
-		rLoc = 558;
-		rType = 0;
-		vrLen = 567;
 		vrLoc = 0;
 	};
 	4C6B3653114049F300D152BF /* PBXTextBookmark */ = {
@@ -440,16 +362,6 @@
 		vrLen = 1025;
 		vrLoc = 0;
 	};
-	4C6B3657114049F300D152BF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4CEFEF6E111DE1D4001B5381 /* CoffeeShop.h */;
-		name = "CoffeeShop.h: 12";
-		rLen = 0;
-		rLoc = 282;
-		rType = 0;
-		vrLen = 610;
-		vrLoc = 0;
-	};
 	4C6B3658114049F300D152BF /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 4CE587951134A30200BFC93A /* CoffeeShopMapDelegate.h */;
@@ -478,26 +390,6 @@
 		rLoc = 293;
 		rType = 0;
 		vrLen = 690;
-		vrLoc = 0;
-	};
-	4C6B365B114049F300D152BF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4C6B35A31140446200D152BF /* CoffeeShopList.h */;
-		name = "CoffeeShopList.h: 20";
-		rLen = 0;
-		rLoc = 374;
-		rType = 0;
-		vrLen = 372;
-		vrLoc = 0;
-	};
-	4C6B366111404A4300D152BF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4C6B35A31140446200D152BF /* CoffeeShopList.h */;
-		name = "CoffeeShopList.h: 12";
-		rLen = 0;
-		rLoc = 226;
-		rType = 0;
-		vrLen = 372;
 		vrLoc = 0;
 	};
 	4C83F545111CE380002FE85E /* GDataXMLNode.h */ = {
@@ -530,24 +422,103 @@
 			sepNavWindowFrame = "{{391, 0}, {1044, 878}}";
 		};
 	};
-	4CDEE89711404A5300CAC004 /* PBXTextBookmark */ = {
+	4CDEE8BB11404F8700CAC004 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 4C6B35A31140446200D152BF /* CoffeeShopList.h */;
-		name = "CoffeeShopList.h: 12";
+		fRef = 3D1CF512113317A50009F2A3 /* CoffeeShopMap.m */;
+		name = "CoffeeShopMap.m: 75";
 		rLen = 0;
-		rLoc = 226;
+		rLoc = 2800;
 		rType = 0;
-		vrLen = 372;
-		vrLoc = 0;
+		vrLen = 2807;
+		vrLoc = 950;
 	};
-	4CDEE8A411404B1B00CAC004 /* PBXTextBookmark */ = {
+	4CDEE8BC11404F8700CAC004 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C960DB411BC00E5133A /* MainViewController.m */;
+		name = "MainViewController.m: 83";
+		rLen = 0;
+		rLoc = 2293;
+		rType = 0;
+		vrLen = 1725;
+		vrLoc = 1351;
+	};
+	4CDEE8BE11404F8700CAC004 /* CoffeeShopList.m */ = {
+		isa = PBXFileReference;
+		name = CoffeeShopList.m;
+		path = /Users/NK/Development/iPhone/CoffeeSnob/Classes/CoffeeShopList.m;
+		sourceTree = "<absolute>";
+	};
+	4CDEE8BF11404F8700CAC004 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 4C6B35A31140446200D152BF /* CoffeeShopList.h */;
-		name = "CoffeeShopList.h: 11";
+		name = "CoffeeShopList.h: 15";
 		rLen = 0;
-		rLoc = 189;
+		rLoc = 322;
 		rType = 0;
 		vrLen = 374;
+		vrLoc = 0;
+	};
+	4CDEE9061140537F00CAC004 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CDEE8BE11404F8700CAC004 /* CoffeeShopList.m */;
+		rLen = 0;
+		rLoc = 22;
+		rType = 1;
+	};
+	4CDEE9071140537F00CAC004 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CEFEF6E111DE1D4001B5381 /* CoffeeShop.h */;
+		name = "CoffeeShop.h: 12";
+		rLen = 0;
+		rLoc = 282;
+		rType = 0;
+		vrLen = 610;
+		vrLoc = 0;
+	};
+	4CDEE9081140537F00CAC004 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CEFEF6F111DE1D4001B5381 /* CoffeeShop.m */;
+		name = "CoffeeShop.m: 12";
+		rLen = 27;
+		rLoc = 175;
+		rType = 0;
+		vrLen = 1681;
+		vrLoc = 0;
+	};
+	4CDEE9091140537F00CAC004 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CDEE90A1140537F00CAC004 /* UITableViewCell.h */;
+		name = "UITableViewCell.h: 154";
+		rLen = 28;
+		rLoc = 8151;
+		rType = 0;
+		vrLen = 6017;
+		vrLoc = 6044;
+	};
+	4CDEE90A1140537F00CAC004 /* UITableViewCell.h */ = {
+		isa = PBXFileReference;
+		name = UITableViewCell.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h;
+		sourceTree = "<absolute>";
+	};
+	4CDEE90B1140537F00CAC004 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C6B35A41140446200D152BF /* CoffeeShopList.m */;
+		name = "CoffeeShopList.m: 26";
+		rLen = 0;
+		rLoc = 812;
+		rType = 0;
+		vrLen = 886;
+		vrLoc = 0;
+	};
+	4CDEE90C1140537F00CAC004 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4C6B35A41140446200D152BF /* CoffeeShopList.m */;
+		name = "CoffeeShopList.m: 27";
+		rLen = 0;
+		rLoc = 811;
+		rType = 0;
+		vrLen = 953;
 		vrLoc = 0;
 	};
 	4CE587441134A07200BFC93A /* CoffeeShopsList.h */ = {
@@ -619,7 +590,7 @@
 	4CEFEF6F111DE1D4001B5381 /* CoffeeShop.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1222, 912}}";
-			sepNavSelRange = "{999, 0}";
+			sepNavSelRange = "{175, 27}";
 			sepNavVisRange = "{0, 1681}";
 			sepNavWindowFrame = "{{19, 6}, {1346, 867}}";
 		};

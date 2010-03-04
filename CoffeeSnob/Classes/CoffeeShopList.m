@@ -7,6 +7,7 @@
 //
 
 #import "CoffeeShopList.h"
+#import "CoffeeShop.h"
 
 @implementation CoffeeShopList
 
@@ -20,7 +21,16 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-	return nil;
+	static NSString* tableIdentifier = @"identifier";
+	
+	UITableViewCell *cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier: tableIdentifier] autorelease];
+	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+	
+	CoffeeShop *coffeeShop = [coffeeShopData objectAtIndex:indexPath.row];
+	
+	cell.textLabel.text = coffeeShop.name;
+	
+	return cell;
 }
 
 @end
