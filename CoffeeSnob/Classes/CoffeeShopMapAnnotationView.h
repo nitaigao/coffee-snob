@@ -13,7 +13,6 @@
 
 
 @interface CoffeeShopMapAnnotationView : MKPinAnnotationView {
-	//UIImageView* imageView;
 }
 
 @end

@@ -32,10 +32,15 @@
 }
 
 - (void) selectedMapAnnotationChanged:(CoffeeShopMapAnnotation*)annotation{
-	coffeeShopView.name.text = annotation.coffeeShopName;
-	NSString* imageName = [NSString stringWithFormat:@"%@.jpg", [annotation.coffeeShopName lowercaseString]];
-	coffeeShopView.image.image = [UIImage imageNamed:imageName];
-	[self.view addSubview:coffeeShopView];
+	if (coffeeShopView.name.text == annotation.coffeeShopName)
+		{[coffeeShopView removeFromSuperview];}
+	else
+	{
+		coffeeShopView.name.text = annotation.coffeeShopName;
+		NSString* imageName = [NSString stringWithFormat:@"%@.jpg", [annotation.coffeeShopName lowercaseString]];
+		coffeeShopView.image.image = [UIImage imageNamed:imageName];
+		[self.view addSubview:coffeeShopView];
+	}
 }
 
 -(BOOL)canBecomeFirstResponder {
