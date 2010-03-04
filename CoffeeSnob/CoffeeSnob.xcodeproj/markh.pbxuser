@@ -23,17 +23,17 @@
 	};
 	28216C950DB411BC00E5133A /* MainViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1101, 643}}";
-			sepNavSelRange = "{944, 28}";
-			sepNavVisRange = "{0, 1017}";
+			sepNavIntBoundsRect = "{{0, 0}, {1101, 644}}";
+			sepNavSelRange = "{953, 0}";
+			sepNavVisRange = "{0, 960}";
 			sepNavWindowFrame = "{{262, 83}, {1178, 795}}";
 		};
 	};
 	28216C960DB411BC00E5133A /* MainViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1101, 1209}}";
-			sepNavSelRange = "{910, 0}";
-			sepNavVisRange = "{3, 1425}";
+			sepNavIntBoundsRect = "{{0, 0}, {947, 1274}}";
+			sepNavSelRange = "{2698, 0}";
+			sepNavVisRange = "{1976, 608}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -46,7 +46,6 @@
 		);
 		breakpoints = (
 			3D2FC09A113B0FFC002FD2AD /* CoffeeShopMapDelegate.m:18 */,
-			3D2FC113113B162B002FD2AD /* MainViewController.m:38 */,
 		);
 		codeSenseManager = 3D2443CA112EF716001801D5 /* Code sense */;
 		executables = (
@@ -234,9 +233,9 @@
 	};
 	3D1CF512113317A50009F2A3 /* CoffeeShopMap.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1101, 1313}}";
-			sepNavSelRange = "{2284, 0}";
-			sepNavVisRange = "{0, 1403}";
+			sepNavIntBoundsRect = "{{0, 0}, {1101, 1300}}";
+			sepNavSelRange = "{1904, 0}";
+			sepNavVisRange = "{1138, 2318}";
 		};
 	};
 	3D2443AB112EF70A001801D5 /* CoffeeSnob */ = {
@@ -287,7 +286,7 @@
 	};
 	3D2FBE40113AE7D6002FD2AD /* CoffeeShopView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1101, 667}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1101, 644}}";
 			sepNavSelRange = "{261, 0}";
 			sepNavVisRange = "{0, 393}";
 		};
@@ -295,8 +294,8 @@
 	3D2FBE41113AE7D6002FD2AD /* CoffeeShopView.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1101, 667}}";
-			sepNavSelRange = "{237, 0}";
-			sepNavVisRange = "{0, 287}";
+			sepNavSelRange = "{381, 0}";
+			sepNavVisRange = "{0, 446}";
 		};
 	};
 	3D2FBE91113AF3A5002FD2AD /* PBXTextBookmark */ = {
@@ -334,7 +333,7 @@
 		fRef = 28216C960DB411BC00E5133A /* MainViewController.m */;
 		name = "MainViewController.m: 38";
 		rLen = 0;
-		rLoc = 1283;
+		rLoc = 1464;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -434,7 +433,7 @@
 		ignoreCount = 0;
 		lineNumber = 18;
 		location = CoffeeMap;
-		modificationTime = 289423111.880569;
+		modificationTime = 289426018.482093;
 		originalNumberOfMultipleMatches = 1;
 		state = 2;
 	};
@@ -486,24 +485,6 @@
 		vrLen = 287;
 		vrLoc = 0;
 	};
-	3D2FC113113B162B002FD2AD /* MainViewController.m:38 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = 28216C960DB411BC00E5133A /* MainViewController.m */;
-		functionName = "-selectedMapAnnotationChanged:";
-		hitCount = 2;
-		ignoreCount = 0;
-		lineNumber = 38;
-		location = CoffeeMap;
-		modificationTime = 289423134.283152;
-		originalNumberOfMultipleMatches = 1;
-		state = 1;
-	};
 	3D2FC120113B16AA002FD2AD /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 3DA646E3113951C1005D3F3F /* coffee.jpg */;
@@ -513,7 +494,7 @@
 		fRef = 3D1CF512113317A50009F2A3 /* CoffeeShopMap.m */;
 		name = "CoffeeShopMap.m: 66";
 		rLen = 0;
-		rLoc = 2284;
+		rLoc = 2493;
 		rType = 0;
 		vrLen = 1403;
 		vrLoc = 0;
@@ -522,7 +503,7 @@
 		isa = PBXTextBookmark;
 		fRef = 28216C950DB411BC00E5133A /* MainViewController.h */;
 		name = "MainViewController.h: 37";
-		rLen = 28;
+		rLen = 9;
 		rLoc = 944;
 		rType = 0;
 		vrLen = 1017;
@@ -644,7 +625,7 @@
 		isa = PBXTextBookmark;
 		fRef = 28216C960DB411BC00E5133A /* MainViewController.m */;
 		rLen = 0;
-		rLoc = 38;
+		rLoc = 41;
 		rType = 1;
 	};
 	3D2FC167113B17F8002FD2AD /* PBXTextBookmark */ = {
@@ -681,7 +662,7 @@
 		fRef = 28216C960DB411BC00E5133A /* MainViewController.m */;
 		name = "MainViewController.m: 36";
 		rLen = 0;
-		rLoc = 910;
+		rLoc = 948;
 		rType = 0;
 		vrLen = 1425;
 		vrLoc = 3;
@@ -998,7 +979,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1101, 871}}";
 			sepNavSelRange = "{715, 0}";
-			sepNavVisRange = "{0, 1607}";
+			sepNavVisRange = "{0, 1563}";
 			sepNavWindowFrame = "{{261, 83}, {1178, 795}}";
 		};
 	};
@@ -1011,9 +992,9 @@
 	};
 	4CEFEF6F111DE1D4001B5381 /* CoffeeShop.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1119, 667}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1101, 741}}";
 			sepNavSelRange = "{472, 0}";
-			sepNavVisRange = "{0, 795}";
+			sepNavVisRange = "{87, 1594}";
 		};
 	};
 	8D1107310486CEB800E47090 /* CoffeeSnob-Info.plist */ = {

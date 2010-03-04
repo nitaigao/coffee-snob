@@ -52,15 +52,16 @@
 - (void) zoomMapToUserAndShop:(CoffeeShop *)coffeeShop  {
 	
 	double longitudeDifference = (coffeeShop.location.coordinate.longitude - mapView.userLocation.coordinate.longitude);
+	longitudeDifference = (longitudeDifference > 0) ? longitudeDifference - 0.01: -longitudeDifference - .001;
 	double latitudeDifference = (coffeeShop.location.coordinate.latitude - mapView.userLocation.coordinate.latitude);
-
+	latitudeDifference = (latitudeDifference > 0) ? latitudeDifference + 0.01: -latitudeDifference + 0.01;
 	double centerMapLongitude = mapView.userLocation.coordinate.longitude + (longitudeDifference / 2);
 	double centerMapLatitude = mapView.userLocation.coordinate.latitude + (latitudeDifference / 2);
 
 	MKCoordinateRegion region;
 	region.center = [[[CLLocation alloc]initWithLatitude:centerMapLatitude longitude:centerMapLongitude] coordinate];
-	region.span.latitudeDelta = (latitudeDifference > 0) ? latitudeDifference : -latitudeDifference;
-	region.span.longitudeDelta = (longitudeDifference > 0) ? longitudeDifference : -longitudeDifference;
+	region.span.latitudeDelta = (latitudeDifference > 0) ? latitudeDifference: -latitudeDifference;
+	region.span.longitudeDelta = (longitudeDifference > 0) ? longitudeDifference: -longitudeDifference;
 
 	[mapView setRegion:region animated:TRUE];
 }

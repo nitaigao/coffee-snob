@@ -14,15 +14,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	[loadingView startAnimating:@"Finding You..."];
+	[loadingView startAnimating:@"Finding you..."];
 	[coffeeMap startUpdatingLocation];
 	[coffeeShopView removeFromSuperview];
 }
 
 - (void)locationUpdated {
 	[coffeeMap showUserLocation];
-	[loadingView setMessage:@"Finding Shops..."];
-	[[[CoffeeShopRepository alloc] init] findAll:self];		
+	[loadingView setMessage:@"Finding coffee..."];
+	[[[CoffeeShopRepository alloc] init] findAll:self];			
 }
 
 - (void)shopsLoaded {
@@ -33,12 +33,19 @@
 
 - (void) selectedMapAnnotationChanged:(CoffeeShopMapAnnotation*)annotation{
 	if (coffeeShopView.name.text == annotation.coffeeShopName)
-		{[coffeeShopView removeFromSuperview];}
+	{
+		coffeeShopView.name.text = @"";
+		[coffeeShopView removeFromSuperview];
+	}
 	else
 	{
 		coffeeShopView.name.text = annotation.coffeeShopName;
 		NSString* imageName = [NSString stringWithFormat:@"%@.jpg", [annotation.coffeeShopName lowercaseString]];
-		coffeeShopView.image.image = [UIImage imageNamed:imageName];
+		UIImage* image = [UIImage imageNamed:imageName];
+		if (image == nil)
+			image = [UIImage imageNamed:@"coffee.jpg"];
+		coffeeShopView.image.image = image;
+		coffeeShopView.image.layer.cornerRadius = 100;
 		[self.view addSubview:coffeeShopView];
 	}
 }
