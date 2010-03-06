@@ -11,10 +11,12 @@
 
 @interface CoffeeShopView : UIView {
 	IBOutlet UILabel* name;
+	IBOutlet UILabel* description;
 	IBOutlet UIImageView* image;	
 }
 
 @property (nonatomic, retain) IBOutlet UILabel* name;
+@property (nonatomic, retain) IBOutlet UILabel* description;
 @property (nonatomic, retain) IBOutlet UIImageView* image;
 
 @end

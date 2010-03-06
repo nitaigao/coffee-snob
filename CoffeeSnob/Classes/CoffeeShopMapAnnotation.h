@@ -12,11 +12,14 @@
 @interface CoffeeShopMapAnnotation : NSObject<MKAnnotation> {
 	CLLocationCoordinate2D coordinate;
 	NSString* coffeeShopName;
+	NSString* coffeeShopDescription;
 }
 
 - (NSString *)title;
+//- (NSString *)subtitle;
 
 @property (nonatomic, assign) CLLocationCoordinate2D coordinate;
 @property (nonatomic, assign) NSString* coffeeShopName;
+@property (nonatomic, assign) NSString* coffeeShopDescription;
 
 @end

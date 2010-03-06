@@ -40,6 +40,7 @@
 	else
 	{
 		coffeeShopView.name.text = annotation.coffeeShopName;
+		coffeeShopView.description.text = annotation.coffeeShopDescription;
 		NSString* imageName = [NSString stringWithFormat:@"%@.jpg", [annotation.coffeeShopName lowercaseString]];
 		UIImage* image = [UIImage imageNamed:imageName];
 		if (image == nil)

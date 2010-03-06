@@ -13,10 +13,12 @@
 
 @interface CoffeeShop : NSObject {
 	NSString* name;
+	NSString* description;
 	CLLocation* location;
 }
 
 @property (nonatomic, retain) NSString* name;
+@property (nonatomic, retain) NSString* description;
 @property (nonatomic, retain) CLLocation* location;
 
 - (id)initWithXml:(GDataXMLNode*)xml;

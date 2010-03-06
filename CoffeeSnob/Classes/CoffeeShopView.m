@@ -12,6 +12,7 @@
 @implementation CoffeeShopView
 
 @synthesize name;
+@synthesize description;
 @synthesize image;
 
 - (id)initWithCoder:(NSCoder *)aDecoder {

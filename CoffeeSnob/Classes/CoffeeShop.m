@@ -13,6 +13,7 @@
 
 @synthesize name;
 @synthesize location;
+@synthesize description;
 
 - (id)initWithXml:(GDataXMLNode*)xml {
 	[self init];
@@ -21,6 +22,10 @@
 		
 		if (![coffeeShopNodeXML.name compare:@"title"]) {
 			name = [coffeeShopNodeXML stringValue];
+		}
+		
+		if (![coffeeShopNodeXML.name compare:@"description"]) {
+			description = [coffeeShopNodeXML stringValue];
 		}
 		
 		if (![coffeeShopNodeXML.name compare:@"georss:point"]) {
@@ -43,6 +48,7 @@
 	CoffeeShopMapAnnotation* coffeeShopAnnotation = [[CoffeeShopMapAnnotation alloc]init];
 	coffeeShopAnnotation.coffeeShopName = name;
 	coffeeShopAnnotation.coordinate = location.coordinate;
+	coffeeShopAnnotation.coffeeShopDescription = description;
 	return coffeeShopAnnotation;
 }
 

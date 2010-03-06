@@ -13,9 +13,14 @@
 
 @synthesize coordinate;
 @synthesize coffeeShopName;
+@synthesize coffeeShopDescription;
 
 - (NSString *)title {
 	return coffeeShopName;
 }
+
+//- (NSString *)subtitle {
+//	return coffeeShopDescription;
+//}
 
 @end
