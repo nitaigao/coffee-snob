@@ -16,10 +16,16 @@
 		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
 		3D1CF513113317A50009F2A3 /* CoffeeShopMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1CF512113317A50009F2A3 /* CoffeeShopMap.m */; };
 		3D2FBE42113AE7D6002FD2AD /* CoffeeShopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2FBE41113AE7D6002FD2AD /* CoffeeShopView.m */; };
-		3D2FC052113B0D9B002FD2AD /* tina, we salute you.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D2FC051113B0D9B002FD2AD /* tina, we salute you.jpg */; };
-		3D2FC054113B0DA1002FD2AD /* le peche mignon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D2FC053113B0DA1002FD2AD /* le peche mignon.jpg */; };
+		3D51022F114278FF00F1FA64 /* coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D51022A114278FF00F1FA64 /* coffee.jpg */; };
+		3D510231114278FF00F1FA64 /* dose espresso.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D51022C114278FF00F1FA64 /* dose espresso.jpg */; };
+		3D510232114278FF00F1FA64 /* taste of bitter love.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D51022D114278FF00F1FA64 /* taste of bitter love.jpg */; };
+		3D510233114278FF00F1FA64 /* tina, we salute you.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D51022E114278FF00F1FA64 /* tina, we salute you.jpg */; };
+		3D51025311427E4C00F1FA64 /* le peche mignon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D51025211427E4C00F1FA64 /* le peche mignon.jpg */; };
+		3D51028E1142805900F1FA64 /* icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D51028D1142805900F1FA64 /* icon.jpg */; };
+		3D5102D41142888E00F1FA64 /* coffee2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D5102D11142888E00F1FA64 /* coffee2.jpg */; };
+		3D5102D51142888E00F1FA64 /* coffee3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D5102D21142888E00F1FA64 /* coffee3.jpg */; };
+		3D5102D61142888E00F1FA64 /* coffee4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D5102D31142888E00F1FA64 /* coffee4.jpg */; };
 		3DA6457F11393E92005D3F3F /* CoffeeShopMapAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6457E11393E92005D3F3F /* CoffeeShopMapAnnotationView.m */; };
-		3DA646E4113951C1005D3F3F /* coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DA646E3113951C1005D3F3F /* coffee.jpg */; };
 		4C06B1B1111CE1AD00EEE115 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C06B1B0111CE1AD00EEE115 /* CoreFoundation.framework */; };
 		4C4460A5111C8D5500BAEC5D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C4460A4111C8D5500BAEC5D /* MapKit.framework */; };
 		4C6B35A51140446200D152BF /* CoffeeShopList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6B35A41140446200D152BF /* CoffeeShopList.m */; };
@@ -51,11 +57,17 @@
 		3D1CF512113317A50009F2A3 /* CoffeeShopMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeShopMap.m; sourceTree = "<group>"; };
 		3D2FBE40113AE7D6002FD2AD /* CoffeeShopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeShopView.h; sourceTree = "<group>"; };
 		3D2FBE41113AE7D6002FD2AD /* CoffeeShopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeShopView.m; sourceTree = "<group>"; };
-		3D2FC051113B0D9B002FD2AD /* tina, we salute you.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tina, we salute you.jpg"; sourceTree = "<group>"; };
-		3D2FC053113B0DA1002FD2AD /* le peche mignon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "le peche mignon.jpg"; sourceTree = "<group>"; };
+		3D51022A114278FF00F1FA64 /* coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = coffee.jpg; path = images/coffee.jpg; sourceTree = "<group>"; };
+		3D51022C114278FF00F1FA64 /* dose espresso.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "dose espresso.jpg"; path = "images/dose espresso.jpg"; sourceTree = "<group>"; };
+		3D51022D114278FF00F1FA64 /* taste of bitter love.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "taste of bitter love.jpg"; path = "images/taste of bitter love.jpg"; sourceTree = "<group>"; };
+		3D51022E114278FF00F1FA64 /* tina, we salute you.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tina, we salute you.jpg"; path = "images/tina, we salute you.jpg"; sourceTree = "<group>"; };
+		3D51025211427E4C00F1FA64 /* le peche mignon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "le peche mignon.jpg"; path = "images/le peche mignon.jpg"; sourceTree = "<group>"; };
+		3D51028D1142805900F1FA64 /* icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = icon.jpg; path = images/icon.jpg; sourceTree = "<group>"; };
+		3D5102D11142888E00F1FA64 /* coffee2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = coffee2.jpg; path = images/coffee2.jpg; sourceTree = "<group>"; };
+		3D5102D21142888E00F1FA64 /* coffee3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = coffee3.jpg; path = images/coffee3.jpg; sourceTree = "<group>"; };
+		3D5102D31142888E00F1FA64 /* coffee4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = coffee4.jpg; path = images/coffee4.jpg; sourceTree = "<group>"; };
 		3DA6457D11393E92005D3F3F /* CoffeeShopMapAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeShopMapAnnotationView.h; sourceTree = "<group>"; };
 		3DA6457E11393E92005D3F3F /* CoffeeShopMapAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeShopMapAnnotationView.m; sourceTree = "<group>"; };
-		3DA646E3113951C1005D3F3F /* coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coffee.jpg; sourceTree = "<group>"; };
 		4C06B1B0111CE1AD00EEE115 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		4C4460A4111C8D5500BAEC5D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		4C6B35A31140446200D152BF /* CoffeeShopList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeShopList.h; sourceTree = "<group>"; };
@@ -146,9 +158,15 @@
 		29B97317FDCFA39411CA2CEA /* Resources-iPhone */ = {
 			isa = PBXGroup;
 			children = (
-				3D2FC051113B0D9B002FD2AD /* tina, we salute you.jpg */,
-				3D2FC053113B0DA1002FD2AD /* le peche mignon.jpg */,
-				3DA646E3113951C1005D3F3F /* coffee.jpg */,
+				3D5102D11142888E00F1FA64 /* coffee2.jpg */,
+				3D5102D21142888E00F1FA64 /* coffee3.jpg */,
+				3D5102D31142888E00F1FA64 /* coffee4.jpg */,
+				3D51028D1142805900F1FA64 /* icon.jpg */,
+				3D51025211427E4C00F1FA64 /* le peche mignon.jpg */,
+				3D51022A114278FF00F1FA64 /* coffee.jpg */,
+				3D51022C114278FF00F1FA64 /* dose espresso.jpg */,
+				3D51022D114278FF00F1FA64 /* taste of bitter love.jpg */,
+				3D51022E114278FF00F1FA64 /* tina, we salute you.jpg */,
 				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* CoffeeSnob-Info.plist */,
 			);
@@ -287,9 +305,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
-				3DA646E4113951C1005D3F3F /* coffee.jpg in Resources */,
-				3D2FC052113B0D9B002FD2AD /* tina, we salute you.jpg in Resources */,
-				3D2FC054113B0DA1002FD2AD /* le peche mignon.jpg in Resources */,
+				3D51022F114278FF00F1FA64 /* coffee.jpg in Resources */,
+				3D510231114278FF00F1FA64 /* dose espresso.jpg in Resources */,
+				3D510232114278FF00F1FA64 /* taste of bitter love.jpg in Resources */,
+				3D510233114278FF00F1FA64 /* tina, we salute you.jpg in Resources */,
+				3D51025311427E4C00F1FA64 /* le peche mignon.jpg in Resources */,
+				3D51028E1142805900F1FA64 /* icon.jpg in Resources */,
+				3D5102D41142888E00F1FA64 /* coffee2.jpg in Resources */,
+				3D5102D51142888E00F1FA64 /* coffee3.jpg in Resources */,
+				3D5102D61142888E00F1FA64 /* coffee4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

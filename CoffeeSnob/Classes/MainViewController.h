@@ -30,7 +30,6 @@
 - (IBAction) nextButtonClicked:(id)sender;
 - (IBAction) flipButtonClicked:(id)sender;
 - (IBAction) directionsButtonClicked:(id)sender;
-- (IBAction) hideButtonClicked:(id)sender;
 - (void) locationUpdated;
 - (void) shopsLoaded;
 - (void) selectedMapAnnotationChanged:(CoffeeShopMapAnnotation*)annotation;

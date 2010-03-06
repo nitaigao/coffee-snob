@@ -43,9 +43,8 @@
 		NSString* imageName = [NSString stringWithFormat:@"%@.jpg", [annotation.coffeeShopName lowercaseString]];
 		UIImage* image = [UIImage imageNamed:imageName];
 		if (image == nil)
-			image = [UIImage imageNamed:@"coffee.jpg"];
+			image = [UIImage imageNamed:@"coffee4.jpg"];
 		coffeeShopView.image.image = image;
-		coffeeShopView.image.layer.cornerRadius = 100;
 		[self.view addSubview:coffeeShopView];
 	}
 }
@@ -66,10 +65,6 @@
 
 - (IBAction) directionsButtonClicked:(id)sender {
 	[coffeeMap showDirectionsToSelectedCoffeeShop];
-}
-
-- (IBAction) hideButtonClicked:(id)sender {
-	[coffeeShopView removeFromSuperview];
 }
 
 - (IBAction) nextButtonClicked:(id)sender {
@@ -95,7 +90,7 @@
 
 - (IBAction) flipButtonClicked:(id)sender {
 	bool isList = ![listButton.title compare:@"List"];
-	[coffeeShopView removeFromSuperview];
+	isList ? [coffeeShopView removeFromSuperview] : [self.view addSubview:coffeeShopView];
 	[self flipViews:isList ? UIViewAnimationTransitionFlipFromRight : UIViewAnimationTransitionFlipFromLeft];
 	listButton.title = isList ? @"Map" : @"List";
 	navigationBar.rightBarButtonItem = isList ? nil : nextButton; 

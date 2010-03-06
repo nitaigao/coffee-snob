@@ -17,7 +17,7 @@
 - (id)initWithCoder:(NSCoder *)aDecoder {
 	[super initWithCoder:aDecoder];
 	
-	self.layer.cornerRadius = 10;
+	self.layer.cornerRadius = 11;
 	return self;
 }
 

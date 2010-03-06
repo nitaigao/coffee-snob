@@ -57,7 +57,7 @@
 	double centerMapLatitude = mapView.userLocation.coordinate.latitude + (latitudeDifference / 2);
 
 	longitudeDifference = longitudeDifference * 1.4;
-	latitudeDifference = latitudeDifference * 1.4;
+	latitudeDifference = latitudeDifference * 1.5;
 	
 	MKCoordinateRegion region;
 	region.center = [[[CLLocation alloc]initWithLatitude:centerMapLatitude longitude:centerMapLongitude] coordinate];

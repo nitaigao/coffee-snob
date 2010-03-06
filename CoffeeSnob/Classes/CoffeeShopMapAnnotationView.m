@@ -6,12 +6,7 @@
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
-
 #import "CoffeeShopMapAnnotationView.h"
-
-#define kHeight 50
-#define kWidth  50
-#define kBorder 2
 
 @implementation CoffeeShopMapAnnotationView
 
@@ -26,7 +21,6 @@
 
 -(void) dealloc
 {
-	//[imageView release];
 	[super dealloc];
 }
 

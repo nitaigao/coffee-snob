@@ -23,17 +23,17 @@
 	};
 	28216C950DB411BC00E5133A /* MainViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1101, 644}}";
-			sepNavSelRange = "{953, 0}";
-			sepNavVisRange = "{0, 960}";
+			sepNavIntBoundsRect = "{{0, 0}, {1101, 645}}";
+			sepNavSelRange = "{851, 0}";
+			sepNavVisRange = "{0, 982}";
 			sepNavWindowFrame = "{{262, 83}, {1178, 795}}";
 		};
 	};
 	28216C960DB411BC00E5133A /* MainViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {947, 1274}}";
-			sepNavSelRange = "{2698, 0}";
-			sepNavVisRange = "{1976, 608}";
+			sepNavIntBoundsRect = "{{0, 0}, {1101, 1300}}";
+			sepNavSelRange = "{2582, 0}";
+			sepNavVisRange = "{1344, 1497}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -45,7 +45,6 @@
 			1D6058900D05DD3D006BFB54 /* CoffeeSnob */,
 		);
 		breakpoints = (
-			3D2FC09A113B0FFC002FD2AD /* CoffeeShopMapDelegate.m:18 */,
 		);
 		codeSenseManager = 3D2443CA112EF716001801D5 /* Code sense */;
 		executables = (
@@ -202,6 +201,31 @@
 			3D51017811403F9400F1FA64 = 3D51017811403F9400F1FA64 /* PBXTextBookmark */;
 			3D51017911403F9400F1FA64 = 3D51017911403F9400F1FA64 /* PBXTextBookmark */;
 			3D51017A11403F9400F1FA64 = 3D51017A11403F9400F1FA64 /* PBXTextBookmark */;
+			3D51025411427E5E00F1FA64 /* PBXBookmark */ = 3D51025411427E5E00F1FA64 /* PBXBookmark */;
+			3D51025811427E6400F1FA64 /* PBXTextBookmark */ = 3D51025811427E6400F1FA64 /* PBXTextBookmark */;
+			3D51025911427E6400F1FA64 /* PBXTextBookmark */ = 3D51025911427E6400F1FA64 /* PBXTextBookmark */;
+			3D51025A11427E6400F1FA64 /* PBXTextBookmark */ = 3D51025A11427E6400F1FA64 /* PBXTextBookmark */;
+			3D51025B11427E6400F1FA64 /* PBXBookmark */ = 3D51025B11427E6400F1FA64 /* PBXBookmark */;
+			3D51025C11427E6400F1FA64 /* PBXBookmark */ = 3D51025C11427E6400F1FA64 /* PBXBookmark */;
+			3D51025D11427E6400F1FA64 /* PBXTextBookmark */ = 3D51025D11427E6400F1FA64 /* PBXTextBookmark */;
+			3D51025E11427E6400F1FA64 /* PBXTextBookmark */ = 3D51025E11427E6400F1FA64 /* PBXTextBookmark */;
+			3D51026211427E6400F1FA64 /* PBXTextBookmark */ = 3D51026211427E6400F1FA64 /* PBXTextBookmark */;
+			3D5102A21142812000F1FA64 /* PBXBookmark */ = 3D5102A21142812000F1FA64 /* PBXBookmark */;
+			3D5102A31142812000F1FA64 /* PBXBookmark */ = 3D5102A31142812000F1FA64 /* PBXBookmark */;
+			3D5102A41142812000F1FA64 /* PBXBookmark */ = 3D5102A41142812000F1FA64 /* PBXBookmark */;
+			3D5102A51142813C00F1FA64 /* PBXBookmark */ = 3D5102A51142813C00F1FA64 /* PBXBookmark */;
+			3D5102AC1142815500F1FA64 /* PBXBookmark */ = 3D5102AC1142815500F1FA64 /* PBXBookmark */;
+			3D5102AE1142815500F1FA64 /* PBXTextBookmark */ = 3D5102AE1142815500F1FA64 /* PBXTextBookmark */;
+			3D5102B5114281F400F1FA64 /* PBXBookmark */ = 3D5102B5114281F400F1FA64 /* PBXBookmark */;
+			3D5102B6114281FC00F1FA64 /* PBXBookmark */ = 3D5102B6114281FC00F1FA64 /* PBXBookmark */;
+			3D5102B7114281FC00F1FA64 /* PBXTextBookmark */ = 3D5102B7114281FC00F1FA64 /* PBXTextBookmark */;
+			3D5102B8114281FC00F1FA64 /* PlistBookmark */ = 3D5102B8114281FC00F1FA64 /* PlistBookmark */;
+			3D5102E1114288BE00F1FA64 /* PBXBookmark */ = 3D5102E1114288BE00F1FA64 /* PBXBookmark */;
+			3D5102E2114288BE00F1FA64 /* PBXBookmark */ = 3D5102E2114288BE00F1FA64 /* PBXBookmark */;
+			3D5102E3114288BE00F1FA64 /* PBXBookmark */ = 3D5102E3114288BE00F1FA64 /* PBXBookmark */;
+			3D5102E4114288BE00F1FA64 /* PlistBookmark */ = 3D5102E4114288BE00F1FA64 /* PlistBookmark */;
+			3D5102E5114288BE00F1FA64 /* PBXTextBookmark */ = 3D5102E5114288BE00F1FA64 /* PBXTextBookmark */;
+			3D5102E6114288BE00F1FA64 /* PBXTextBookmark */ = 3D5102E6114288BE00F1FA64 /* PBXTextBookmark */;
 			3D97EE78113418BC00452A21 = 3D97EE78113418BC00452A21 /* PBXTextBookmark */;
 			3D97EE7A113418BC00452A21 = 3D97EE7A113418BC00452A21 /* PBXTextBookmark */;
 			3D97EEAC11341CF800452A21 = 3D97EEAC11341CF800452A21 /* PBXTextBookmark */;
@@ -226,16 +250,16 @@
 	};
 	3D1CF511113317A50009F2A3 /* CoffeeShopMap.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1101, 643}}";
-			sepNavSelRange = "{563, 0}";
-			sepNavVisRange = "{0, 699}";
+			sepNavIntBoundsRect = "{{0, 0}, {26, 442}}";
+			sepNavSelRange = "{256, 0}";
+			sepNavVisRange = "{0, 0}";
 		};
 	};
 	3D1CF512113317A50009F2A3 /* CoffeeShopMap.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1101, 1300}}";
-			sepNavSelRange = "{1904, 0}";
-			sepNavVisRange = "{1138, 2318}";
+			sepNavIntBoundsRect = "{{0, 0}, {1101, 1313}}";
+			sepNavSelRange = "{1603, 0}";
+			sepNavVisRange = "{19, 1564}";
 		};
 	};
 	3D2443AB112EF70A001801D5 /* CoffeeSnob */ = {
@@ -293,8 +317,8 @@
 	};
 	3D2FBE41113AE7D6002FD2AD /* CoffeeShopView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1101, 667}}";
-			sepNavSelRange = "{381, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1101, 645}}";
+			sepNavSelRange = "{397, 0}";
 			sepNavVisRange = "{0, 446}";
 		};
 	};
@@ -333,7 +357,7 @@
 		fRef = 28216C960DB411BC00E5133A /* MainViewController.m */;
 		name = "MainViewController.m: 38";
 		rLen = 0;
-		rLoc = 1464;
+		rLoc = 1416;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -388,6 +412,23 @@
 		vrLen = 1076;
 		vrLoc = 0;
 	};
+	3D2FC051113B0D9B002FD2AD /* tina, we salute you.jpg */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.jpeg;
+		name = "tina, we salute you.jpg";
+		path = "/Users/markh/Development/iphone/CoffeeSnob/tina, we salute you.jpg";
+		sourceTree = "<absolute>";
+	};
+	3D2FC053113B0DA1002FD2AD /* le peche mignon.jpg */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.jpeg;
+		name = "le peche mignon.jpg";
+		path = "/Users/markh/Development/iphone/CoffeeSnob/le peche mignon.jpg";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavWindowFrame = "{{280, 82}, {1160, 796}}";
+		};
+	};
 	3D2FC058113B0DDB002FD2AD /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 3D2FBE40113AE7D6002FD2AD /* CoffeeShopView.h */;
@@ -419,24 +460,6 @@
 		vrLen = 968;
 		vrLoc = 0;
 	};
-	3D2FC09A113B0FFC002FD2AD /* CoffeeShopMapDelegate.m:18 */ = {
-		isa = PBXFileBreakpoint;
-		actions = (
-		);
-		breakpointStyle = 0;
-		continueAfterActions = 0;
-		countType = 0;
-		delayBeforeContinue = 0;
-		fileReference = 4CE587961134A30200BFC93A /* CoffeeShopMapDelegate.m */;
-		functionName = "-mapView:viewForAnnotation:";
-		hitCount = 0;
-		ignoreCount = 0;
-		lineNumber = 18;
-		location = CoffeeMap;
-		modificationTime = 289426018.482093;
-		originalNumberOfMultipleMatches = 1;
-		state = 2;
-	};
 	3D2FC0E0113B1526002FD2AD /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 3DA6457D11393E92005D3F3F /* CoffeeShopMapAnnotationView.h */;
@@ -462,9 +485,9 @@
 		fRef = 3DA6457E11393E92005D3F3F /* CoffeeShopMapAnnotationView.m */;
 		name = "CoffeeShopMapAnnotationView.m: 37";
 		rLen = 0;
-		rLoc = 608;
+		rLoc = 549;
 		rType = 0;
-		vrLen = 1003;
+		vrLen = 658;
 		vrLoc = 0;
 	};
 	3D2FC0E7113B1526002FD2AD /* PBXBookmark */ = {
@@ -494,7 +517,7 @@
 		fRef = 3D1CF512113317A50009F2A3 /* CoffeeShopMap.m */;
 		name = "CoffeeShopMap.m: 66";
 		rLen = 0;
-		rLoc = 2493;
+		rLoc = 2382;
 		rType = 0;
 		vrLen = 1403;
 		vrLoc = 0;
@@ -504,7 +527,7 @@
 		fRef = 28216C950DB411BC00E5133A /* MainViewController.h */;
 		name = "MainViewController.h: 37";
 		rLen = 9;
-		rLoc = 944;
+		rLoc = 901;
 		rType = 0;
 		vrLen = 1017;
 		vrLoc = 0;
@@ -516,7 +539,7 @@
 		rLen = 0;
 		rLoc = 1531;
 		rType = 0;
-		vrLen = 1632;
+		vrLen = 1554;
 		vrLoc = 232;
 	};
 	3D2FC126113B16AA002FD2AD /* PBXTextBookmark */ = {
@@ -546,7 +569,7 @@
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 352;
+		vrLen = 325;
 		vrLoc = 0;
 	};
 	3D2FC129113B16AA002FD2AD /* PBXTextBookmark */ = {
@@ -596,7 +619,7 @@
 		rLen = 0;
 		rLoc = 563;
 		rType = 0;
-		vrLen = 699;
+		vrLen = 690;
 		vrLoc = 0;
 	};
 	3D2FC162113B17F8002FD2AD /* PBXBookmark */ = {
@@ -722,7 +745,7 @@
 		fRef = 3DA6457E11393E92005D3F3F /* CoffeeShopMapAnnotationView.m */;
 		name = "CoffeeShopMapAnnotationView.m: 23";
 		rLen = 0;
-		rLoc = 572;
+		rLoc = 514;
 		rType = 0;
 		vrLen = 658;
 		vrLoc = 0;
@@ -787,6 +810,191 @@
 		vrLen = 1607;
 		vrLoc = 0;
 	};
+	3D51022A114278FF00F1FA64 /* coffee.jpg */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{290, 82}, {1160, 796}}";
+		};
+	};
+	3D51022D114278FF00F1FA64 /* taste of bitter love.jpg */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{289, 82}, {1160, 796}}";
+		};
+	};
+	3D51025411427E5E00F1FA64 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 28216C960DB411BC00E5133A /* MainViewController.m */;
+	};
+	3D51025811427E6400F1FA64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CE587441134A07200BFC93A /* CoffeeShopsList.h */;
+		name = "CoffeeShopsList.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	3D51025911427E6400F1FA64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4CE587451134A07200BFC93A /* CoffeeShopsList.m */;
+		name = "CoffeeShopsList.m: 32";
+		rLen = 0;
+		rLoc = 925;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	3D51025A11427E6400F1FA64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3D1CF511113317A50009F2A3 /* CoffeeShopMap.h */;
+		name = "CoffeeShopMap.h: 14";
+		rLen = 0;
+		rLoc = 256;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	3D51025B11427E6400F1FA64 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 3D51022E114278FF00F1FA64 /* tina, we salute you.jpg */;
+	};
+	3D51025C11427E6400F1FA64 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 3D51025211427E4C00F1FA64 /* le peche mignon.jpg */;
+	};
+	3D51025D11427E6400F1FA64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C960DB411BC00E5133A /* MainViewController.m */;
+		name = "MainViewController.m: 62";
+		rLen = 0;
+		rLoc = 1635;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	3D51025E11427E6400F1FA64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C960DB411BC00E5133A /* MainViewController.m */;
+		name = "MainViewController.m: 62";
+		rLen = 0;
+		rLoc = 1635;
+		rType = 0;
+		vrLen = 0;
+		vrLoc = 0;
+	};
+	3D51026211427E6400F1FA64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C960DB411BC00E5133A /* MainViewController.m */;
+		name = "MainViewController.m: 55";
+		rLen = 0;
+		rLoc = 1441;
+		rType = 0;
+		vrLen = 1398;
+		vrLoc = 934;
+	};
+	3D5102A21142812000F1FA64 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 3D51022C114278FF00F1FA64 /* dose espresso.jpg */;
+	};
+	3D5102A31142812000F1FA64 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 3D51022A114278FF00F1FA64 /* coffee.jpg */;
+	};
+	3D5102A41142812000F1FA64 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 3D51022A114278FF00F1FA64 /* coffee.jpg */;
+	};
+	3D5102A51142813C00F1FA64 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 28216C960DB411BC00E5133A /* MainViewController.m */;
+	};
+	3D5102AC1142815500F1FA64 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 3D51022A114278FF00F1FA64 /* coffee.jpg */;
+	};
+	3D5102AE1142815500F1FA64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C960DB411BC00E5133A /* MainViewController.m */;
+		name = "MainViewController.m: 48";
+		rLen = 0;
+		rLoc = 1343;
+		rType = 0;
+		vrLen = 1431;
+		vrLoc = 297;
+	};
+	3D5102B5114281F400F1FA64 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CoffeeSnob-Info.plist */;
+	};
+	3D5102B6114281FC00F1FA64 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 3D51022A114278FF00F1FA64 /* coffee.jpg */;
+	};
+	3D5102B7114281FC00F1FA64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C960DB411BC00E5133A /* MainViewController.m */;
+		name = "MainViewController.m: 48";
+		rLen = 0;
+		rLoc = 1343;
+		rType = 0;
+		vrLen = 1428;
+		vrLoc = 297;
+	};
+	3D5102B8114281FC00F1FA64 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CoffeeSnob-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/markh/Development/iphone/CoffeeSnob/CoffeeSnob-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	3D5102E1114288BE00F1FA64 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 3D51022A114278FF00F1FA64 /* coffee.jpg */;
+	};
+	3D5102E2114288BE00F1FA64 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 3D51028D1142805900F1FA64 /* icon.jpg */;
+	};
+	3D5102E3114288BE00F1FA64 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 3D51028D1142805900F1FA64 /* icon.jpg */;
+	};
+	3D5102E4114288BE00F1FA64 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CoffeeSnob-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/markh/Development/iphone/CoffeeSnob/CoffeeSnob-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	3D5102E5114288BE00F1FA64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C960DB411BC00E5133A /* MainViewController.m */;
+		name = "MainViewController.m: 46";
+		rLen = 0;
+		rLoc = 1298;
+		rType = 0;
+		vrLen = 1434;
+		vrLoc = 296;
+	};
+	3D5102E6114288BE00F1FA64 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C960DB411BC00E5133A /* MainViewController.m */;
+		name = "MainViewController.m: 35";
+		rLen = 0;
+		rLoc = 895;
+		rType = 0;
+		vrLen = 1429;
+		vrLoc = 296;
+	};
 	3D97EE78113418BC00452A21 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		name = "CoffeeShopAnnotation.h: 1";
@@ -847,16 +1055,16 @@
 	};
 	3DA6457D11393E92005D3F3F /* CoffeeShopMapAnnotationView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1101, 667}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1101, 668}}";
 			sepNavSelRange = "{316, 0}";
 			sepNavVisRange = "{0, 325}";
 		};
 	};
 	3DA6457E11393E92005D3F3F /* CoffeeShopMapAnnotationView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1101, 667}}";
-			sepNavSelRange = "{572, 0}";
-			sepNavVisRange = "{0, 658}";
+			sepNavIntBoundsRect = "{{0, 0}, {1101, 668}}";
+			sepNavSelRange = "{154, 0}";
+			sepNavVisRange = "{0, 576}";
 		};
 	};
 	3DA645CB11394271005D3F3F /* PBXTextBookmark */ = {
@@ -878,6 +1086,13 @@
 		vrLen = 0;
 		vrLoc = 0;
 	};
+	3DA646E3113951C1005D3F3F /* coffee.jpg */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.jpeg;
+		name = coffee.jpg;
+		path = /Users/markh/Development/iphone/CoffeeSnob/coffee.jpg;
+		sourceTree = "<absolute>";
+	};
 	3DA6475D11396CF7005D3F3F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623250D0F684500981E51 /* CoffeeSnobAppDelegate.m */;
@@ -897,6 +1112,20 @@
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
+	};
+	4C6B35A31140446200D152BF /* CoffeeShopList.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1101, 668}}";
+			sepNavSelRange = "{286, 0}";
+			sepNavVisRange = "{0, 374}";
+		};
+	};
+	4C6B35A41140446200D152BF /* CoffeeShopList.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {740, 351}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 0}";
+		};
 	};
 	4C83F545111CE380002FE85E /* GDataXMLNode.h */ = {
 		uiCtxt = {
@@ -928,16 +1157,16 @@
 	};
 	4CE587441134A07200BFC93A /* CoffeeShopsList.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1101, 620}}";
+			sepNavIntBoundsRect = "{{0, 0}, {607, 338}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 500}";
+			sepNavVisRange = "{0, 0}";
 		};
 	};
 	4CE587451134A07200BFC93A /* CoffeeShopsList.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1101, 645}}";
+			sepNavIntBoundsRect = "{{0, 0}, {789, 455}}";
 			sepNavSelRange = "{925, 0}";
-			sepNavVisRange = "{0, 968}";
+			sepNavVisRange = "{0, 0}";
 		};
 	};
 	4CE587951134A30200BFC93A /* CoffeeShopMapDelegate.h */ = {
@@ -949,21 +1178,21 @@
 	};
 	4CE587961134A30200BFC93A /* CoffeeShopMapDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1101, 754}}";
-			sepNavSelRange = "{805, 0}";
-			sepNavVisRange = "{94, 1627}";
+			sepNavIntBoundsRect = "{{0, 0}, {1101, 767}}";
+			sepNavSelRange = "{491, 0}";
+			sepNavVisRange = "{153, 1627}";
 		};
 	};
 	4CE588931134A85400BFC93A /* CoffeeShopMapAnnotation.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1101, 667}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1101, 668}}";
 			sepNavSelRange = "{476, 14}";
 			sepNavVisRange = "{0, 498}";
 		};
 	};
 	4CE588941134A85400BFC93A /* CoffeeShopMapAnnotation.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1101, 667}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1101, 645}}";
 			sepNavSelRange = "{263, 0}";
 			sepNavVisRange = "{0, 346}";
 		};
@@ -993,13 +1222,13 @@
 	4CEFEF6F111DE1D4001B5381 /* CoffeeShop.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1101, 741}}";
-			sepNavSelRange = "{472, 0}";
-			sepNavVisRange = "{87, 1594}";
+			sepNavSelRange = "{1311, 0}";
+			sepNavVisRange = "{38, 1638}";
 		};
 	};
 	8D1107310486CEB800E47090 /* CoffeeSnob-Info.plist */ = {
 		uiCtxt = {
-			sepNavWindowFrame = "{{15, 83}, {1160, 795}}";
+			sepNavWindowFrame = "{{290, 82}, {1160, 796}}";
 		};
 	};
 }
