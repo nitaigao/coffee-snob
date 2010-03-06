@@ -16,7 +16,6 @@
     [super viewDidLoad];
 	[loadingView startAnimating:@"Finding you..."];
 	[coffeeMap startUpdatingLocation];
-	[coffeeShopView removeFromSuperview];
 }
 
 - (void)locationUpdated {
@@ -35,7 +34,7 @@
 	if (coffeeShopView.name.text == annotation.coffeeShopName)
 	{
 		coffeeShopView.name.text = @"";
-		[coffeeShopView removeFromSuperview];
+		coffeeShopView.hidden = TRUE;
 	}
 	else
 	{
@@ -47,6 +46,7 @@
 			image = [UIImage imageNamed:@"coffee4.jpg"];
 		coffeeShopView.image.image = image;
 		[self.view addSubview:coffeeShopView];
+		coffeeShopView.hidden = FALSE;
 	}
 }
 
@@ -91,7 +91,7 @@
 
 - (IBAction) flipButtonClicked:(id)sender {
 	bool isList = ![listButton.title compare:@"List"];
-	isList ? [coffeeShopView removeFromSuperview] : [self.view addSubview:coffeeShopView];
+	isList && coffeeShopView.hidden == FALSE ? [coffeeShopView removeFromSuperview] : [self.view addSubview:coffeeShopView];
 	[self flipViews:isList ? UIViewAnimationTransitionFlipFromRight : UIViewAnimationTransitionFlipFromLeft];
 	listButton.title = isList ? @"Map" : @"List";
 	navigationBar.rightBarButtonItem = isList ? nil : nextButton; 

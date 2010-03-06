@@ -31,9 +31,9 @@
 	};
 	28216C960DB411BC00E5133A /* MainViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1101, 1417}}";
-			sepNavSelRange = "{1112, 0}";
-			sepNavVisRange = "{393, 1409}";
+			sepNavIntBoundsRect = "{{0, 0}, {1101, 1339}}";
+			sepNavSelRange = "{1764, 0}";
+			sepNavVisRange = "{1474, 1544}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -354,7 +354,7 @@
 		fRef = 28216C960DB411BC00E5133A /* MainViewController.m */;
 		name = "MainViewController.m: 71";
 		rLen = 24;
-		rLoc = 1910;
+		rLoc = 1896;
 		rType = 0;
 		vrLen = 1464;
 		vrLoc = 657;
@@ -653,7 +653,7 @@
 		fRef = 28216C960DB411BC00E5133A /* MainViewController.m */;
 		name = "MainViewController.m: 43";
 		rLen = 0;
-		rLoc = 1148;
+		rLoc = 1101;
 		rType = 0;
 		vrLen = 1455;
 		vrLoc = 393;
