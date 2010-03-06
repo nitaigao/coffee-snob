@@ -35,6 +35,10 @@ NSString * const ANNOTATION_DESELECTED = @"annotationdeselected";
 	return view;
 }
 
+- (void)mapView:(MKMapView *)mapView didAddAnnotationViews:(NSArray *)views;
+{
+    [mapView selectAnnotation:[[mapView annotations] lastObject] animated:YES];
+}
 
 - (MKAnnotationView *)mapView:(MKMapView *)map viewForAnnotation:(id <MKAnnotation>)annotation {
     if ([annotation isKindOfClass:[MKUserLocation class]]) return nil;

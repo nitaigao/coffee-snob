@@ -202,25 +202,29 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
-				<string>3D5102A61142813C00F1FA64</string>
+				<string>3D51039111429F0C00F1FA64</string>
 				<key>PBXProjectModuleLabel</key>
-				<string>MainViewController.m</string>
+				<string>CoffeeShopMapDelegate.m</string>
 				<key>PBXSplitModuleInNavigatorKey</key>
 				<dict>
 					<key>Split0</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
-						<string>3D5102AD1142815500F1FA64</string>
+						<string>3D5103A51142A34100F1FA64</string>
 						<key>PBXProjectModuleLabel</key>
-						<string>MainViewController.m</string>
+						<string>CoffeeShopMapDelegate.m</string>
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>3D5102E6114288BE00F1FA64</string>
+						<string>3D5103BE1142A42D00F1FA64</string>
 						<key>history</key>
 						<array>
-							<string>3D5102E4114288BE00F1FA64</string>
-							<string>3D5102E5114288BE00F1FA64</string>
+							<string>3D5103A61142A34100F1FA64</string>
+							<string>3D5103A71142A34100F1FA64</string>
+							<string>3D5103A81142A34100F1FA64</string>
+							<string>3D5103A91142A34100F1FA64</string>
+							<string>3D5103BC1142A42D00F1FA64</string>
+							<string>3D5103BD1142A42D00F1FA64</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -236,7 +240,7 @@
 				<key>PBXModuleWindowStatusBarHidden2</key>
 				<false/>
 				<key>RubberWindowFrame</key>
-				<string>291 138 1160 740 0 0 1440 878 </string>
+				<string>285 138 1160 740 0 0 1440 878 </string>
 			</dict>
 		</dict>
 	</array>
@@ -325,14 +329,14 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>30</integer>
-									<integer>28</integer>
+									<integer>6</integer>
+									<integer>4</integer>
 									<integer>3</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 286}, {267, 681}}</string>
+							<string>{{0, 43}, {267, 681}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -379,7 +383,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>3D5102E3114288BE00F1FA64</string>
+										<string>3D5103BB1142A42D00F1FA64</string>
 										<key>history</key>
 										<array>
 											<string>3D97EE78113418BC00452A21</string>
@@ -392,12 +396,11 @@
 											<string>3D2FC120113B16AA002FD2AD</string>
 											<string>3D51025811427E6400F1FA64</string>
 											<string>3D51025911427E6400F1FA64</string>
-											<string>3D51025A11427E6400F1FA64</string>
 											<string>3D51025B11427E6400F1FA64</string>
 											<string>3D51025C11427E6400F1FA64</string>
 											<string>3D5102A21142812000F1FA64</string>
 											<string>3D5102E1114288BE00F1FA64</string>
-											<string>3D5102E2114288BE00F1FA64</string>
+											<string>3D51038E11429F0900F1FA64</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -572,7 +575,7 @@
 	<key>PerspectivesBarVisible</key>
 	<false/>
 	<key>PinnedNavigatorIdentifier</key>
-	<string>3D5102A61142813C00F1FA64</string>
+	<string>3D51039111429F0C00F1FA64</string>
 	<key>ShelfIsVisible</key>
 	<false/>
 	<key>SourceDescription</key>
@@ -597,14 +600,14 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>3D5102E7114288BE00F1FA64</string>
+		<string>3D5102A61142813C00F1FA64</string>
 		<string>3D51026C11427E6400F1FA64</string>
 		<string>3D51026D11427E6400F1FA64</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>3D2443C0112EF716001801D5</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/markh/Development/iphone/CoffeeSnob/CoffeeSnob.xcodeproj</string>
-		<string>3D5102A61142813C00F1FA64</string>
+		<string>3D51039111429F0C00F1FA64</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 138 289 740 0 0 1440 878 </string>

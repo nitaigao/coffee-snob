@@ -12,7 +12,7 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="182"/>
+			<integer value="130"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -101,7 +101,7 @@
 									<int key="NSvFlags">274</int>
 									<string key="NSFrame">{{0, -22}, {320, 448}}</string>
 									<reference key="NSSuperview" ref="325423585"/>
-									<object class="NSColor" key="IBUIBackgroundColor" id="3938995">
+									<object class="NSColor" key="IBUIBackgroundColor" id="156632950">
 										<int key="NSColorSpace">3</int>
 										<bytes key="NSWhite">MCAwAA</bytes>
 									</object>
@@ -127,7 +127,7 @@
 											<int key="NSvFlags">292</int>
 											<string key="NSFrame">{{103, 46}, {134, 24}}</string>
 											<reference key="NSSuperview" ref="189009865"/>
-											<reference key="IBUIBackgroundColor" ref="3938995"/>
+											<reference key="IBUIBackgroundColor" ref="156632950"/>
 											<bool key="IBUIOpaque">NO</bool>
 											<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 											<int key="IBUIContentHorizontalAlignment">0</int>
@@ -168,7 +168,7 @@
 											<int key="IBUIBaselineAdjustment">1</int>
 											<float key="IBUIMinimumFontSize">12</float>
 										</object>
-										<object class="IBUILabel" id="872801906">
+										<object class="IBUILabel" id="824675810">
 											<reference key="NSNextResponder" ref="189009865"/>
 											<int key="NSvFlags">292</int>
 											<string key="NSFrame">{{106, 22.5}, {158, 21}}</string>
@@ -214,7 +214,7 @@
 								<bool key="EncodedWithXMLCoder">YES</bool>
 								<object class="IBUINavigationItem" id="913759592">
 									<reference key="IBUINavigationBar" ref="60556882"/>
-									<string key="IBUITitle">The Good Coffee Map</string>
+									<string key="IBUITitle">Good Coffee Map</string>
 								</object>
 							</object>
 						</object>
@@ -640,7 +640,7 @@
 						<reference key="object" ref="189009865"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="872801906"/>
+							<reference ref="824675810"/>
 							<reference ref="418014127"/>
 							<reference ref="244532075"/>
 							<reference ref="911566056"/>
@@ -649,7 +649,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">203</int>
-						<reference key="object" ref="872801906"/>
+						<reference key="object" ref="824675810"/>
 						<reference key="parent" ref="189009865"/>
 					</object>
 					<object class="IBObjectRecord">

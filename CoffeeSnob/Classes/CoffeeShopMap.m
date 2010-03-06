@@ -46,7 +46,6 @@
 - (void) createAnnotationForShop:(CoffeeShop *)bestCoffeeShop  {
 	CoffeeShopMapAnnotation* coffeeShopAnnotation = [bestCoffeeShop getMapAnnotation];
 	[mapView addAnnotation:coffeeShopAnnotation];
-	[mapView selectAnnotation:coffeeShopAnnotation animated:YES];	
 }
 
 - (void) zoomMapToUserAndShop:(CoffeeShop *)coffeeShop  {
@@ -63,13 +62,13 @@
 	region.center = [[[CLLocation alloc]initWithLatitude:centerMapLatitude longitude:centerMapLongitude] coordinate];
 	region.span.latitudeDelta = (latitudeDifference > 0) ? latitudeDifference : -latitudeDifference;
 	region.span.longitudeDelta = (longitudeDifference > 0) ? longitudeDifference : -longitudeDifference;
-	[mapView setRegion:region animated:TRUE];
+	[mapView setRegion:region animated:YES];
 }
 
 - (void) showNextCoffeeShopToUser {
 	CoffeeShop* coffeeShop = [coffeeShops getNextCoffeeShop];
-	[self createAnnotationForShop: coffeeShop];
 	[self zoomMapToUserAndShop: coffeeShop];
+	[self createAnnotationForShop: coffeeShop];
 }
 
 - (void)shopsLoaded:(NSMutableArray *)shops {
