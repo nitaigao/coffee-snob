@@ -7,17 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CoffeeShop.h"
 
 
 @interface CoffeeShopListTableCell : UITableViewCell {
 
-	IBOutlet UIImageView *iconImage;
-	IBOutlet UILabel *titleLabel;
-	IBOutlet UILabel *distanceLabel;
-	
 }
 
-
-- (void)setDetail:(NSString*)title imageUrl:(NSString*)imageUrl distance:(NSString*)distance;
+- (void)setShop:(CoffeeShop*)shop;
 
 @end

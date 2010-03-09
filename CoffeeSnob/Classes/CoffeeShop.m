@@ -47,6 +47,7 @@
 - (CoffeeShopMapAnnotation*) getMapAnnotation {
 	CoffeeShopMapAnnotation* coffeeShopAnnotation = [[CoffeeShopMapAnnotation alloc]init];
 	coffeeShopAnnotation.coffeeShopName = name;
+	
 	coffeeShopAnnotation.coordinate = location.coordinate;
 	coffeeShopAnnotation.coffeeShopDescription = description;
 	return coffeeShopAnnotation;

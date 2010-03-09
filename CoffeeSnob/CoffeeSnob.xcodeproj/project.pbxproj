@@ -41,6 +41,7 @@
 		4CEEC417111D804500D52DA2 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CEEC416111D804500D52DA2 /* libxml2.dylib */; };
 		4CEFEECC111DDB78001B5381 /* CoffeeShopRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFEECB111DDB78001B5381 /* CoffeeShopRepository.m */; };
 		4CEFEF70111DE1D4001B5381 /* CoffeeShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFEF6F111DE1D4001B5381 /* CoffeeShop.m */; };
+		4CF7E84F1146476000F94F15 /* shops.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4CF7E84E1146476000F94F15 /* shops.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +95,7 @@
 		4CEFEECB111DDB78001B5381 /* CoffeeShopRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeShopRepository.m; sourceTree = "<group>"; };
 		4CEFEF6E111DE1D4001B5381 /* CoffeeShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeShop.h; sourceTree = "<group>"; };
 		4CEFEF6F111DE1D4001B5381 /* CoffeeShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeShop.m; sourceTree = "<group>"; };
+		4CF7E84E1146476000F94F15 /* shops.xml */ = {isa = PBXFileReference; explicitFileType = text.xml; fileEncoding = 4; path = shops.xml; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CoffeeSnob-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CoffeeSnob-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -163,6 +165,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources-iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				4CF7E84E1146476000F94F15 /* shops.xml */,
 				4C46139B11457AE900902C27 /* icon.png */,
 				3D5102D11142888E00F1FA64 /* coffee2.jpg */,
 				3D5102D21142888E00F1FA64 /* coffee3.jpg */,
@@ -323,6 +326,7 @@
 				3D5102D51142888E00F1FA64 /* coffee3.jpg in Resources */,
 				3D5102D61142888E00F1FA64 /* coffee4.jpg in Resources */,
 				4C46139C11457AE900902C27 /* icon.png in Resources */,
+				4CF7E84F1146476000F94F15 /* shops.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

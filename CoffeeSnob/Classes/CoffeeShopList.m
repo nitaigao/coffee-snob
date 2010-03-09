@@ -12,6 +12,9 @@
 
 @implementation CoffeeShopList
 
+NSString* const CELLID = @"CoffeeShopListTableCell";
+
+
 - (void)shopsLoaded:(NSMutableArray*)shops {
 	coffeeShopData = shops;	
 	[coffeeShops reloadData];	
@@ -21,26 +24,14 @@
 	return coffeeShopData.count; 
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-	static NSString* kCellIdentifier = @"CoffeeShopListTableCell";
-	
-	CoffeeShopListTableCell *cell = (CoffeeShopListTableCell*)[tableView dequeueReusableCellWithIdentifier:kCellIdentifier];
-	
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {	
+	CoffeeShopListTableCell *cell = (CoffeeShopListTableCell*)[tableView dequeueReusableCellWithIdentifier:CELLID];
 	if (cell == nil)
 	{
-		cell = [[[CoffeeShopListTableCell alloc] initWithFrame:CGRectZero reuseIdentifier:kCellIdentifier] autorelease];
-		
+		cell = [[[CoffeeShopListTableCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CELLID]autorelease];
 	}
-	
-	
+	[cell setShop:[coffeeShopData objectAtIndex:indexPath.row]];
 	return cell;	
-	
-	//CoffeeShop *coffeeShop = [coffeeShopData objectAtIndex:indexPath.row];
-	//CoffeeShopListTableCell *cell = [[[CoffeeShopListTableCell alloc] initWithFrame:CGRectZero reuseIdentifier:tableIdentifier] autorelease];
-	//[cell setDetail:coffeeShop.name imageUrl:@"" distance:@"(120 yds)"];
-	
-	
-	//return cell;
 }
 
 @end

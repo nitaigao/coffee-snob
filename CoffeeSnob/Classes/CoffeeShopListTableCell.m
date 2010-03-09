@@ -11,39 +11,17 @@
 
 @implementation CoffeeShopListTableCell
 
-- (id)initWithFrame:(CGRect)aRect reuseIdentifier:(NSString *)identifier
-{
-	self = [super initWithFrame:aRect reuseIdentifier:identifier];
-	if (self)
-	{
-		// you can do this here specifically or at the table level for all cells
-		self.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-		
-		// Create label views to contain the various pieces of text that make up the cell.
-		// Add these as subviews.
-		titleLabel = [[UILabel alloc] initWithFrame:CGRectZero]; // layoutSubViews will decide the final frame
-		titleLabel.text = @"hello";
-		titleLabel.backgroundColor = [UIColor clearColor];
-		titleLabel.opaque = NO;
-		titleLabel.textColor = [UIColor blackColor];
-		titleLabel.highlightedTextColor = [UIColor whiteColor];
-		titleLabel.font = [UIFont boldSystemFontOfSize:18];
-		[self.contentView addSubview:titleLabel];
-	}
+- (void)setShop:(CoffeeShop*)shop {
+	self.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+	self.selectionStyle = UITableViewCellSelectionStyleNone;
+	self.textLabel.text = shop.name;
+	self.detailTextLabel.text = @"(130 yds)";
 	
-	return self;
+	NSString *path = [[NSBundle mainBundle] pathForResource:@"icon" ofType:@"png"];
+	UIImage *image = [UIImage imageWithContentsOfFile:path];
+	self.imageView.image = image;
+	self.imageView.backgroundColor = [UIColor redColor];		
 }
-
-- (void)setDetail:(NSString*)title imageUrl:(NSString*)imageUrl distance:(NSString*)distance {
-	//titleLabel.text = title;
-	//distanceLabel.text = distance;
-}
-
-
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:NO animated:animated];
-}
-
 
 - (void)dealloc {
     [super dealloc];
