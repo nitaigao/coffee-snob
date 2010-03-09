@@ -8,6 +8,7 @@
 
 #import "CoffeeShopList.h"
 #import "CoffeeShop.h"
+#import "CoffeeShopListTableCell.h"
 
 @implementation CoffeeShopList
 
@@ -21,16 +22,25 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-	static NSString* tableIdentifier = @"identifier";
+	static NSString* kCellIdentifier = @"CoffeeShopListTableCell";
 	
-	UITableViewCell *cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier: tableIdentifier] autorelease];
-	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+	CoffeeShopListTableCell *cell = (CoffeeShopListTableCell*)[tableView dequeueReusableCellWithIdentifier:kCellIdentifier];
 	
-	CoffeeShop *coffeeShop = [coffeeShopData objectAtIndex:indexPath.row];
+	if (cell == nil)
+	{
+		cell = [[[CoffeeShopListTableCell alloc] initWithFrame:CGRectZero reuseIdentifier:kCellIdentifier] autorelease];
+		
+	}
 	
-	cell.textLabel.text = coffeeShop.name;
 	
-	return cell;
+	return cell;	
+	
+	//CoffeeShop *coffeeShop = [coffeeShopData objectAtIndex:indexPath.row];
+	//CoffeeShopListTableCell *cell = [[[CoffeeShopListTableCell alloc] initWithFrame:CGRectZero reuseIdentifier:tableIdentifier] autorelease];
+	//[cell setDetail:coffeeShop.name imageUrl:@"" distance:@"(120 yds)"];
+	
+	
+	//return cell;
 }
 
 @end

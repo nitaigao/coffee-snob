@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface CoffeeShopView : UIView {
+@interface MapSummaryView : UIView {
 	IBOutlet UILabel* name;
 	IBOutlet UILabel* description;
 	IBOutlet UIImageView* image;	

@@ -31,23 +31,10 @@
 }
 
 - (void) selectedMapAnnotationChanged:(CoffeeShopMapAnnotation*)annotation{
-	if (coffeeShopView.name.text == annotation.coffeeShopName)
-	{
-		coffeeShopView.name.text = @"";
-		coffeeShopView.hidden = TRUE;
-	}
-	else
-	{
-		coffeeShopView.name.text = annotation.coffeeShopName;
-		coffeeShopView.description.text = annotation.coffeeShopDescription;
-		NSString* imageName = [NSString stringWithFormat:@"%@.jpg", [annotation.coffeeShopName lowercaseString]];
-		UIImage* image = [UIImage imageNamed:imageName];
-		if (image == nil)
-			image = [UIImage imageNamed:@"coffee4.jpg"];
-		coffeeShopView.image.image = image;
-		[self.view addSubview:coffeeShopView];
-		coffeeShopView.hidden = FALSE;
-	}
+	coffeeShopView.name.text = annotation.coffeeShopName;
+	coffeeShopView.description.text = annotation.coffeeShopDescription;
+	coffeeShopView.image.image = [annotation getCoffeeShopImage];
+	coffeeShopView.hidden = (coffeeShopView.name.text == annotation.coffeeShopName);
 }
 
 -(BOOL)canBecomeFirstResponder {
@@ -77,7 +64,7 @@
 	[navigationBar setRightBarButtonItem:nextButton];
 	[navigationBar setLeftBarButtonItem:listButton];
 	[coffeeMap shopsLoaded:shops];
-	[coffeeList shopsLoaded:shops];
+	[coffeeList shopsLoaded:shops]; 
 }
 
 - (void)flipViews:(UIViewAnimationTransition) transition {

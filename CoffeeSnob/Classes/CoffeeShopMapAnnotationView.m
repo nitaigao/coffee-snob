@@ -10,8 +10,7 @@
 
 @implementation CoffeeShopMapAnnotationView
 
-- (id)initWithAnnotation:(id <MKAnnotation>)annotation reuseIdentifier:(NSString *)reuseIdentifier
-{
+- (id)initWithAnnotation:(id <MKAnnotation>)annotation reuseIdentifier:(NSString *)reuseIdentifier {
 	self = [super initWithAnnotation:annotation reuseIdentifier:reuseIdentifier];	
 	self.canShowCallout = YES;
 	self.selected = TRUE;
@@ -19,8 +18,7 @@
 	return self;
 }
 
--(void) dealloc
-{
+-(void) dealloc {
 	[super dealloc];
 }
 

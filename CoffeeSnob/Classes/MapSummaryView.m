@@ -6,10 +6,10 @@
 //  Copyright 2010 __MyCompanyName__. All rights reserved.
 //
 
-#import "CoffeeShopView.h"
+#import "MapSummaryView.h"
 #import <QuartzCore/QuartzCore.h>
 
-@implementation CoffeeShopView
+@implementation MapSummaryView
 
 @synthesize name;
 @synthesize description;

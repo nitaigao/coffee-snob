@@ -15,12 +15,16 @@
 @synthesize coffeeShopName;
 @synthesize coffeeShopDescription;
 
-- (NSString *)title {
-	return coffeeShopName;
+- (UIImage*) getCoffeeShopImage {
+	NSString* imageName = [NSString stringWithFormat:@"%@.jpg", [coffeeShopName lowercaseString]];
+	UIImage* image = [UIImage imageNamed:imageName];
+	
+	if (image == nil)
+	{
+		image = [UIImage imageNamed:@"coffee4.jpg"];
+	}	
+	
+	return image;
 }
-
-//- (NSString *)subtitle {
-//	return coffeeShopDescription;
-//}
 
 @end
