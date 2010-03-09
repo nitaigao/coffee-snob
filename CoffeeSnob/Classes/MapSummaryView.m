@@ -22,6 +22,13 @@
 	return self;
 }
 
+- (void) setAnnotation:(CoffeeShopMapAnnotation *)annotation  {
+	self.hidden = (name.text == annotation.coffeeShopName);
+	name.text = annotation.coffeeShopName;
+	description.text = annotation.coffeeShopDescription;
+	image.image = [annotation getCoffeeShopImage];
+}
+
 - (void)dealloc {
     [super dealloc];
 }

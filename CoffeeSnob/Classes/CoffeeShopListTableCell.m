@@ -35,8 +35,8 @@
 }
 
 - (void)setDetail:(NSString*)title imageUrl:(NSString*)imageUrl distance:(NSString*)distance {
-	titleLabel.text = title;
-	distanceLabel.text = distance;
+	//titleLabel.text = title;
+	//distanceLabel.text = distance;
 }
 
 

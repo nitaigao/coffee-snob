@@ -30,11 +30,8 @@
 	[navigationBar setLeftBarButtonItem:listButton];
 }
 
-- (void) selectedMapAnnotationChanged:(CoffeeShopMapAnnotation*)annotation{
-	coffeeShopView.name.text = annotation.coffeeShopName;
-	coffeeShopView.description.text = annotation.coffeeShopDescription;
-	coffeeShopView.image.image = [annotation getCoffeeShopImage];
-	coffeeShopView.hidden = (coffeeShopView.name.text == annotation.coffeeShopName);
+- (void) selectedMapAnnotationChanged:(CoffeeShopMapAnnotation*)annotation {
+	[coffeeShopView setAnnotation: annotation];
 }
 
 -(BOOL)canBecomeFirstResponder {

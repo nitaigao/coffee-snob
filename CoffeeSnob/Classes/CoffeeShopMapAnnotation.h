@@ -17,6 +17,7 @@
 }
 
 - (UIImage*) getCoffeeShopImage;
+- (NSString*) title;
 
 @property (nonatomic, assign) CLLocationCoordinate2D coordinate;
 @property (nonatomic, assign) NSString* coffeeShopName;

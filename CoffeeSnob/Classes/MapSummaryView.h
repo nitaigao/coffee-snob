@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CoffeeShopMapAnnotation.h"
 
 
 @interface MapSummaryView : UIView {
@@ -18,5 +19,7 @@
 @property (nonatomic, retain) IBOutlet UILabel* name;
 @property (nonatomic, retain) IBOutlet UILabel* description;
 @property (nonatomic, retain) IBOutlet UIImageView* image;
+
+- (void) setAnnotation:(CoffeeShopMapAnnotation *)annotation;
 
 @end
