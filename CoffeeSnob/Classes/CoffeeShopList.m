@@ -14,9 +14,9 @@
 
 NSString* const CELLID = @"CoffeeShopListTableCell";
 
-
-- (void)shopsLoaded:(NSMutableArray*)shops {
+- (void)shopsLoaded:(NSMutableArray*)shops delegate:(id)selectedDelegate {
 	coffeeShopData = shops;	
+	delegate = selectedDelegate;
 	[coffeeShops reloadData];	
 }
 
@@ -30,7 +30,7 @@ NSString* const CELLID = @"CoffeeShopListTableCell";
 	{
 		cell = [[[CoffeeShopListTableCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CELLID]autorelease];
 	}
-	[cell setShop:[coffeeShopData objectAtIndex:indexPath.row]];
+	[cell setShop:[coffeeShopData objectAtIndex:indexPath.row] delegate:delegate];
 	return cell;	
 }
 

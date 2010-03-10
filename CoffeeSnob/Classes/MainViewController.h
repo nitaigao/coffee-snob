@@ -33,5 +33,6 @@
 - (void) locationUpdated;
 - (void) shopsLoaded;
 - (void) selectedMapAnnotationChanged:(CoffeeShopMapAnnotation*)annotation;
+- (void) listItemSelected:(NSString*)title;
 
 @end

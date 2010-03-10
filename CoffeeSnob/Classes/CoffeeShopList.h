@@ -12,8 +12,9 @@
 @interface CoffeeShopList : NSObject<UITableViewDataSource> {
 	IBOutlet UITableView *coffeeShops;
 	NSMutableArray *coffeeShopData;
+	id delegate;
 }
 
-- (void)shopsLoaded:(NSMutableArray*)shops;
+- (void)shopsLoaded:(NSMutableArray*)shops delegate:(id)selectedDelegate;
 
 @end

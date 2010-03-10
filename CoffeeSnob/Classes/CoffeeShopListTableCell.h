@@ -11,9 +11,9 @@
 
 
 @interface CoffeeShopListTableCell : UITableViewCell {
-
+	id delegate;
 }
 
-- (void)setShop:(CoffeeShop*)shop;
+- (void)setShop:(CoffeeShop*)shop delegate:(id)selectedDelegate;
 
 @end

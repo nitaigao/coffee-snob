@@ -50,10 +50,10 @@
 
 - (void) zoomMapToUserAndShop:(CoffeeShop *)coffeeShop  {
 	
-	double longitudeDifference = (coffeeShop.location.coordinate.longitude - mapView.userLocation.coordinate.longitude);
-	double latitudeDifference = (coffeeShop.location.coordinate.latitude - mapView.userLocation.coordinate.latitude);
-	double centerMapLongitude = mapView.userLocation.coordinate.longitude + (longitudeDifference / 2);
-	double centerMapLatitude = mapView.userLocation.coordinate.latitude + (latitudeDifference / 2);
+	double longitudeDifference = (coffeeShop.location.coordinate.longitude - locationManager.location.coordinate.longitude);
+	double latitudeDifference = (coffeeShop.location.coordinate.latitude - locationManager.location.coordinate.latitude);
+	double centerMapLongitude = locationManager.location.coordinate.longitude + (longitudeDifference / 2);
+	double centerMapLatitude = locationManager.location.coordinate.latitude + (latitudeDifference / 2);
 
 	longitudeDifference = longitudeDifference * 1.4;
 	latitudeDifference = latitudeDifference * 1.5;
@@ -72,8 +72,12 @@
 }
 
 - (void)shopsLoaded:(NSMutableArray *)shops {
-	[coffeeShops addCoffeeShops:shops userLocation:mapView.userLocation.location];
+	[coffeeShops addCoffeeShops:shops userLocation:locationManager.location];
 	[self showNextCoffeeShopToUser];
+}
+
+- (void)selectShop:(NSString*)shopName {
+	NSLog(@"%@", shopName);
 }
 
 -(CLLocation *)getSelectedCoffeeShopLocation{	

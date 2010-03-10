@@ -11,7 +11,8 @@
 
 @implementation CoffeeShopListTableCell
 
-- (void)setShop:(CoffeeShop*)shop {
+- (void)setShop:(CoffeeShop*)shop delegate:(id)selectedDelegate {
+	delegate = selectedDelegate;
 	self.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 	self.selectionStyle = UITableViewCellSelectionStyleNone;
 	self.textLabel.text = shop.name;
@@ -21,6 +22,12 @@
 	UIImage *image = [UIImage imageWithContentsOfFile:path];
 	self.imageView.image = image;
 	self.imageView.backgroundColor = [UIColor redColor];		
+}
+
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
+	if ([delegate respondsToSelector:@selector(listItemSelected:)]) {
+		[delegate performSelector:@selector(listItemSelected:) withObject:self.textLabel.text];
+	}
 }
 
 - (void)dealloc {

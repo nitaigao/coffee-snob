@@ -26,5 +26,6 @@
 - (void)showNextCoffeeShopToUser;
 - (void)showDirectionsToSelectedCoffeeShop;
 - (void)shopsLoaded:(NSMutableArray*)shops;
+- (void)selectShop:(NSString*)shopName;
 
 @end

@@ -61,7 +61,11 @@
 	[navigationBar setRightBarButtonItem:nextButton];
 	[navigationBar setLeftBarButtonItem:listButton];
 	[coffeeMap shopsLoaded:shops];
-	[coffeeList shopsLoaded:shops]; 
+	[coffeeList shopsLoaded:shops delegate:self]; 
+}
+
+- (void) listItemSelected:(NSString*)title {
+	[coffeeMap selectShop:title];
 }
 
 - (void)flipViews:(UIViewAnimationTransition) transition {

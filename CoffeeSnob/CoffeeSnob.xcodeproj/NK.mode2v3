@@ -204,7 +204,7 @@
 				<key>PBXProjectModuleGUID</key>
 				<string>4C4613CE11457D2300902C27</string>
 				<key>PBXProjectModuleLabel</key>
-				<string>CoffeeShopMap.m</string>
+				<string>CoffeeShopList.m</string>
 				<key>PBXSplitModuleInNavigatorKey</key>
 				<dict>
 					<key>Split0</key>
@@ -212,49 +212,51 @@
 						<key>PBXProjectModuleGUID</key>
 						<string>4C4613D211457D2F00902C27</string>
 						<key>PBXProjectModuleLabel</key>
-						<string>CoffeeShopMap.m</string>
+						<string>CoffeeShopList.m</string>
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>4CB4A17D1146F78300657C24</string>
+						<string>4CD06D691147903600A900BC</string>
 						<key>history</key>
 						<array>
 							<string>4C46142F1145894000902C27</string>
 							<string>4C46149E11458E7F00902C27</string>
 							<string>4CF2AD9411463C3100BCBE4D</string>
-							<string>4CF2ADE111463F5000BCBE4D</string>
 							<string>4CF2ADE211463F5000BCBE4D</string>
 							<string>4CF2ADE311463F5000BCBE4D</string>
 							<string>4CF2ADE911463F5000BCBE4D</string>
-							<string>4CF2ADF211463FAD00BCBE4D</string>
-							<string>4CBA7B6A1146472700BC4186</string>
-							<string>4CBA7B6B1146472700BC4186</string>
 							<string>4CBA7B6C1146472700BC4186</string>
 							<string>4CBA7B701146472700BC4186</string>
 							<string>4CE435C61146949900AE689E</string>
 							<string>4CB49FB21146E2AA00657C24</string>
 							<string>4CB49FD81146E56A00657C24</string>
 							<string>4CB49FDB1146E56A00657C24</string>
-							<string>4CB49FDE1146E56A00657C24</string>
-							<string>4CB49FE01146E56A00657C24</string>
-							<string>4CB49FE11146E56A00657C24</string>
-							<string>4CB49FE91146E56A00657C24</string>
 							<string>4CB4A0F51146F10100657C24</string>
 							<string>4CB4A0F81146F10100657C24</string>
 							<string>4CB4A0FA1146F10100657C24</string>
 							<string>4CB4A0FC1146F10100657C24</string>
 							<string>4CB4A0FD1146F10100657C24</string>
 							<string>4CB4A0FE1146F10100657C24</string>
-							<string>4CB4A1011146F10100657C24</string>
-							<string>4CB4A1021146F10100657C24</string>
 							<string>4CB4A1041146F10100657C24</string>
 							<string>4CB4A1771146F78300657C24</string>
-							<string>4CB4A1781146F78300657C24</string>
-							<string>4CB4A1791146F78300657C24</string>
-							<string>4CB4A17A1146F78300657C24</string>
-							<string>4CB4A17B1146F78300657C24</string>
 							<string>4CB4A17C1146F78300657C24</string>
-							<string>4CB4A1031146F10100657C24</string>
+							<string>4CD06D3811478FA900A900BC</string>
+							<string>4CD06D3911478FA900A900BC</string>
+							<string>4CD06D3A11478FA900A900BC</string>
+							<string>4CD06D3B11478FA900A900BC</string>
+							<string>4CD06D3D11478FA900A900BC</string>
+							<string>4CD06D3E11478FA900A900BC</string>
+							<string>4CD06D3F11478FA900A900BC</string>
+							<string>4CD06D4011478FA900A900BC</string>
+							<string>4CD06D4111478FA900A900BC</string>
+							<string>4CD06D4311478FA900A900BC</string>
+							<string>4CD06D4511478FA900A900BC</string>
+							<string>4CD06D4611478FA900A900BC</string>
+							<string>4CD06D4711478FA900A900BC</string>
+							<string>4CD06D4811478FA900A900BC</string>
+							<string>4CD06D4911478FA900A900BC</string>
+							<string>4CD06D5711478FEC00A900BC</string>
+							<string>4CD06D4211478FA900A900BC</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -355,7 +357,7 @@
 									<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 									<array>
 										<array>
-											<integer>27</integer>
+											<integer>29</integer>
 											<integer>21</integer>
 											<integer>17</integer>
 											<integer>3</integer>
@@ -363,7 +365,7 @@
 										</array>
 									</array>
 									<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-									<string>{{0, 240}, {375, 737}}</string>
+									<string>{{0, 29}, {375, 737}}</string>
 								</dict>
 								<key>PBXTopSmartGroupGIDs</key>
 								<array/>
@@ -526,8 +528,8 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>4CB49F1D1146D16800657C24</string>
-				<string>4CB49F1E1146D16800657C24</string>
+				<string>4CD06CD811478C9E00A900BC</string>
+				<string>4CD06CD911478C9E00A900BC</string>
 				<string>1C9437FD063B20B00039CFAC</string>
 				<string>1C9437FE063B20B00039CFAC</string>
 				<string>1C9437FF063B20B00039CFAC</string>
@@ -566,13 +568,9 @@
 	<integer>0</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>4CAFC3D8111DF04800409128</string>
-		<string>1C530D57069F1CE1000CFCEE</string>
-		<string>4CB49F3D1146D22200657C24</string>
-		<string>4CB49F341146D1EC00657C24</string>
+		<string>4CD06CE711478C9E00A900BC</string>
 		<string>1C530D5B069F1CE1000CFCEE</string>
 		<string>1C530D54069F1CE1000CFCEE</string>
-		<string>4CB49F1A1146D14D00657C24</string>
 		<string>1C530D52069F1CE1000CFCEE</string>
 		<string>/Users/NK/Development/iphone/CoffeeSnob/CoffeeSnob.xcodeproj</string>
 		<string>4C4613CE11457D2300902C27</string>
@@ -736,7 +734,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CoffeeShopRepository.m</string>
+								<string>MainViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -794,7 +792,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D52069F1CE1000CFCEE</string>
-				<string>4CB49F191146D14D00657C24</string>
+				<string>4CD06CDE11478C9E00A900BC</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -916,13 +914,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D54069F1CE1000CFCEE</string>
-				<string>4CB49F2C1146D1EC00657C24</string>
+				<string>4CD06CDF11478C9E00A900BC</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>4CB49F2D1146D1EC00657C24</string>
-				<string>4CB49F2E1146D1EC00657C24</string>
-				<string>4CB49F2F1146D1EC00657C24</string>
-				<string>4CB49F301146D1EC00657C24</string>
-				<string>4CB49F311146D1EC00657C24</string>
+				<string>4CD06CE011478C9E00A900BC</string>
+				<string>4CD06CE111478C9E00A900BC</string>
+				<string>4CD06CE211478C9E00A900BC</string>
+				<string>4CD06CE311478C9E00A900BC</string>
+				<string>4CD06CE411478C9E00A900BC</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -1078,7 +1076,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D5B069F1CE1000CFCEE</string>
-				<string>4CB49F321146D1EC00657C24</string>
+				<string>4CD06CE511478C9E00A900BC</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
