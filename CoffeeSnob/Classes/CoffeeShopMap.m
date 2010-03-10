@@ -8,6 +8,7 @@
 
 #import "CoffeeShopMap.h"
 
+#import <MapKit/MapKit.h>
 
 @implementation CoffeeShopMap
 
@@ -43,13 +44,18 @@
 	mapView.showsUserLocation = YES;
 }
 
-- (void) createAnnotationForShop:(CoffeeShop *)bestCoffeeShop  {
-	CoffeeShopMapAnnotation* coffeeShopAnnotation = [bestCoffeeShop getMapAnnotation];
+- (void) showAnnotationForShop:(CoffeeShop *)coffeeShop  {	
+	CoffeeShopMapAnnotation* coffeeShopAnnotation = [coffeeShop getMapAnnotation];
+	for (NSObject<MKAnnotation> *annotation in mapView.annotations) {
+		if (![[annotation title] compare:[coffeeShopAnnotation title]]) {
+			[mapView selectAnnotation:annotation animated:NO];
+			return;
+		}
+	}
 	[mapView addAnnotation:coffeeShopAnnotation];
 }
 
 - (void) zoomMapToUserAndShop:(CoffeeShop *)coffeeShop  {
-	
 	double longitudeDifference = (coffeeShop.location.coordinate.longitude - locationManager.location.coordinate.longitude);
 	double latitudeDifference = (coffeeShop.location.coordinate.latitude - locationManager.location.coordinate.latitude);
 	double centerMapLongitude = locationManager.location.coordinate.longitude + (longitudeDifference / 2);
@@ -68,7 +74,7 @@
 - (void) showNextCoffeeShopToUser {
 	CoffeeShop* coffeeShop = [coffeeShops getNextCoffeeShop];
 	[self zoomMapToUserAndShop: coffeeShop];
-	[self createAnnotationForShop: coffeeShop];
+	[self showAnnotationForShop: coffeeShop];
 }
 
 - (void)shopsLoaded:(NSMutableArray *)shops {
@@ -76,8 +82,9 @@
 	[self showNextCoffeeShopToUser];
 }
 
-- (void)selectShop:(NSString*)shopName {
-	NSLog(@"%@", shopName);
+- (void)selectShop:(CoffeeShop*)coffeeShop {	
+	[self showAnnotationForShop:coffeeShop];
+	[self zoomMapToUserAndShop:coffeeShop];
 }
 
 -(CLLocation *)getSelectedCoffeeShopLocation{	

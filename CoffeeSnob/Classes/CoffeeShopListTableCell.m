@@ -13,8 +13,9 @@
 
 - (void)setShop:(CoffeeShop*)shop delegate:(id)selectedDelegate {
 	delegate = selectedDelegate;
+	coffeeShop = shop;
 	self.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-	self.selectionStyle = UITableViewCellSelectionStyleNone;
+	self.selectionStyle = UITableViewCellSelectionStyleBlue;
 	self.textLabel.text = shop.name;
 	self.detailTextLabel.text = @"(130 yds)";
 	
@@ -25,8 +26,9 @@
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-	if ([delegate respondsToSelector:@selector(listItemSelected:)]) {
-		[delegate performSelector:@selector(listItemSelected:) withObject:self.textLabel.text];
+	if ([delegate respondsToSelector:@selector(listItemSelected:)] && selected) {
+		[delegate performSelector:@selector(listItemSelected:) withObject:coffeeShop];
+		self.selected = FALSE;
 	}
 }
 

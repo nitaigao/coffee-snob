@@ -12,6 +12,7 @@
 
 @interface CoffeeShopListTableCell : UITableViewCell {
 	id delegate;
+	CoffeeShop *coffeeShop;
 }
 
 - (void)setShop:(CoffeeShop*)shop delegate:(id)selectedDelegate;

@@ -64,8 +64,9 @@
 	[coffeeList shopsLoaded:shops delegate:self]; 
 }
 
-- (void) listItemSelected:(NSString*)title {
-	[coffeeMap selectShop:title];
+- (void) listItemSelected:(CoffeeShop*)coffeeShop {
+	[self flipButtonClicked:nil];
+	[coffeeMap selectShop:coffeeShop];
 }
 
 - (void)flipViews:(UIViewAnimationTransition) transition {
