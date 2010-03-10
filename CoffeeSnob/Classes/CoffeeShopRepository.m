@@ -56,6 +56,7 @@ NSString* const POINTNODEPATH = @"/rss/channel/item";
 }
 
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
+	sleep(2);
 	[connection release];
 	NSString* responseString = [[NSString alloc] initWithData:coffeeResponseData encoding:NSUTF8StringEncoding];
 	NSMutableArray *coffeeShops = [self createShopsFromRSS: responseString];

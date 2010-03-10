@@ -33,15 +33,22 @@
 	if (newLocation.horizontalAccuracy < 500 && !isGettingCoffee) {
 		isGettingCoffee = true;
 		[locationManager stopUpdatingLocation];
-		if ([viewController respondsToSelector:@selector(locationUpdated)]) {
-			[viewController performSelector:@selector(locationUpdated)];
-		}
+		mapView.showsUserLocation = YES;
+		[mapView.userLocation addObserver:self forKeyPath:@"location" options:(NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld) context:NULL];
 	}
 	[lock unlock];
 }
 
 - (void)showUserLocation {
-	mapView.showsUserLocation = YES;
+	
+}
+
+-(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
+	[mapView.userLocation removeObserver:self forKeyPath:@"location"];
+	if ([viewController respondsToSelector:@selector(locationUpdated)]) {
+		[viewController performSelector:@selector(locationUpdated)];
+	}
+	
 }
 
 - (void) showAnnotationForShop:(CoffeeShop *)coffeeShop  {	

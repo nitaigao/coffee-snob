@@ -24,7 +24,7 @@
 
 - (void) setAnnotation:(CoffeeShopMapAnnotation *)annotation  {
 	self.hidden = (name.text == annotation.coffeeShopName);
-	name.text = annotation.coffeeShopName;
+	name.text = name.text == annotation.coffeeShopName ? @"" : annotation.coffeeShopName;
 	description.text = annotation.coffeeShopDescription;
 	image.image = [annotation getCoffeeShopImage];
 }
