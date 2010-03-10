@@ -33,8 +33,8 @@
 	28216C960DB411BC00E5133A /* MainViewController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1219, 1440}}";
-			sepNavSelRange = "{787, 0}";
-			sepNavVisRange = "{918, 1732}";
+			sepNavSelRange = "{1583, 0}";
+			sepNavVisRange = "{915, 1735}";
 			sepNavWindowFrame = "{{391, 0}, {1044, 878}}";
 		};
 	};
@@ -131,6 +131,8 @@
 			4C91BB2E114816D800D8BDB5 /* PBXTextBookmark */ = 4C91BB2E114816D800D8BDB5 /* PBXTextBookmark */;
 			4C91BB2F114816D800D8BDB5 /* PBXTextBookmark */ = 4C91BB2F114816D800D8BDB5 /* PBXTextBookmark */;
 			4C91BB36114817D000D8BDB5 /* PBXTextBookmark */ = 4C91BB36114817D000D8BDB5 /* PBXTextBookmark */;
+			4C91BB4811481BB200D8BDB5 /* PBXTextBookmark */ = 4C91BB4811481BB200D8BDB5 /* PBXTextBookmark */;
+			4C91BB4911481BB200D8BDB5 /* PBXTextBookmark */ = 4C91BB4911481BB200D8BDB5 /* PBXTextBookmark */;
 			4CB49FB21146E2AA00657C24 = 4CB49FB21146E2AA00657C24 /* PBXTextBookmark */;
 			4CB49FD81146E56A00657C24 = 4CB49FD81146E56A00657C24 /* PBXTextBookmark */;
 			4CB49FDB1146E56A00657C24 = 4CB49FDB1146E56A00657C24 /* PBXTextBookmark */;
@@ -190,9 +192,9 @@
 	};
 	3D1CF512113317A50009F2A3 /* CoffeeShopMap.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 1856}}";
-			sepNavSelRange = "{1380, 182}";
-			sepNavVisRange = "{683, 2295}";
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 1664}}";
+			sepNavSelRange = "{2818, 0}";
+			sepNavVisRange = "{234, 2246}";
 			sepNavWindowFrame = "{{320, 4}, {1115, 874}}";
 		};
 	};
@@ -232,7 +234,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 1;
+		breakpointsEnabled = 0;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -639,6 +641,26 @@
 		rType = 0;
 		vrLen = 2295;
 		vrLoc = 683;
+	};
+	4C91BB4811481BB200D8BDB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3D1CF512113317A50009F2A3 /* CoffeeShopMap.m */;
+		name = "CoffeeShopMap.m: 79";
+		rLen = 0;
+		rLoc = 2818;
+		rType = 0;
+		vrLen = 2246;
+		vrLoc = 234;
+	};
+	4C91BB4911481BB200D8BDB5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C960DB411BC00E5133A /* MainViewController.m */;
+		name = "MainViewController.m: 62";
+		rLen = 0;
+		rLoc = 1583;
+		rType = 0;
+		vrLen = 1735;
+		vrLoc = 915;
 	};
 	4CB49F541146D34F00657C24 /* CoffeeShopRepository.m */ = {
 		isa = PBXFileReference;

@@ -73,8 +73,8 @@
 
 - (void) showNextCoffeeShopToUser {
 	CoffeeShop* coffeeShop = [coffeeShops getNextCoffeeShop];
-	[self zoomMapToUserAndShop: coffeeShop];
 	[self showAnnotationForShop: coffeeShop];
+	[self zoomMapToUserAndShop: coffeeShop];
 }
 
 - (void)shopsLoaded:(NSMutableArray *)shops {
