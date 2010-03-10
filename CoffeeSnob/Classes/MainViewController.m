@@ -79,7 +79,7 @@
 
 - (IBAction) flipButtonClicked:(id)sender {
 	bool isList = ![listButton.title compare:@"List"];
-	isList && coffeeShopView.hidden == FALSE ? [coffeeShopView removeFromSuperview] : [self.view addSubview:coffeeShopView];
+	//isList && coffeeShopView.hidden == FALSE ? [coffeeShopView removeFromSuperview] : [self.view addSubview:coffeeShopView];
 	[self flipViews:isList ? UIViewAnimationTransitionFlipFromRight : UIViewAnimationTransitionFlipFromLeft];
 	listButton.title = isList ? @"Map" : @"List";
 	navigationBar.rightBarButtonItem = isList ? nil : nextButton; 
