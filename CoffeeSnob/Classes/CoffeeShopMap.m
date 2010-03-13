@@ -80,8 +80,7 @@
 
 - (void) showNextCoffeeShopToUser {
 	CoffeeShop* coffeeShop = [coffeeShops getNextCoffeeShop];
-	[self showAnnotationForShop: coffeeShop];
-	[self zoomMapToUserAndShop: coffeeShop];
+	[self selectShop:coffeeShop];
 }
 
 - (void)shopsLoaded:(NSMutableArray *)shops {
@@ -90,8 +89,8 @@
 }
 
 - (void)selectShop:(CoffeeShop*)coffeeShop {	
-	[self showAnnotationForShop:coffeeShop];
 	[self zoomMapToUserAndShop:coffeeShop];
+	[self showAnnotationForShop:coffeeShop];	
 }
 
 -(CLLocation *)getSelectedCoffeeShopLocation{	

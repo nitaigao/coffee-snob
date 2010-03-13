@@ -25,7 +25,7 @@
 	
 	if (image == nil)
 	{
-		image = [UIImage imageNamed:@"coffee4.jpg"];
+		image = [UIImage imageNamed:@"coffee.jpg"];
 	}	
 	
 	return image;

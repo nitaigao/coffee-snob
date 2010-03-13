@@ -13,7 +13,6 @@
 
 NSString * const SELECTED = @"selected";
 NSString * const ANNOTATION_SELECTED = @"annotationselected";
-NSString * const ANNOTATION_DESELECTED = @"annotationdeselected";
 NSString * const PINANNOTATION_ID = @"CustomPinAnnotation";
 
 
