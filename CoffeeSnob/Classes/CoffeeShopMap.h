@@ -17,12 +17,11 @@
 	IBOutlet MKMapView* mapView;
 	CLLocationManager* locationManager;
 	NSLock *lock;
-	bool isGettingCoffee;
+	bool locationFound;
 	CoffeeShopsList* coffeeShops;
 }
 
 - (void)startUpdatingLocation;
-- (void)showUserLocation;
 - (void)showNextCoffeeShopToUser;
 - (void)showDirectionsToSelectedCoffeeShop;
 - (void)shopsLoaded:(NSMutableArray*)shops;

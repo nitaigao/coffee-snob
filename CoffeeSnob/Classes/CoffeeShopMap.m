@@ -12,6 +12,9 @@
 
 @implementation CoffeeShopMap
 
+NSInteger const FIVE_MINUTES = 300;
+NSInteger const ONE_HUNDRED_METRES = 100;
+
 - (id)init {
 	[super init];
 	coffeeShops = [[CoffeeShopsList alloc]init];
@@ -21,17 +24,18 @@
 }
 
 - (void)startUpdatingLocation {
-	isGettingCoffee = false;
+	locationFound = false;
 	locationManager.delegate = self;
-	locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters;
-	locationManager.distanceFilter = 1; // or whatever
+	locationManager.desiredAccuracy = kCLLocationAccuracyBest;
 	[locationManager startUpdatingLocation];	
 }
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation {
 	[lock lock];
-	if (newLocation.horizontalAccuracy < 500 && !isGettingCoffee) {
-		isGettingCoffee = true;
+	NSTimeInterval ageOfLocationUpdate = [newLocation.timestamp timeIntervalSinceNow];
+	ageOfLocationUpdate = fabs(ageOfLocationUpdate);
+	if (!locationFound && ageOfLocationUpdate < FIVE_MINUTES && newLocation.horizontalAccuracy < ONE_HUNDRED_METRES) {
+		locationFound = true;
 		[locationManager stopUpdatingLocation];
 		mapView.showsUserLocation = YES;
 		[mapView.userLocation addObserver:self forKeyPath:@"location" options:(NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld) context:NULL];
@@ -39,16 +43,11 @@
 	[lock unlock];
 }
 
-- (void)showUserLocation {
-	
-}
-
 -(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
 	[mapView.userLocation removeObserver:self forKeyPath:@"location"];
 	if ([viewController respondsToSelector:@selector(locationUpdated)]) {
 		[viewController performSelector:@selector(locationUpdated)];
-	}
-	
+	}	
 }
 
 - (void) showAnnotationForShop:(CoffeeShop *)coffeeShop  {	

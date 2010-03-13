@@ -202,29 +202,26 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
-				<string>3DA426AC114BF0CB00E37674</string>
+				<string>3DA42759114C015900E37674</string>
 				<key>PBXProjectModuleLabel</key>
-				<string>CoffeeShopListTableCell.m</string>
+				<string>CoffeeShopMap.m</string>
 				<key>PBXSplitModuleInNavigatorKey</key>
 				<dict>
 					<key>Split0</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
-						<string>3DA426C9114BF23F00E37674</string>
+						<string>3DA42761114C018700E37674</string>
 						<key>PBXProjectModuleLabel</key>
-						<string>CoffeeShopListTableCell.m</string>
+						<string>CoffeeShopMap.m</string>
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>3DA426CF114BF23F00E37674</string>
+						<string>3DA42792114C02F600E37674</string>
 						<key>history</key>
 						<array>
-							<string>3DA426CA114BF23F00E37674</string>
-							<string>3DA426CB114BF23F00E37674</string>
-							<string>3DA426CC114BF23F00E37674</string>
-							<string>3DA426CD114BF23F00E37674</string>
-							<string>3DA426CE114BF23F00E37674</string>
-							<string>3DA426C2114BF22700E37674</string>
+							<string>3DA42762114C018700E37674</string>
+							<string>3DA42790114C02F600E37674</string>
+							<string>3DA42791114C02F600E37674</string>
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -329,14 +326,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>16</integer>
-									<integer>4</integer>
-									<integer>3</integer>
+									<integer>38</integer>
+									<integer>35</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 22}, {267, 681}}</string>
+							<string>{{0, 0}, {267, 681}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -371,7 +367,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>coffee.jpg</string>
+								<string>CoffeeShopMap.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -379,11 +375,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>coffee.jpg</string>
+										<string>CoffeeShopMap.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>3DA426C8114BF23F00E37674</string>
+										<string>3DA4278F114C02F600E37674</string>
 										<key>history</key>
 										<array>
 											<string>3D97EE78113418BC00452A21</string>
@@ -396,7 +392,6 @@
 											<string>3D51025B11427E6400F1FA64</string>
 											<string>3D51025C11427E6400F1FA64</string>
 											<string>3D5102A21142812000F1FA64</string>
-											<string>3D5102E1114288BE00F1FA64</string>
 											<string>3DBD06951142B13D002B3D40</string>
 											<string>3DBD06961142B13D002B3D40</string>
 											<string>3D25D1E2114820CE00ED887A</string>
@@ -407,7 +402,7 @@
 											<string>3D25D26E1148296600ED887A</string>
 											<string>3D25D26F1148296600ED887A</string>
 											<string>3DA426C6114BF23F00E37674</string>
-											<string>3DA426C7114BF23F00E37674</string>
+											<string>3DA4278E114C02F600E37674</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -419,14 +414,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {0, 0}}</string>
+								<string>{{0, 0}, {0, 162}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 138 289 740 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>0pt</string>
+							<string>162pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -439,14 +434,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 5}, {0, 694}}</string>
+								<string>{{0, 167}, {0, 532}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 138 289 740 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>694pt</string>
+							<string>532pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -465,9 +460,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>3DA426A8114BF0C900E37674</string>
+				<string>3DA4275F114C018700E37674</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>3DA426A9114BF0C900E37674</string>
+				<string>3DA42760114C018700E37674</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -582,7 +577,7 @@
 	<key>PerspectivesBarVisible</key>
 	<false/>
 	<key>PinnedNavigatorIdentifier</key>
-	<string>3DA426AC114BF0CB00E37674</string>
+	<string>3DA42759114C015900E37674</string>
 	<key>ShelfIsVisible</key>
 	<false/>
 	<key>SourceDescription</key>
@@ -607,15 +602,13 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>3DA426D9114BF23F00E37674</string>
-		<string>3DA426DA114BF23F00E37674</string>
-		<string>3DA426DB114BF23F00E37674</string>
+		<string>3DA4276D114C018700E37674</string>
+		<string>3DA4276E114C018700E37674</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>3D2443C0112EF716001801D5</string>
-		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>/Users/markh/Development/iphone/CoffeeSnob/CoffeeSnob.xcodeproj</string>
-		<string>3DA426AC114BF0CB00E37674</string>
+		<string>3D2443C0112EF716001801D5</string>
+		<string>3DA42759114C015900E37674</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 138 289 740 0 0 1440 878 </string>
@@ -639,7 +632,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>CoffeeShopMap.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -656,6 +649,8 @@
 							<string>140pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -695,7 +690,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>3D2443C0112EF716001801D5</string>
-				<string>3DA426AA114BF0C900E37674</string>
+				<string>3DA42765114C018700E37674</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -708,7 +703,7 @@
 			<key>WindowToolGUID</key>
 			<string>3D2443C0112EF716001801D5</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -817,13 +812,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>3DA426D0114BF23F00E37674</string>
+				<string>3DA42766114C018700E37674</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>3DA426D1114BF23F00E37674</string>
-				<string>3DA426D2114BF23F00E37674</string>
-				<string>3DA426D3114BF23F00E37674</string>
-				<string>3DA426D4114BF23F00E37674</string>
-				<string>3DA426D5114BF23F00E37674</string>
+				<string>3DA42767114C018700E37674</string>
+				<string>3DA42768114C018700E37674</string>
+				<string>3DA42769114C018700E37674</string>
+				<string>3DA4276A114C018700E37674</string>
+				<string>3DA4276B114C018700E37674</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -977,7 +972,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>3DA426D8114BF23F00E37674</string>
+				<string>3DA4276C114C018700E37674</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -1482,7 +1477,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>3D1CF503113317050009F2A3</string>
-				<string>3D2FC0F0113B1526002FD2AD</string>
+				<string>3DA42748114BFF7400E37674</string>
 				<string>3D1CF502113317050009F2A3</string>
 			</array>
 			<key>WindowString</key>

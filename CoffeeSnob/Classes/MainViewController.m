@@ -19,7 +19,6 @@
 }
 
 - (void)locationUpdated {
-	[coffeeMap showUserLocation];
 	[loadingView setMessage:@"Finding coffee..."];
 	[[[CoffeeShopRepository alloc] init] findAll:self];			
 }
