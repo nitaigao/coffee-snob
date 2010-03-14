@@ -237,9 +237,9 @@
 	};
 	3D1CF512113317A50009F2A3 /* CoffeeShopMap.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1101, 1417}}";
-			sepNavSelRange = "{298, 0}";
-			sepNavVisRange = "{3, 1737}";
+			sepNavIntBoundsRect = "{{0, 0}, {12, 1482}}";
+			sepNavSelRange = "{4392, 0}";
+			sepNavVisRange = "{0, 0}";
 			sepNavWindowFrame = "{{291, 82}, {1160, 796}}";
 		};
 	};
@@ -642,6 +642,13 @@
 	3D51025C11427E6400F1FA64 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 3D51025211427E4C00F1FA64 /* le peche mignon.jpg */;
+	};
+	3D51028D1142805900F1FA64 /* icon.jpg */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = image.jpeg;
+		name = icon.jpg;
+		path = /Users/markh/Development/iphone/CoffeeSnob/images/icon.jpg;
+		sourceTree = "<absolute>";
 	};
 	3D5102A21142812000F1FA64 /* PBXBookmark */ = {
 		isa = PBXBookmark;
