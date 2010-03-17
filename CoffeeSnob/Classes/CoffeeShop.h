@@ -15,14 +15,16 @@
 	NSString* name;
 	NSString* description;
 	CLLocation* location;
+	CLLocation* userLocation;
 }
 
 @property (nonatomic, retain) NSString* name;
 @property (nonatomic, retain) NSString* description;
 @property (nonatomic, retain) CLLocation* location;
 
-- (id)initWithXml:(GDataXMLNode*)xml;
+- (id)initWithXml:(GDataXMLNode*)xml andUserLocation:(CLLocation*)location;
 - (CoffeeShopMapAnnotation*) getMapAnnotation;
+- (NSNumber*) getDistanceFromUser;
 - (NSNumber*) getDistanceFrom:(CLLocation*)otherLocation;
 
 @end

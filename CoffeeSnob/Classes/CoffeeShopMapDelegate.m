@@ -30,8 +30,10 @@ NSString * const PINANNOTATION_ID = @"CustomPinAnnotation";
 	return view;
 }
 
-- (void)mapView:(MKMapView *)mapView didAddAnnotationViews:(NSArray *)views; {
-    [mapView selectAnnotation:[[mapView annotations] lastObject] animated:YES];
+- (void)mapView:(MKMapView *)mapView didAddAnnotationViews:(NSArray *)views {
+	NSObject<MKAnnotation>* annotation = [[mapView annotations] lastObject];
+	if ([annotation isKindOfClass:[MKUserLocation class]]) return;
+	[mapView selectAnnotation:annotation animated:YES];
 }
 
 - (MKAnnotationView *)mapView:(MKMapView *)map viewForAnnotation:(id <MKAnnotation>)annotation {

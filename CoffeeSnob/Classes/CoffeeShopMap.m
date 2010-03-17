@@ -17,7 +17,7 @@ NSInteger const ONE_HUNDRED_METRES = 100;
 
 - (id)init {
 	[super init];
-	coffeeShops = [[CoffeeShopsList alloc]init];
+	coffeeShops = [[CoffeeShopList alloc]init];
 	locationManager = [[CLLocationManager alloc] init];
 	lock = [[NSLock alloc]init];
 	return self;
@@ -48,6 +48,10 @@ NSInteger const ONE_HUNDRED_METRES = 100;
 	if ([viewController respondsToSelector:@selector(locationUpdated)]) {
 		[viewController performSelector:@selector(locationUpdated)];
 	}	
+}
+
+- (CLLocation*)getUserLocation {
+	return [[CLLocation alloc]initWithLatitude:locationManager.location.coordinate.latitude longitude:locationManager.location.coordinate.longitude];
 }
 
 - (void) showAnnotationForShop:(CoffeeShop *)coffeeShop  {	
@@ -82,8 +86,8 @@ NSInteger const ONE_HUNDRED_METRES = 100;
 	[self selectShop:coffeeShop];
 }
 
-- (void)shopsLoaded:(NSMutableArray *)shops {
-	[coffeeShops addCoffeeShops:shops userLocation:locationManager.location];
+- (void)shopsLoaded:(CoffeeShopList *)shops {
+	coffeeShops = shops;
 	[self showNextCoffeeShopToUser];
 }
 

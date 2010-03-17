@@ -25,17 +25,18 @@ NSString* const POINTNODEPATH = @"/rss/channel/item";
 	return self;
 }
 
-- (void) findAll:(id)delegate {	
+- (void) findAll:(id)delegate fromUserLocation:(CLLocation*)location {	
 	NSString* shopsPath = [[NSBundle mainBundle] pathForResource:@"shops" ofType:@"xml"];	
 	NSURLRequest *request = [NSURLRequest requestWithURL: [NSURL fileURLWithPath:shopsPath]];
 	[[NSURLConnection alloc] initWithRequest:request delegate:self];
 	loadedDelegate = delegate;	
+	userLocation = location;
 }
 
 - (NSMutableArray *) createShopsFromPointNodes: (NSArray *) pointNodes  {
 	NSMutableArray *results = [[NSMutableArray alloc]init];
 	for (GDataXMLNode *coffeeShopNode in pointNodes) {
-		CoffeeShop* coffeeShop = [[CoffeeShop alloc] initWithXml:coffeeShopNode];
+		CoffeeShop* coffeeShop = [[CoffeeShop alloc] initWithXml:coffeeShopNode andUserLocation:userLocation];
 		[results addObject:coffeeShop];
 	}
 	return results;

@@ -10,7 +10,7 @@
 
 #import "CoffeeShop.h"
 #import "CoffeeShopRepository.h"
-#import "CoffeeShopsList.h"
+#import "CoffeeShopList.h"
 
 @interface CoffeeShopMap : NSObject<CLLocationManagerDelegate> {
 	IBOutlet UIViewController *viewController;
@@ -18,13 +18,14 @@
 	CLLocationManager* locationManager;
 	NSLock *lock;
 	bool locationFound;
-	CoffeeShopsList* coffeeShops;
+	CoffeeShopList* coffeeShops;
 }
 
+- (CLLocation*)getUserLocation;
 - (void)startUpdatingLocation;
 - (void)showNextCoffeeShopToUser;
 - (void)showDirectionsToSelectedCoffeeShop;
-- (void)shopsLoaded:(NSMutableArray*)shops;
+- (void)shopsLoaded:(CoffeeShopList*)shops;
 - (void)selectShop:(CoffeeShop*)coffeeShop;
 
 @end

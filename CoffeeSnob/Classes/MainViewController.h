@@ -11,14 +11,14 @@
 #import <CoreLocation/CoreLocation.h>
 
 #import "CoffeeShopMap.h"
-#import "CoffeeShopList.h"
+#import "CoffeeShopTableDataSource.h"
 #import "LoadingView.h"
 #import "MapSummaryView.h"
 #import "CoffeeShopMapAnnotation.h"
 
 @interface MainViewController : UIViewController{
 	IBOutlet CoffeeShopMap *coffeeMap;
-	IBOutlet CoffeeShopList *coffeeList;
+	IBOutlet CoffeeShopTableDataSource *coffeeShopTableDataSource;
 	IBOutlet LoadingView *loadingView;
 	IBOutlet MapSummaryView *coffeeShopView;
 	

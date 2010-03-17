@@ -7,14 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreLocation/CoreLocation.h>
 
 @interface CoffeeShopRepository : NSObject {
 	
 	NSMutableData *coffeeResponseData;
 	id loadedDelegate;
+	CLLocation* userLocation;
 
 }
 
-- (void) findAll:(id)delegate;
+- (void) findAll:(id)delegate fromUserLocation:(CLLocation*)location;
 
 @end

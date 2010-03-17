@@ -20,7 +20,7 @@
 
 - (void)locationUpdated {
 	[loadingView setMessage:@"Finding coffee..."];
-	[[[CoffeeShopRepository alloc] init] findAll:self];			
+	[[[CoffeeShopRepository alloc] init] findAll:self fromUserLocation:[coffeeMap getUserLocation]];			
 }
 
 - (void)shopsLoaded {
@@ -59,8 +59,10 @@
 	[loadingView stopAnimatingAndHide];
 	[navigationBar setRightBarButtonItem:nextButton];
 	[navigationBar setLeftBarButtonItem:listButton];
-	[coffeeMap shopsLoaded:shops];
-	[coffeeList shopsLoaded:shops delegate:self]; 
+	CoffeeShopList* coffeeShopList = [[CoffeeShopList alloc] init];
+	[coffeeShopList addCoffeeShops:shops userLocation:[coffeeMap getUserLocation]];
+	[coffeeMap shopsLoaded:coffeeShopList];
+	[coffeeShopTableDataSource shopsLoaded:coffeeShopList delegate:self]; 
 }
 
 - (void) listItemSelected:(CoffeeShop*)coffeeShop {

@@ -2,36 +2,42 @@
 //  CoffeeShopList.m
 //  CoffeeSnob
 //
-//  Created by Nicholas Kostelnik on 04/03/2010.
+//  Created by Nicholas Kostelnik on 23/02/2010.
 //  Copyright 2010 Black Art Studios. All rights reserved.
 //
 
 #import "CoffeeShopList.h"
-#import "CoffeeShop.h"
-#import "CoffeeShopListTableCell.h"
 
 @implementation CoffeeShopList
 
-NSString* const CELLID = @"CoffeeShopListTableCell";
-
-- (void)shopsLoaded:(NSMutableArray*)shops delegate:(id)selectedDelegate {
-	coffeeShopData = shops;	
-	delegate = selectedDelegate;
-	[coffeeShops reloadData];	
+- (id)init {
+	[super init];
+	sortedShops = [[NSMutableArray alloc]init];
+	coffeeShopsWithDistance = [[NSMutableDictionary alloc]init];	
+	return self;
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	return coffeeShopData.count; 
-}
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {	
-	CoffeeShopListTableCell *cell = (CoffeeShopListTableCell*)[tableView dequeueReusableCellWithIdentifier:CELLID];
-	if (cell == nil)
-	{
-		cell = [[[CoffeeShopListTableCell alloc]initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CELLID]autorelease];
+- (void)addCoffeeShops:(NSArray *)coffeeShops userLocation:(CLLocation*)userLocation {
+	for(CoffeeShop *shop in coffeeShops) {		
+		NSNumber* absoluteDistanceFromUser = [shop getDistanceFrom:userLocation];
+		[sortedShops addObject:absoluteDistanceFromUser];
+		[coffeeShopsWithDistance setValue:shop forKey:[absoluteDistanceFromUser stringValue]];
 	}
-	[cell setShop:[coffeeShopData objectAtIndex:indexPath.row] delegate:delegate];
-	return cell;	
+	
+	[sortedShops sortUsingSelector:@selector(compare:)];	
 }
 
+- (CoffeeShop*)getNextCoffeeShop {
+	static NSInteger currentShopIndex = 0;
+	currentShopIndex = currentShopIndex >= sortedShops.count ? 0 : currentShopIndex;	
+	return [self getCoffeeShopAtIndex:currentShopIndex++];
+}
+
+- (NSInteger)getCount{
+	return sortedShops.count;
+}
+
+- (CoffeeShop*)getCoffeeShopAtIndex:(NSUInteger)index{
+	return [coffeeShopsWithDistance objectForKey:[[sortedShops objectAtIndex:index] stringValue]];
+}
 @end

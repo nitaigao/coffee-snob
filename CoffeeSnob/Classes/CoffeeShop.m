@@ -15,8 +15,9 @@
 @synthesize location;
 @synthesize description;
 
-- (id)initWithXml:(GDataXMLNode*)xml {
+- (id)initWithXml:(GDataXMLNode*)xml andUserLocation:(CLLocation*)usersLocation  {
 	[self init];
+	userLocation = usersLocation;
 	for (int j = 0; j < xml.children.count; j++) {
 		GDataXMLNode *coffeeShopNodeXML = [xml.children objectAtIndex:j];
 		
@@ -53,6 +54,9 @@
 	return coffeeShopAnnotation;
 }
 
+- (NSNumber*) getDistanceFromUser {
+	return [self getDistanceFrom:userLocation];
+}
 
 - (NSNumber*) getDistanceFrom:(CLLocation*)otherLocation {
 	double distanceFromUser = [location getDistanceFrom:otherLocation];

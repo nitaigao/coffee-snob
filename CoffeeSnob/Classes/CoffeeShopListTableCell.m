@@ -11,17 +11,39 @@
 
 @implementation CoffeeShopListTableCell
 
+- (UIImage*) getCoffeeShopImage:(CoffeeShop*)shop {
+	NSString* imageName = [NSString stringWithFormat:@"%@.jpg", [shop.name lowercaseString]];
+	UIImage* image = [UIImage imageNamed:imageName];
+	
+	if (image == nil)
+	{
+		image = [UIImage imageNamed:@"coffee.jpg"];
+	}	
+	
+	return image;
+}
+
 - (void)setShop:(CoffeeShop*)shop delegate:(id)selectedDelegate {
 	delegate = selectedDelegate;
 	coffeeShop = shop;
 	self.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 	self.selectionStyle = UITableViewCellSelectionStyleBlue;
 	self.textLabel.text = shop.name;
-	self.detailTextLabel.text = @"(130 yds)";
 	
-	NSString *path = [[NSBundle mainBundle] pathForResource:@"icon" ofType:@"png"];
-	UIImage *image = [UIImage imageWithContentsOfFile:path];
-	self.imageView.image = image;
+	NSString* formatString = @"%.0f m";
+	int distanceAbsolute = abs([[coffeeShop getDistanceFromUser] intValue]);
+	float distance = distanceAbsolute;
+	
+	if (distance > 1000)
+	{
+		formatString = @"%.2f km";
+		distance = distance / 1000;
+	}
+	
+	NSString* distanceString = [[NSString alloc]initWithFormat:formatString, distance];
+																	  	
+	self.detailTextLabel.text = [[NSString alloc] initWithFormat:@"(%@)", distanceString] ; 
+	self.imageView.image = [self getCoffeeShopImage:shop];
 	self.imageView.backgroundColor = [UIColor redColor];		
 }
 
