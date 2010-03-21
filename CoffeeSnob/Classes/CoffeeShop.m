@@ -15,6 +15,12 @@
 @synthesize location;
 @synthesize description;
 
+- (void) dealloc {
+	[super dealloc];
+	[name release];
+	[description release];
+}
+
 - (id)initWithXml:(GDataXMLNode*)xml andUserLocation:(CLLocation*)usersLocation  {
 	[self init];
 	userLocation = usersLocation;
@@ -22,11 +28,11 @@
 		GDataXMLNode *coffeeShopNodeXML = [xml.children objectAtIndex:j];
 		
 		if (![coffeeShopNodeXML.name compare:@"title"]) {
-			name = [coffeeShopNodeXML stringValue];
+			name = [[NSString alloc] initWithString:[coffeeShopNodeXML stringValue]];
 		}
 		
 		if (![coffeeShopNodeXML.name compare:@"description"]) {
-			description = [coffeeShopNodeXML stringValue];
+			description = [[NSString alloc] initWithString:[coffeeShopNodeXML stringValue]];
 		}
 		
 		if (![coffeeShopNodeXML.name compare:@"georss:point"]) {
@@ -54,14 +60,14 @@
 	return coffeeShopAnnotation;
 }
 
-- (NSNumber*) getDistanceFromUser {
+- (NSNumber*) distanceFromUser {
 	return [self getDistanceFrom:userLocation];
 }
 
 - (NSNumber*) getDistanceFrom:(CLLocation*)otherLocation {
 	double distanceFromUser = [location getDistanceFrom:otherLocation];
 	distanceFromUser = distanceFromUser < 0 ? distanceFromUser * -1 : distanceFromUser;
-	return [[NSNumber alloc]initWithDouble:distanceFromUser];
+	return [[[NSNumber alloc]initWithDouble:distanceFromUser] autorelease];
 }
 
 @end

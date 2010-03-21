@@ -31,7 +31,7 @@
 	self.textLabel.text = shop.name;
 	
 	NSString* formatString = @"%.0f m";
-	int distanceAbsolute = abs([[coffeeShop getDistanceFromUser] intValue]);
+	int distanceAbsolute = abs([[coffeeShop distanceFromUser] intValue]);
 	float distance = distanceAbsolute;
 	
 	if (distance > 1000)
@@ -40,9 +40,9 @@
 		distance = distance / 1000;
 	}
 	
-	NSString* distanceString = [[NSString alloc]initWithFormat:formatString, distance];
+	NSString* distanceString = [[[NSString alloc]initWithFormat:formatString, distance] autorelease];
 																	  	
-	self.detailTextLabel.text = [[NSString alloc] initWithFormat:@"(%@)", distanceString] ; 
+	self.detailTextLabel.text = [[[NSString alloc] initWithFormat:@"(%@)", distanceString] autorelease]; 
 	self.imageView.image = [self getCoffeeShopImage:shop];
 	self.imageView.backgroundColor = [UIColor redColor];		
 }

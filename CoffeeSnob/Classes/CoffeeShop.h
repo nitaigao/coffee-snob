@@ -24,7 +24,7 @@
 
 - (id)initWithXml:(GDataXMLNode*)xml andUserLocation:(CLLocation*)location;
 - (CoffeeShopMapAnnotation*) getMapAnnotation;
-- (NSNumber*) getDistanceFromUser;
+- (NSNumber*) distanceFromUser;
 - (NSNumber*) getDistanceFrom:(CLLocation*)otherLocation;
 
 @end

@@ -25,6 +25,9 @@
 	IBOutlet UINavigationItem *navigationBar;
 	IBOutlet UIBarButtonItem *nextButton;
 	IBOutlet UIBarButtonItem *listButton;
+	
+	CoffeeShopRepository *coffeeShopRepository;
+	CoffeeShopList* coffeeShopList;
 }
 
 - (IBAction) nextButtonClicked:(id)sender;
@@ -34,5 +37,6 @@
 - (void) shopsLoaded;
 - (void) selectedMapAnnotationChanged:(CoffeeShopMapAnnotation*)annotation;
 - (void) listItemSelected:(CoffeeShop*)coffeeShop;
+- (void)animationDidStop:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context;
 
 @end

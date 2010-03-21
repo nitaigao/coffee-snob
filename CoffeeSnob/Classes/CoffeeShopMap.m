@@ -14,10 +14,11 @@
 
 NSInteger const FIVE_MINUTES = 300;
 NSInteger const ONE_HUNDRED_METRES = 100;
+NSInteger const FIVE_HUNDRED_METRES = 500;
+NSInteger const ONE_KILOMETER = 1000;
 
 - (id)init {
 	[super init];
-	coffeeShops = [[CoffeeShopList alloc]init];
 	locationManager = [[CLLocationManager alloc] init];
 	lock = [[NSLock alloc]init];
 	return self;
@@ -34,7 +35,7 @@ NSInteger const ONE_HUNDRED_METRES = 100;
 	[lock lock];
 	NSTimeInterval ageOfLocationUpdate = [newLocation.timestamp timeIntervalSinceNow];
 	ageOfLocationUpdate = fabs(ageOfLocationUpdate);
-	if (!locationFound && ageOfLocationUpdate < FIVE_MINUTES && newLocation.horizontalAccuracy < ONE_HUNDRED_METRES) {
+	if (!locationFound && ageOfLocationUpdate < FIVE_MINUTES && newLocation.horizontalAccuracy < ONE_KILOMETER) {
 		locationFound = true;
 		[locationManager stopUpdatingLocation];
 		mapView.showsUserLocation = YES;
@@ -51,7 +52,7 @@ NSInteger const ONE_HUNDRED_METRES = 100;
 }
 
 - (CLLocation*)getUserLocation {
-	return [[CLLocation alloc]initWithLatitude:locationManager.location.coordinate.latitude longitude:locationManager.location.coordinate.longitude];
+	return [[[CLLocation alloc]initWithLatitude:locationManager.location.coordinate.latitude longitude:locationManager.location.coordinate.longitude]autorelease];
 }
 
 - (void) showAnnotationForShop:(CoffeeShop *)coffeeShop  {	
@@ -59,6 +60,7 @@ NSInteger const ONE_HUNDRED_METRES = 100;
 	for (NSObject<MKAnnotation> *annotation in mapView.annotations) {
 		if (![[annotation title] compare:[coffeeShopAnnotation title]]) {
 			[mapView selectAnnotation:annotation animated:NO];
+			[coffeeShopAnnotation release];
 			return;
 		}
 	}
@@ -75,7 +77,7 @@ NSInteger const ONE_HUNDRED_METRES = 100;
 	latitudeDifference = latitudeDifference * 1.5;
 	
 	MKCoordinateRegion region;
-	region.center = [[[CLLocation alloc]initWithLatitude:centerMapLatitude longitude:centerMapLongitude] coordinate];
+	region.center = [[[[CLLocation alloc] autorelease]initWithLatitude:centerMapLatitude longitude:centerMapLongitude] coordinate];
 	region.span.latitudeDelta = (latitudeDifference > 0) ? latitudeDifference : -latitudeDifference;
 	region.span.longitudeDelta = (longitudeDifference > 0) ? longitudeDifference : -longitudeDifference;
 	[mapView setRegion:region animated:YES];

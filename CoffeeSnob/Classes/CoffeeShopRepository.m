@@ -34,7 +34,7 @@ NSString* const POINTNODEPATH = @"/rss/channel/item";
 }
 
 - (NSMutableArray *) createShopsFromPointNodes: (NSArray *) pointNodes  {
-	NSMutableArray *results = [[NSMutableArray alloc]init];
+	NSMutableArray *results = [[[NSMutableArray alloc]init]autorelease];
 	for (GDataXMLNode *coffeeShopNode in pointNodes) {
 		CoffeeShop* coffeeShop = [[CoffeeShop alloc] initWithXml:coffeeShopNode andUserLocation:userLocation];
 		[results addObject:coffeeShop];
@@ -43,7 +43,7 @@ NSString* const POINTNODEPATH = @"/rss/channel/item";
 }
 
 - (NSMutableArray *) createShopsFromRSS: (NSString*) xmlString  {
-	GDataXMLDocument* rssFeed = [[GDataXMLDocument alloc]initWithXMLString:xmlString options:0 error:0];
+	GDataXMLDocument* rssFeed = [[[GDataXMLDocument alloc]initWithXMLString:xmlString options:0 error:0]autorelease];
 	NSArray* pointNodes = [rssFeed nodesForXPath:POINTNODEPATH error:0];
 	return [self createShopsFromPointNodes: pointNodes];
 }
@@ -59,7 +59,7 @@ NSString* const POINTNODEPATH = @"/rss/channel/item";
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection {
 	sleep(2);
 	[connection release];
-	NSString* responseString = [[NSString alloc] initWithData:coffeeResponseData encoding:NSUTF8StringEncoding];
+	NSString* responseString = [[[NSString alloc] initWithData:coffeeResponseData encoding:NSUTF8StringEncoding]autorelease];
 	NSMutableArray *coffeeShops = [self createShopsFromRSS: responseString];
 	if ([loadedDelegate respondsToSelector:@selector(shopsLoaded:)]) {
 		[loadedDelegate performSelector:@selector(shopsLoaded:) withObject:coffeeShops];
