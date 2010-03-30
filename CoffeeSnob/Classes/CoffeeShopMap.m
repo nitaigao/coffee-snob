@@ -15,7 +15,7 @@
 NSInteger const FIVE_MINUTES = 300;
 NSInteger const ONE_HUNDRED_METRES = 100;
 NSInteger const FIVE_HUNDRED_METRES = 500;
-NSInteger const ONE_KILOMETER = 1000;
+NSInteger const ONE_KILOMETER = 10000;
 
 - (id)init {
 	[super init];
@@ -52,7 +52,7 @@ NSInteger const ONE_KILOMETER = 1000;
 }
 
 - (CLLocation*)getUserLocation {
-	return [[[CLLocation alloc]initWithLatitude:locationManager.location.coordinate.latitude longitude:locationManager.location.coordinate.longitude]autorelease];
+	return	[[[CLLocation alloc]initWithLatitude:locationManager.location.coordinate.latitude longitude:locationManager.location.coordinate.longitude] autorelease];
 }
 
 - (void) showAnnotationForShop:(CoffeeShop *)coffeeShop  {	

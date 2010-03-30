@@ -19,11 +19,12 @@
 	[super dealloc];
 	[name release];
 	[description release];
+	[userLocation release];
 }
 
 - (id)initWithXml:(GDataXMLNode*)xml andUserLocation:(CLLocation*)usersLocation  {
 	[self init];
-	userLocation = usersLocation;
+	userLocation = [[CLLocation alloc] initWithLatitude:usersLocation.coordinate.latitude longitude:usersLocation.coordinate.longitude];
 	for (int j = 0; j < xml.children.count; j++) {
 		GDataXMLNode *coffeeShopNodeXML = [xml.children objectAtIndex:j];
 		

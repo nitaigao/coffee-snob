@@ -36,7 +36,7 @@ NSString* const LIST = @"List";
 
 - (void)locationUpdated {
 	[loadingView setMessage:@"Finding coffee..."];
-	[coffeeShopRepository findAll:self fromUserLocation:[coffeeMap getUserLocation]];			
+	[coffeeShopRepository findAll:self fromUserLocation:[coffeeMap getUserLocation]];
 }
 
 - (void)shopsLoaded {

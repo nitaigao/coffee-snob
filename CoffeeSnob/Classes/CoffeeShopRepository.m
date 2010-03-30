@@ -19,6 +19,11 @@
 
 NSString* const POINTNODEPATH = @"/rss/channel/item";
 
+- (void)dealloc {
+	[super dealloc];
+	[userLocation release];
+}
+
 - (id)init {
 	[super init];
 	coffeeResponseData = [[NSMutableData data]retain];
@@ -28,9 +33,12 @@ NSString* const POINTNODEPATH = @"/rss/channel/item";
 - (void) findAll:(id)delegate fromUserLocation:(CLLocation*)location {	
 	NSString* shopsPath = [[NSBundle mainBundle] pathForResource:@"shops" ofType:@"xml"];	
 	NSURLRequest *request = [NSURLRequest requestWithURL: [NSURL fileURLWithPath:shopsPath]];
-	[[NSURLConnection alloc] initWithRequest:request delegate:self];
-	loadedDelegate = delegate;	
-	userLocation = location;
+	[[NSURLConnection alloc] initWithRequest:request delegate:self ];
+	loadedDelegate = delegate;
+	
+	// eew - multithreading issues
+	[userLocation release];
+	userLocation = [[CLLocation alloc] initWithLatitude:location.coordinate.latitude longitude:location.coordinate.longitude];
 }
 
 - (NSMutableArray *) createShopsFromPointNodes: (NSArray *) pointNodes  {
@@ -56,15 +64,25 @@ NSString* const POINTNODEPATH = @"/rss/channel/item";
     [coffeeResponseData appendData:data];
 }
 
-- (void)connectionDidFinishLoading:(NSURLConnection *)connection {
-	sleep(2);
-	[connection release];
+- (void)populateShops {
 	NSString* responseString = [[[NSString alloc] initWithData:coffeeResponseData encoding:NSUTF8StringEncoding]autorelease];
 	NSMutableArray *coffeeShops = [self createShopsFromRSS: responseString];
 	if ([loadedDelegate respondsToSelector:@selector(shopsLoaded:)]) {
 		[loadedDelegate performSelector:@selector(shopsLoaded:) withObject:coffeeShops];
-	}  
+	} 
 }
+
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection {
+	
+	[NSTimer scheduledTimerWithTimeInterval:1.0
+									 target:self
+								   selector:@selector(populateShops)
+								   userInfo:nil
+									repeats:NO];
+	
+	[connection release];	 
+}
+
 
 
 @end

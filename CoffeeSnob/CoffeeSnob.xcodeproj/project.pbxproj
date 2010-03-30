@@ -19,7 +19,6 @@
 		3D510231114278FF00F1FA64 /* dose espresso.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D51022C114278FF00F1FA64 /* dose espresso.jpg */; };
 		3D510232114278FF00F1FA64 /* taste of bitter love.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D51022D114278FF00F1FA64 /* taste of bitter love.jpg */; };
 		3D510233114278FF00F1FA64 /* tina, we salute you.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D51022E114278FF00F1FA64 /* tina, we salute you.jpg */; };
-		3D51025311427E4C00F1FA64 /* le peche mignon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D51025211427E4C00F1FA64 /* le peche mignon.jpg */; };
 		3D5102D61142888E00F1FA64 /* coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D5102D31142888E00F1FA64 /* coffee.jpg */; };
 		3DA42794114D31FA00E37674 /* flat white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DA42793114D31FA00E37674 /* flat white.jpg */; };
 		3DA6457F11393E92005D3F3F /* CoffeeShopMapAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA6457E11393E92005D3F3F /* CoffeeShopMapAnnotationView.m */; };
@@ -31,6 +30,7 @@
 		4C83F547111CE380002FE85E /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C83F546111CE380002FE85E /* GDataXMLNode.m */; };
 		4C8A5F08113A962B000CA54B /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8A5F07113A962B000CA54B /* LoadingView.m */; };
 		4C8A5FB0113A9A39000CA54B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C8A5FAF113A9A39000CA54B /* QuartzCore.framework */; };
+		4C9755821162753E000D97C0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9755811162753E000D97C0 /* Default.png */; };
 		4C9CBBD9111C918E00C945AD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C9CBBD8111C918E00C945AD /* CoreLocation.framework */; };
 		4CE587461134A07200BFC93A /* CoffeeShopList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE587451134A07200BFC93A /* CoffeeShopList.m */; };
 		4CE587971134A30200BFC93A /* CoffeeShopMapDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE587961134A30200BFC93A /* CoffeeShopMapDelegate.m */; };
@@ -60,7 +60,6 @@
 		3D51022C114278FF00F1FA64 /* dose espresso.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "dose espresso.jpg"; path = "images/dose espresso.jpg"; sourceTree = "<group>"; };
 		3D51022D114278FF00F1FA64 /* taste of bitter love.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "taste of bitter love.jpg"; path = "images/taste of bitter love.jpg"; sourceTree = "<group>"; };
 		3D51022E114278FF00F1FA64 /* tina, we salute you.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tina, we salute you.jpg"; path = "images/tina, we salute you.jpg"; sourceTree = "<group>"; };
-		3D51025211427E4C00F1FA64 /* le peche mignon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "le peche mignon.jpg"; path = "images/le peche mignon.jpg"; sourceTree = "<group>"; };
 		3D5102D31142888E00F1FA64 /* coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = coffee.jpg; path = images/coffee.jpg; sourceTree = "<group>"; };
 		3DA42793114D31FA00E37674 /* flat white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "flat white.jpg"; path = "images/flat white.jpg"; sourceTree = "<group>"; };
 		3DA6457D11393E92005D3F3F /* CoffeeShopMapAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeShopMapAnnotationView.h; sourceTree = "<group>"; };
@@ -77,6 +76,7 @@
 		4C8A5F06113A962B000CA54B /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
 		4C8A5F07113A962B000CA54B /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
 		4C8A5FAF113A9A39000CA54B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4C9755811162753E000D97C0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = images/Default.png; sourceTree = "<group>"; };
 		4C9CBBD8111C918E00C945AD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		4CE587441134A07200BFC93A /* CoffeeShopList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoffeeShopList.h; sourceTree = "<group>"; };
 		4CE587451134A07200BFC93A /* CoffeeShopList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeShopList.m; sourceTree = "<group>"; };
@@ -159,11 +159,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources-iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				4C9755811162753E000D97C0 /* Default.png */,
 				3DA42793114D31FA00E37674 /* flat white.jpg */,
 				4CF7E84E1146476000F94F15 /* shops.xml */,
 				4C46139B11457AE900902C27 /* icon.png */,
 				3D5102D31142888E00F1FA64 /* coffee.jpg */,
-				3D51025211427E4C00F1FA64 /* le peche mignon.jpg */,
 				3D51022C114278FF00F1FA64 /* dose espresso.jpg */,
 				3D51022D114278FF00F1FA64 /* taste of bitter love.jpg */,
 				3D51022E114278FF00F1FA64 /* tina, we salute you.jpg */,
@@ -310,11 +310,11 @@
 				3D510231114278FF00F1FA64 /* dose espresso.jpg in Resources */,
 				3D510232114278FF00F1FA64 /* taste of bitter love.jpg in Resources */,
 				3D510233114278FF00F1FA64 /* tina, we salute you.jpg in Resources */,
-				3D51025311427E4C00F1FA64 /* le peche mignon.jpg in Resources */,
 				3D5102D61142888E00F1FA64 /* coffee.jpg in Resources */,
 				4C46139C11457AE900902C27 /* icon.png in Resources */,
 				4CF7E84F1146476000F94F15 /* shops.xml in Resources */,
 				3DA42794114D31FA00E37674 /* flat white.jpg in Resources */,
+				4C9755821162753E000D97C0 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
