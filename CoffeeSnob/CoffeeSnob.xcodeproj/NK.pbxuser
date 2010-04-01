@@ -39,7 +39,7 @@
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Release;
+		activeBuildConfigurationName = Distribution;
 		activeExecutable = 4C446081111C8C9700BAEC5D /* CoffeeSnob */;
 		activeSDKPreference = iphoneos3.1.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* CoffeeSnob */;
@@ -99,8 +99,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 291660156;
-			PBXWorkspaceStateSaveDate = 291660156;
+			PBXPerProjectTemplateStateSaveDate = 291733154;
+			PBXWorkspaceStateSaveDate = 291733154;
 		};
 		sourceControlManager = 4C446096111C8C9C00BAEC5D /* Source Control */;
 		userBuildSettings = {
@@ -207,6 +207,11 @@
 	4C446097111C8C9C00BAEC5D /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	4C4683AA1163800000E6670C /* Entitlements.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 0}, {1836, 1178}}";
+		};
 	};
 	4C493D151145737700186899 /* CoffeeShopListTableCell.h */ = {
 		uiCtxt = {
