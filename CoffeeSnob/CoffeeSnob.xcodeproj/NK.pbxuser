@@ -99,8 +99,12 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 292025782;
-			PBXWorkspaceStateSaveDate = 292025782;
+			PBXPerProjectTemplateStateSaveDate = 292959028;
+			PBXWorkspaceStateSaveDate = 292959028;
+		};
+		perUserProjectItems = {
+			4CE2A0F81176338600265578 /* PlistBookmark */ = 4CE2A0F81176338600265578 /* PlistBookmark */;
+			4CF3A4751176332D005A1A20 /* PlistBookmark */ = 4CF3A4751176332D005A1A20 /* PlistBookmark */;
 		};
 		sourceControlManager = 4C446096111C8C9C00BAEC5D /* Source Control */;
 		userBuildSettings = {
@@ -274,6 +278,17 @@
 			sepNavWindowFrame = "{{391, 0}, {1044, 878}}";
 		};
 	};
+	4CE2A0F81176338600265578 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CoffeeSnob-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/NK/Development/iPhone/CoffeeSnob/CoffeeSnob-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
 	4CE587441134A07200BFC93A /* CoffeeShopList.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1425, 1050}}";
@@ -347,6 +362,17 @@
 			sepNavVisRange = "{286, 609}";
 			sepNavWindowFrame = "{{32, 620}, {750, 558}}";
 		};
+	};
+	4CF3A4751176332D005A1A20 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* CoffeeSnob-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/NK/Development/iPhone/CoffeeSnob/CoffeeSnob-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
 	};
 	8D1107310486CEB800E47090 /* CoffeeSnob-Info.plist */ = {
 		uiCtxt = {

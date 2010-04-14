@@ -197,7 +197,48 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>4CF3A47311763327005A1A20</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>CoffeeSnob-Info.plist</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>4CF3A4741176332D005A1A20</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>CoffeeSnob-Info.plist</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>4CE2A0F81176338600265578</string>
+						<key>history</key>
+						<array>
+							<string>4CF3A4751176332D005A1A20</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1484, 1081}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>436 56 1484 1122 0 0 1920 1178 </string>
+			</dict>
+		</dict>
+	</array>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -271,8 +312,8 @@
 									<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 									<array>
 										<array>
-											<integer>15</integer>
-											<integer>4</integer>
+											<integer>24</integer>
+											<integer>23</integer>
 											<integer>0</integer>
 										</array>
 									</array>
@@ -300,7 +341,7 @@
 									<real>43</real>
 								</array>
 								<key>RubberWindowFrame</key>
-								<string>4 55 452 823 0 0 1440 878 </string>
+								<string>11 355 452 823 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXSmartGroupTreeModule</string>
@@ -440,8 +481,8 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>4CDA48671167F5D200C1B1DF</string>
-				<string>4CDA48681167F5D200C1B1DF</string>
+				<string>4CE2A0F41176333800265578</string>
+				<string>4CE2A0F51176333800265578</string>
 				<string>1C9437FD063B20B00039CFAC</string>
 				<string>1C9437FE063B20B00039CFAC</string>
 				<string>1C9437FF063B20B00039CFAC</string>
@@ -455,7 +496,7 @@
 	<key>PerspectivesBarVisible</key>
 	<false/>
 	<key>PinnedNavigatorIdentifier</key>
-	<string>4C4683CE1163809800E6670C</string>
+	<string>4CF3A47311763327005A1A20</string>
 	<key>ShelfIsVisible</key>
 	<false/>
 	<key>SourceDescription</key>
@@ -480,12 +521,12 @@
 	<integer>0</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C530D54069F1CE1000CFCEE</string>
 		<string>1C530D52069F1CE1000CFCEE</string>
+		<string>4CF3A47311763327005A1A20</string>
 		<string>/Users/NK/Development/iPhone/CoffeeSnob/CoffeeSnob.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>4 55 452 823 0 0 1440 878 </string>
+	<string>11 355 452 823 0 0 1920 1178 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -652,7 +693,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1007, 172}}</string>
 								<key>RubberWindowFrame</key>
-								<string>301 193 1007 618 0 0 1440 878 </string>
+								<string>635 409 1007 618 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -676,7 +717,7 @@
 								<key>Frame</key>
 								<string>{{0, 177}, {1007, 400}}</string>
 								<key>RubberWindowFrame</key>
-								<string>301 193 1007 618 0 0 1440 878 </string>
+								<string>635 409 1007 618 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXBuildResultsModule</string>
@@ -699,7 +740,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D52069F1CE1000CFCEE</string>
-				<string>4CDA48691167F5D200C1B1DF</string>
+				<string>4CE2A0F71176333800265578</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -708,7 +749,7 @@
 			<key>WindowContentMinSize</key>
 			<string>486 300</string>
 			<key>WindowString</key>
-			<string>301 193 1007 618 0 0 1440 878 </string>
+			<string>635 409 1007 618 0 0 1920 1178 </string>
 			<key>WindowToolGUID</key>
 			<string>1C530D52069F1CE1000CFCEE</string>
 			<key>WindowToolIsVisible</key>
@@ -795,10 +836,10 @@
 									<key>Frame</key>
 									<string>{{516, 0}, {595, 312}}</string>
 									<key>RubberWindowFrame</key>
-									<string>270 199 1111 630 0 0 1440 878 </string>
+									<string>664 422 1111 630 0 0 1920 1178 </string>
 								</dict>
 								<key>RubberWindowFrame</key>
-								<string>270 199 1111 630 0 0 1440 878 </string>
+								<string>664 422 1111 630 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugSessionModule</string>
@@ -821,18 +862,18 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D54069F1CE1000CFCEE</string>
-				<string>4CDA486A1167F5D200C1B1DF</string>
+				<string>4CF3A43911762BEF005A1A20</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>4CDA486B1167F5D200C1B1DF</string>
-				<string>4CDA486C1167F5D200C1B1DF</string>
-				<string>4CDA486D1167F5D200C1B1DF</string>
-				<string>4CDA486E1167F5D200C1B1DF</string>
-				<string>4CDA486F1167F5D200C1B1DF</string>
+				<string>4CF3A43A11762BEF005A1A20</string>
+				<string>4CF3A43B11762BEF005A1A20</string>
+				<string>4CF3A43C11762BEF005A1A20</string>
+				<string>4CF3A43D11762BEF005A1A20</string>
+				<string>4CF3A43E11762BEF005A1A20</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
 			<key>WindowString</key>
-			<string>270 199 1111 630 0 0 1440 878 </string>
+			<string>664 422 1111 630 0 0 1920 1178 </string>
 			<key>WindowToolGUID</key>
 			<string>1C530D54069F1CE1000CFCEE</string>
 			<key>WindowToolIsVisible</key>
@@ -981,7 +1022,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D5B069F1CE1000CFCEE</string>
-				<string>4C46839D11637F3300E6670C</string>
+				<string>4CF3A43F11762BEF005A1A20</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
