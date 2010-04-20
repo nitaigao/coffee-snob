@@ -44,7 +44,7 @@
     <description><![CDATA[6 Ronalds Road, N5 1XH]]></description>
     <author>markholdsworth</author>
     <georss:point>
-      51.550205 -0.108341
+      51.549896 -0.108018
     </georss:point>
     <georss:elev>0.000000</georss:elev>
   </item>
@@ -287,6 +287,39 @@
     <author>markholdsworth</author>
     <georss:point>
       51.551144 -0.114173
+    </georss:point>
+    <georss:elev>0.000000</georss:elev>
+  </item>
+  <item>
+    <guid isPermaLink="false">0004849695964e89dd31c</guid>
+    <pubDate>Mon, 19 Apr 2010 13:03:16 +0000</pubDate>
+    <title>Bea&#39;s of Bloomsbury Cakes</title>
+    <description><![CDATA[44 Theobald's Rd, WC1X 8NW]]></description>
+    <author>markholdsworth</author>
+    <georss:point>
+      51.521015 -0.116066
+    </georss:point>
+    <georss:elev>0.000000</georss:elev>
+  </item>
+  <item>
+    <guid isPermaLink="false">00048496a77f0859f2fac</guid>
+    <pubDate>Mon, 19 Apr 2010 13:08:16 +0000</pubDate>
+    <title>Flat Cap Coffee</title>
+    <description><![CDATA[Strutton Ground, SW1]]></description>
+    <author>markholdsworth</author>
+    <georss:point>
+      51.497459 -0.133901
+    </georss:point>
+    <georss:elev>0.000000</georss:elev>
+  </item>
+  <item>
+    <guid isPermaLink="false">00048496b20a381c0e973</guid>
+    <pubDate>Mon, 19 Apr 2010 13:11:13 +0000</pubDate>
+    <title>The Roastery Cafe</title>
+    <description><![CDATA[789 Wandsworth Rd, SW8 3JQ]]></description>
+    <author>markholdsworth</author>
+    <georss:point>
+      51.466709 -0.147790
     </georss:point>
     <georss:elev>0.000000</georss:elev>
   </item>

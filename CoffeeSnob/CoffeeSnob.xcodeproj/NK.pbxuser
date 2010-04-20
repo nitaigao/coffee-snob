@@ -99,12 +99,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 292959028;
-			PBXWorkspaceStateSaveDate = 292959028;
-		};
-		perUserProjectItems = {
-			4CE2A0F81176338600265578 /* PlistBookmark */ = 4CE2A0F81176338600265578 /* PlistBookmark */;
-			4CF3A4751176332D005A1A20 /* PlistBookmark */ = 4CF3A4751176332D005A1A20 /* PlistBookmark */;
+			PBXPerProjectTemplateStateSaveDate = 293477978;
+			PBXWorkspaceStateSaveDate = 293477978;
 		};
 		sourceControlManager = 4C446096111C8C9C00BAEC5D /* Source Control */;
 		userBuildSettings = {
@@ -126,9 +122,9 @@
 	};
 	3D1CF512113317A50009F2A3 /* CoffeeShopMap.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1425, 1936}}";
-			sepNavSelRange = "{396, 0}";
-			sepNavVisRange = "{174, 2797}";
+			sepNavIntBoundsRect = "{{0, 0}, {1377, 1936}}";
+			sepNavSelRange = "{530, 0}";
+			sepNavVisRange = "{402, 1945}";
 			sepNavWindowFrame = "{{693, 10}, {1484, 1184}}";
 		};
 	};
@@ -227,10 +223,10 @@
 	};
 	4C493D161145737700186899 /* CoffeeShopListTableCell.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1425, 1050}}";
-			sepNavSelRange = "{650, 0}";
-			sepNavVisRange = "{0, 1741}";
-			sepNavWindowFrame = "{{621, 481}, {1436, 878}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1377, 1008}}";
+			sepNavSelRange = "{363, 0}";
+			sepNavVisRange = "{55, 1435}";
+			sepNavWindowFrame = "{{469, 0}, {1436, 878}}";
 		};
 	};
 	4C6B35A31140446200D152BF /* CoffeeShopTableDataSource.h */ = {
@@ -242,9 +238,9 @@
 	};
 	4C6B35A41140446200D152BF /* CoffeeShopTableDataSource.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1050, 640}}";
-			sepNavSelRange = "{1116, 0}";
-			sepNavVisRange = "{625, 567}";
+			sepNavIntBoundsRect = "{{0, 0}, {1377, 702}}";
+			sepNavSelRange = "{406, 0}";
+			sepNavVisRange = "{0, 1192}";
 			sepNavWindowFrame = "{{158, 0}, {1281, 878}}";
 		};
 	};
@@ -278,17 +274,6 @@
 			sepNavWindowFrame = "{{391, 0}, {1044, 878}}";
 		};
 	};
-	4CE2A0F81176338600265578 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* CoffeeSnob-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/NK/Development/iPhone/CoffeeSnob/CoffeeSnob-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775807;
-	};
 	4CE587441134A07200BFC93A /* CoffeeShopList.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1425, 1050}}";
@@ -298,7 +283,7 @@
 	};
 	4CE587451134A07200BFC93A /* CoffeeShopList.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1425, 1050}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1377, 704}}";
 			sepNavSelRange = "{880, 0}";
 			sepNavVisRange = "{0, 1247}";
 		};
@@ -313,8 +298,8 @@
 	4CE587961134A30200BFC93A /* CoffeeShopMapDelegate.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1377, 848}}";
-			sepNavSelRange = "{1287, 0}";
-			sepNavVisRange = "{0, 1942}";
+			sepNavSelRange = "{517, 0}";
+			sepNavVisRange = "{200, 1762}";
 			sepNavWindowFrame = "{{397, 10}, {1281, 1018}}";
 		};
 	};
@@ -341,9 +326,9 @@
 	};
 	4CEFEECB111DDB78001B5381 /* CoffeeShopRepository.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1425, 1424}}";
-			sepNavSelRange = "{306, 0}";
-			sepNavVisRange = "{0, 2073}";
+			sepNavIntBoundsRect = "{{0, 0}, {1377, 1424}}";
+			sepNavSelRange = "{2096, 0}";
+			sepNavVisRange = "{334, 1607}";
 			sepNavWindowFrame = "{{590, 539}, {1436, 878}}";
 		};
 	};
@@ -357,26 +342,23 @@
 	};
 	4CEFEF6F111DE1D4001B5381 /* CoffeeShop.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1050, 1312}}";
-			sepNavSelRange = "{498, 0}";
-			sepNavVisRange = "{286, 609}";
+			sepNavIntBoundsRect = "{{0, 0}, {1377, 1216}}";
+			sepNavSelRange = "{1202, 0}";
+			sepNavVisRange = "{325, 1691}";
 			sepNavWindowFrame = "{{32, 620}, {750, 558}}";
 		};
 	};
-	4CF3A4751176332D005A1A20 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* CoffeeSnob-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/NK/Development/iPhone/CoffeeSnob/CoffeeSnob-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
+	4CF7E84E1146476000F94F15 /* shops.xml */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1377, 5264}}";
+			sepNavSelRange = "{3901, 0}";
+			sepNavVisRange = "{3693, 1555}";
+			sepNavWindowFrame = "{{4, 0}, {1436, 878}}";
+		};
 	};
 	8D1107310486CEB800E47090 /* CoffeeSnob-Info.plist */ = {
 		uiCtxt = {
-			sepNavWindowFrame = "{{436, 0}, {1484, 1178}}";
+			sepNavWindowFrame = "{{4, 0}, {1436, 878}}";
 		};
 	};
 }
