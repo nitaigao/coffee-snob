@@ -1,272 +1,0 @@
-TPageControl
-v7
-r0
-t291817967.599370
-cCheck dependencies
-cProcessInfoPlistFile /Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app/Info.plist Info.plist
-cCompileXIB /Users/NK/Downloads/PageControl/en.lproj/MyView.xib
-cCompileXIB /Users/NK/Downloads/PageControl/en.lproj/MainWindow.xib
-cCpResource build/Debug-iphonesimulator/PageControl.app/Default.png Default.png
-cProcessPCH /var/folders/xl/xlX8BegdGKiCXIVR624TT++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-fktzhaokyaccuqfrdffuzzihdzbt/Prefix.pch.gch Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PageControl.build/Debug-iphonesimulator/PageControl.build/Objects-normal/i386/main.o /Users/NK/Downloads/PageControl/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PageControl.build/Debug-iphonesimulator/PageControl.build/Objects-normal/i386/MyViewController.o /Users/NK/Downloads/PageControl/Classes/MyViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PageControl.build/Debug-iphonesimulator/PageControl.build/Objects-normal/i386/AppDelegate.o /Users/NK/Downloads/PageControl/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app/PageControl normal i386
-cGenerateDSYMFile /Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app.dSYM /Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app/PageControl
-cTouch /Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk
-c000000004BB28B0000000000000000EE
-t1269992192
-s238
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004A0BAB370000000000261F90
-t1242278711
-s2498448
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004A0BAB250000000000001355
-t1242278693
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004A0CBEBB000000000000075E
-t1242349243
-s1886
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004A0CBF5F0000000001434100
-t1242349407
-s21184768
-
-N/Users/NK/Downloads/PageControl/Classes/AppDelegate.h
-c000000004B69EC4D0000000000000C56
-t1265232973
-s3158
-i<UIKit/UIKit.h>
-
-N/Users/NK/Downloads/PageControl/Classes/AppDelegate.m
-c000000004B69EC4D0000000000001BB3
-t1265232973
-s7091
-i"AppDelegate.h"
-i"MyViewController.h"
-
-N/Users/NK/Downloads/PageControl/Classes/MyViewController.h
-c000000004B69EC4D0000000000000B16
-t1265232973
-s2838
-i<UIKit/UIKit.h>
-
-N/Users/NK/Downloads/PageControl/Classes/MyViewController.m
-c000000004B69EC4D0000000000000F67
-t1265232973
-s3943
-i"MyViewController.h"
-
-N/Users/NK/Downloads/PageControl/Default.png
-c000000004B58DE2A00000000000011E9
-t1264115242
-s4585
-
-N/Users/NK/Downloads/PageControl/Prefix.pch
-c000000004B69EC4D0000000000000A2B
-t1265232973
-s2603
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app
-t1270125167
-s238
-
-N/Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app.dSYM
-t1270125167
-s102
-
-N/Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app/Default.png
-t1270125166
-s4585
-
-N/Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app/Info.plist
-t1270125166
-s602
-
-N/Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app/PageControl
-t1270125167
-s25660
-
-N/Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app/PkgInfo
-t1270125166
-s8
-
-N/Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app/en.lproj/MainWindow.nib
-t1270125166
-s1841
-
-N/Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app/en.lproj/MyView.nib
-t1270125166
-s1719
-
-N/Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/Objects-normal/i386/AppDelegate.o
-t1270125167
-s46688
-
-N/Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/Objects-normal/i386/MyViewController.o
-t1270125167
-s33628
-
-N/Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/Objects-normal/i386/PageControl.LinkFileList
-c000000004BB4926E0000000000000184
-t1270125166
-s388
-
-N/Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/Objects-normal/i386/main.o
-t1270125167
-s5928
-
-N/Users/NK/Downloads/PageControl/en.lproj/MainWindow.xib
-c000000004B58DE2A0000000000004E96
-t1264115242
-s20118
-
-N/Users/NK/Downloads/PageControl/en.lproj/MyView.xib
-c000000004B58DE2A0000000000004450
-t1264115242
-s17488
-
-N/Users/NK/Downloads/PageControl/main.m
-c000000004B69EC4D0000000000000ADF
-t1265232973
-s2783
-i<UIKit/UIKit.h>
-
-N/var/folders/xl/xlX8BegdGKiCXIVR624TT++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-fktzhaokyaccuqfrdffuzzihdzbt/Prefix.pch.gch
-t1270125167
-s12952976
-
-NInfo.plist
-c000000004B58DE2A0000000000000381
-t1264115242
-s897
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies291817966#291817966#0(0"0(0#1#0"31244212048494624#0"0#
-
-CCompileC build/PageControl.build/Debug-iphonesimulator/PageControl.build/Objects-normal/i386/AppDelegate.o /Users/NK/Downloads/PageControl/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s291817967.408962
-e291817967.483775
-r1
-xCompileC
-xbuild/PageControl.build/Debug-iphonesimulator/PageControl.build/Objects-normal/i386/AppDelegate.o
-x/Users/NK/Downloads/PageControl/Classes/AppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@61"Compile /Users/NK/Downloads/PageControl/Classes/AppDelegate.m291817967#291817967#0(0"0(0#0#53"/Users/NK/Downloads/PageControl/Classes/AppDelegate.m4300911832#1858"    cd /Users/NK/Downloads/PageControl    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/PageControl-generated-files.hmap -I/Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/PageControl-own-target-headers.hmap -I/Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/PageControl-all-target-headers.hmap -iquote /Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/PageControl-project-headers.hmap -F/Users/NK/Downloads/PageControl/build/Debug-iphonesimulator -I/Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/include -I/Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/DerivedSources/i386 -I/Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/DerivedSources -include /var/folders/xl/xlX8BegdGKiCXIVR624TT++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-fktzhaokyaccuqfrdffuzzihdzbt/Prefix.pch -c /Users/NK/Downloads/PageControl/Classes/AppDelegate.m -o /Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/Objects-normal/i386/AppDelegate.o0#
-
-CCompileC build/PageControl.build/Debug-iphonesimulator/PageControl.build/Objects-normal/i386/MyViewController.o /Users/NK/Downloads/PageControl/Classes/MyViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s291817967.235575
-e291817967.459195
-r1
-xCompileC
-xbuild/PageControl.build/Debug-iphonesimulator/PageControl.build/Objects-normal/i386/MyViewController.o
-x/Users/NK/Downloads/PageControl/Classes/MyViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/NK/Downloads/PageControl/Classes/MyViewController.m291817967#291817967#0(0"0(0#0#58"/Users/NK/Downloads/PageControl/Classes/MyViewController.m4300911832#1868"    cd /Users/NK/Downloads/PageControl    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/PageControl-generated-files.hmap -I/Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/PageControl-own-target-headers.hmap -I/Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/PageControl-all-target-headers.hmap -iquote /Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/PageControl-project-headers.hmap -F/Users/NK/Downloads/PageControl/build/Debug-iphonesimulator -I/Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/include -I/Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/DerivedSources/i386 -I/Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/DerivedSources -include /var/folders/xl/xlX8BegdGKiCXIVR624TT++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-fktzhaokyaccuqfrdffuzzihdzbt/Prefix.pch -c /Users/NK/Downloads/PageControl/Classes/MyViewController.m -o /Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/Objects-normal/i386/MyViewController.o0#
-
-CCompileC build/PageControl.build/Debug-iphonesimulator/PageControl.build/Objects-normal/i386/main.o /Users/NK/Downloads/PageControl/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s291817967.234673
-e291817967.408877
-r1
-xCompileC
-xbuild/PageControl.build/Debug-iphonesimulator/PageControl.build/Objects-normal/i386/main.o
-x/Users/NK/Downloads/PageControl/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@46"Compile /Users/NK/Downloads/PageControl/main.m291817967#291817967#0(0"0(0#0#38"/Users/NK/Downloads/PageControl/main.m4300911832#1836"    cd /Users/NK/Downloads/PageControl    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/PageControl-generated-files.hmap -I/Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/PageControl-own-target-headers.hmap -I/Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/PageControl-all-target-headers.hmap -iquote /Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/PageControl-project-headers.hmap -F/Users/NK/Downloads/PageControl/build/Debug-iphonesimulator -I/Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/include -I/Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/DerivedSources/i386 -I/Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/DerivedSources -include /var/folders/xl/xlX8BegdGKiCXIVR624TT++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-fktzhaokyaccuqfrdffuzzihdzbt/Prefix.pch -c /Users/NK/Downloads/PageControl/main.m -o /Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/NK/Downloads/PageControl/en.lproj/MainWindow.xib
-s291817966.415313
-e291817966.700736
-r1
-xCompileXIB
-x/Users/NK/Downloads/PageControl/en.lproj/MainWindow.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@34"CompileXIB en.lproj/MainWindow.xib291817966#291817966#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#55"/Users/NK/Downloads/PageControl/en.lproj/MainWindow.xib4300911832#481"    cd /Users/NK/Downloads/PageControl    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app/en.lproj/MainWindow.nib /Users/NK/Downloads/PageControl/en.lproj/MainWindow.xib0#
-
-CCompileXIB /Users/NK/Downloads/PageControl/en.lproj/MyView.xib
-s291817966.412382
-e291817966.711983
-r1
-xCompileXIB
-x/Users/NK/Downloads/PageControl/en.lproj/MyView.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@30"CompileXIB en.lproj/MyView.xib291817966#291817966#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#51"/Users/NK/Downloads/PageControl/en.lproj/MyView.xib4300911832#473"    cd /Users/NK/Downloads/PageControl    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app/en.lproj/MyView.nib /Users/NK/Downloads/PageControl/en.lproj/MyView.xib0#
-
-CCpResource build/Debug-iphonesimulator/PageControl.app/Default.png Default.png
-s291817966.700806
-e291817966.710321
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/PageControl.app/Default.png
-xDefault.png
-lSLF07#2@16"Copy Default.png291817966#291817966#0(0"0(0#0#43"/Users/NK/Downloads/PageControl/Default.png4300911832#438"    cd /Users/NK/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/NK/Downloads/PageControl/Default.png /Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app0#
-
-CGenerateDSYMFile /Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app.dSYM /Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app/PageControl
-s291817967.565750
-e291817967.596808
-r1
-xGenerateDSYMFile
-x/Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app.dSYM
-x/Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app/PageControl
-lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/PageControl.app.dSYM build/Debug-iphonesimulator/PageControl.app/PageControl291817967#291817967#0(0"0(0#0#87"/Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app/PageControl4300911832#374"    cd /Users/NK/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app/PageControl -o /Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app.dSYM0#
-
-CLd /Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app/PageControl normal i386
-s291817967.483872
-e291817967.565656
-r1
-xLd
-x/Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app/PageControl
-xnormal
-xi386
-lSLF07#2@92"Link /Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app/PageControl291817967#291817967#0(0"0(0#0#0"4300911832#823"    cd /Users/NK/Downloads/PageControl    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -L/Users/NK/Downloads/PageControl/build/Debug-iphonesimulator -F/Users/NK/Downloads/PageControl/build/Debug-iphonesimulator -filelist /Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/Objects-normal/i386/PageControl.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -o /Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app/PageControl0#
-
-CProcessInfoPlistFile /Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app/Info.plist Info.plist
-s291817966.405055
-e291817966.412298
-r1
-xProcessInfoPlistFile
-x/Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app/Info.plist
-xInfo.plist
-lSLF07#2@18"Process Info.plist291817966#291817966#0(0"0(0#0#42"/Users/NK/Downloads/PageControl/Info.plist32370056120631408#458"    cd /Users/NK/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo /Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app/Info.plist0#
-
-CProcessPCH /var/folders/xl/xlX8BegdGKiCXIVR624TT++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-fktzhaokyaccuqfrdffuzzihdzbt/Prefix.pch.gch Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s291817966.712095
-e291817967.234585
-r1
-xProcessPCH
-x/var/folders/xl/xlX8BegdGKiCXIVR624TT++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-fktzhaokyaccuqfrdffuzzihdzbt/Prefix.pch.gch
-xPrefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@21"Precompile Prefix.pch291817966#291817967#0(0"0(0#0#42"/Users/NK/Downloads/PageControl/Prefix.pch4300911832#1719"    cd /Users/NK/Downloads/PageControl    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/PageControl-generated-files.hmap -I/Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/PageControl-own-target-headers.hmap -I/Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/PageControl-all-target-headers.hmap -iquote /Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/PageControl-project-headers.hmap -F/Users/NK/Downloads/PageControl/build/Debug-iphonesimulator -I/Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/include -I/Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/DerivedSources/i386 -I/Users/NK/Downloads/PageControl/build/PageControl.build/Debug-iphonesimulator/PageControl.build/DerivedSources -c /Users/NK/Downloads/PageControl/Prefix.pch -o /var/folders/xl/xlX8BegdGKiCXIVR624TT++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Prefix-fktzhaokyaccuqfrdffuzzihdzbt/Prefix.pch.gch0#
-
-CTouch /Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app
-s291817967.596888
-e291817967.599330
-r1
-xTouch
-x/Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app
-lSLF07#2@81"Touch /Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app291817967#291817967#0(0"0(0#0#0"4300911832#268"    cd /Users/NK/Downloads/PageControl    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/NK/Downloads/PageControl/build/Debug-iphonesimulator/PageControl.app0#
-
