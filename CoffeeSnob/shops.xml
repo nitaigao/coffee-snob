@@ -1,327 +1,381 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:georss="http://www.georss.org/georss" xmlns:gml="http://www.opengis.net/gml">
-<channel>
-  <link>http://maps.google.com</link>
-  <title>Good Coffee in London</title>
-  <description><![CDATA[]]></description>
-  <item>
-    <guid isPermaLink="false">00046e44016b24419e6be</guid>
-    <pubDate>Thu, 09 Jul 2009 11:17:47 +0000</pubDate>
-    <title>The Providores and Tapa Room Restaurant</title>
-    <description><![CDATA[109 Marylebone High St, W1U 4RX]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+<rss version="2.0" xmlns:georss="http://www.georss.org/georss" xmlns:gml="http://www.opengis.net/gml"> 
+<channel> 
+  <link>http://maps.google.com</link> 
+  <title>Good Coffee in London</title> 
+  <description><![CDATA[]]></description> 
+  <item> 
+    <guid isPermaLink="false">00046e44016b24419e6be</guid> 
+    <pubDate>Thu, 09 Jul 2009 11:17:47 +0000</pubDate> 
+    <title>The Providores and Tapa Room Restaurant</title> 
+    <description><![CDATA[109 Marylebone High St, W1U 4RX]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.518951 -0.151955
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">00046e440542ba5267b54</guid>
-    <pubDate>Thu, 09 Jul 2009 11:18:51 +0000</pubDate>
-    <title>Fernandez &amp; Wells Coffee Bar</title>
-    <description><![CDATA[43 Lexington St, W1F 9AL]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">00046e440542ba5267b54</guid> 
+    <pubDate>Thu, 09 Jul 2009 11:18:51 +0000</pubDate> 
+    <title>Fernandez &amp; Wells Coffee Bar</title> 
+    <description><![CDATA[43 Lexington St, W1F 9AL]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.512836 -0.136696
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">00046e44053fbda1b8e38</guid>
-    <pubDate>Thu, 09 Jul 2009 11:18:51 +0000</pubDate>
-    <title>Flat White</title>
-    <description><![CDATA[17 Berwick St, W1F 0PT]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">00046e44053fbda1b8e38</guid> 
+    <pubDate>Thu, 09 Jul 2009 11:18:51 +0000</pubDate> 
+    <title>Flat White</title> 
+    <description><![CDATA[17 Berwick St, W1F 0PT]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.513634 -0.134761
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">00046e440905931cc83fd</guid>
-    <pubDate>Thu, 09 Jul 2009 11:19:55 +0000</pubDate>
-    <title>Le Peche Mignon</title>
-    <description><![CDATA[6 Ronalds Road, N5 1XH]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">00046e440905931cc83fd</guid> 
+    <pubDate>Thu, 09 Jul 2009 11:19:55 +0000</pubDate> 
+    <title>Le Peche Mignon</title> 
+    <description><![CDATA[6 Ronalds Road, N5 1XH]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.549896 -0.108018
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">00046e440909163190ef2</guid>
-    <pubDate>Thu, 09 Jul 2009 11:19:55 +0000</pubDate>
-    <title>Milk Bar</title>
-    <description><![CDATA[3-5 Bateman St, W1D 4AG]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">00046e440909163190ef2</guid> 
+    <pubDate>Thu, 09 Jul 2009 11:19:55 +0000</pubDate> 
+    <title>Milk Bar</title> 
+    <description><![CDATA[3-5 Bateman St, W1D 4AG]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.513958 -0.131505
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">00046e440cad8920fa82c</guid>
-    <pubDate>Thu, 09 Jul 2009 11:20:56 +0000</pubDate>
-    <title>Climpson &amp; Sons</title>
-    <description><![CDATA[67 Broadway Market, E8 4PH]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">00046e440cad8920fa82c</guid> 
+    <pubDate>Thu, 09 Jul 2009 11:20:56 +0000</pubDate> 
+    <title>Climpson &amp; Sons</title> 
+    <description><![CDATA[67 Broadway Market, E8 4PH]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.536751 -0.061906
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">00046e44142ff797fdc86</guid>
-    <pubDate>Thu, 09 Jul 2009 11:23:02 +0000</pubDate>
-    <title>Monmouth Coffee House</title>
-    <description><![CDATA[27 Monmouth St, WC2H 9EU]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">00046e44142ff797fdc86</guid> 
+    <pubDate>Thu, 09 Jul 2009 11:23:02 +0000</pubDate> 
+    <title>Monmouth Coffee House</title> 
+    <description><![CDATA[27 Monmouth St, WC2H 9EU]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.514362 -0.126775
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">00046e441431df688268b</guid>
-    <pubDate>Thu, 09 Jul 2009 11:23:02 +0000</pubDate>
-    <title>Monmouth Coffee Co</title>
-    <description><![CDATA[2 Park St, SE1 9AB]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">00046e441431df688268b</guid> 
+    <pubDate>Thu, 09 Jul 2009 11:23:02 +0000</pubDate> 
+    <title>Monmouth Coffee Co</title> 
+    <description><![CDATA[2 Park St, SE1 9AB]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.505234 -0.091688
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">00046e4417c88810d007f</guid>
-    <pubDate>Thu, 09 Jul 2009 11:24:02 +0000</pubDate>
-    <title>Caffe Vergnano</title>
-    <description><![CDATA[62 Charing Cross Rd, WC2H 0BB]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">00046e4417c88810d007f</guid> 
+    <pubDate>Thu, 09 Jul 2009 11:24:02 +0000</pubDate> 
+    <title>Caffe Vergnano</title> 
+    <description><![CDATA[62 Charing Cross Rd, WC2H 0BB]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.512234 -0.128289
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">00046e981e9f1fa94bf9b</guid>
-    <pubDate>Mon, 13 Jul 2009 15:38:54 +0000</pubDate>
-    <title>Taylor St Baristas</title>
-    <description><![CDATA[1 New St, EC2M 4TP]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">00046e981e9f1fa94bf9b</guid> 
+    <pubDate>Mon, 13 Jul 2009 15:38:54 +0000</pubDate> 
+    <title>Taylor St Baristas</title> 
+    <description><![CDATA[1 New St, EC2M 4TP]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.517387 -0.079592
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">00046fee808ae8588f189</guid>
-    <pubDate>Thu, 30 Jul 2009 16:07:36 +0000</pubDate>
-    <title>Tomtom Coffee House</title>
-    <description><![CDATA[114 Ebury St, SW1W 9QD]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">00046fee808ae8588f189</guid> 
+    <pubDate>Thu, 30 Jul 2009 16:07:36 +0000</pubDate> 
+    <title>Tomtom Coffee House</title> 
+    <description><![CDATA[114 Ebury St, SW1W 9QD]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.493416 -0.150289
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">0004709f7622c46ab5feb</guid>
-    <pubDate>Sat, 08 Aug 2009 11:14:50 +0000</pubDate>
-    <title>Farm</title>
-    <description><![CDATA[91 Cowcross St, EC1M 6BH]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">0004709f7622c46ab5feb</guid> 
+    <pubDate>Sat, 08 Aug 2009 11:14:50 +0000</pubDate> 
+    <title>Farm</title> 
+    <description><![CDATA[91 Cowcross St, EC1M 6BH]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.519855 -0.102233
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">000470a49fa7fc84d1dcd</guid>
-    <pubDate>Sat, 08 Aug 2009 17:24:22 +0000</pubDate>
-    <title>Nude Espresso</title>
-    <description><![CDATA[26 Hanbury St, E1 6QR]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">000470a49fa7fc84d1dcd</guid> 
+    <pubDate>Sat, 08 Aug 2009 17:24:22 +0000</pubDate> 
+    <title>Nude Espresso</title> 
+    <description><![CDATA[26 Hanbury St, E1 6QR]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.520226 -0.073101
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">000470b7490e69f8e698e</guid>
-    <pubDate>Sun, 09 Aug 2009 15:40:13 +0000</pubDate>
-    <title>Tina, We Salute You</title>
-    <description><![CDATA[47 King Henry's Walk, N1 4NH]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">000470b7490e69f8e698e</guid> 
+    <pubDate>Sun, 09 Aug 2009 15:40:13 +0000</pubDate> 
+    <title>Tina, We Salute You</title> 
+    <description><![CDATA[47 King Henry's Walk, N1 4NH]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.549255 -0.079173
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">000470c7337155a73dbbf</guid>
-    <pubDate>Mon, 10 Aug 2009 10:39:30 +0000</pubDate>
-    <title>Bullet Café</title>
-    <description><![CDATA[4 Mercer St, WC2E 9]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
-      51.512550 -0.125441
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">000471d3ff11b8db0f1d1</guid>
-    <pubDate>Sun, 23 Aug 2009 19:20:38 +0000</pubDate>
-    <title>Gwilym&#39;s Coffee Cart</title>
-    <description><![CDATA[Columbia Rd flower market]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">000471d3ff11b8db0f1d1</guid> 
+    <pubDate>Sun, 23 Aug 2009 19:20:38 +0000</pubDate> 
+    <title>Gwilym&#39;s Coffee Cart</title> 
+    <description><![CDATA[Columbia Rd flower market]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.529724 -0.070006
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">0004747dce5529cbb4951</guid>
-    <pubDate>Sat, 26 Sep 2009 16:46:28 +0000</pubDate>
-    <title>Lantana</title>
-    <description><![CDATA[13 Charlotte Place, W1T 1SN]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">0004747dce5529cbb4951</guid> 
+    <pubDate>Sat, 26 Sep 2009 16:46:28 +0000</pubDate> 
+    <title>Lantana</title> 
+    <description><![CDATA[13 Charlotte Place, W1T 1SN]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.518967 -0.135955
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">0004761fe8306dcb6b044</guid>
-    <pubDate>Sat, 17 Oct 2009 11:35:18 +0000</pubDate>
-    <title>Kaffeine</title>
-    <description><![CDATA[66 Great Titchfield St, W1W 7QJ]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">0004761fe8306dcb6b044</guid> 
+    <pubDate>Sat, 17 Oct 2009 11:35:18 +0000</pubDate> 
+    <title>Kaffeine</title> 
+    <description><![CDATA[66 Great Titchfield St, W1W 7QJ]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.518417 -0.140338
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">00047a1241f1912b8e911</guid>
-    <pubDate>Sun, 06 Dec 2009 16:59:01 +0000</pubDate>
-    <title>Wilton&#39;s</title>
-    <description><![CDATA[63 Wilton Way, E8 1BG]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">00047a1241f1912b8e911</guid> 
+    <pubDate>Sun, 06 Dec 2009 16:59:01 +0000</pubDate> 
+    <title>Wilton&#39;s</title> 
+    <description><![CDATA[63 Wilton Way, E8 1BG]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.545704 -0.061684
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">00047a125276eef276fa3</guid>
-    <pubDate>Sun, 06 Dec 2009 17:03:38 +0000</pubDate>
-    <title>Sacred Cafe London</title>
-    <description><![CDATA[Kingly Court, W1B 5PW]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">00047a125276eef276fa3</guid> 
+    <pubDate>Sun, 06 Dec 2009 17:03:38 +0000</pubDate> 
+    <title>Sacred Cafe London</title> 
+    <description><![CDATA[Kingly Court, W1B 5PW]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.512573 -0.138883
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">00047e6472dd80bb91262</guid>
-    <pubDate>Sat, 30 Jan 2010 16:43:15 +0000</pubDate>
-    <title>Prufrock Coffee</title>
-    <description><![CDATA[140 Shoreditch High St, E1 6JE]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">00047e6472dd80bb91262</guid> 
+    <pubDate>Sat, 30 Jan 2010 16:43:15 +0000</pubDate> 
+    <title>Prufrock Coffee</title> 
+    <description><![CDATA[140 Shoreditch High St, E1 6JE]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.526417 -0.078275
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">000480abdb7e35371c2b0</guid>
-    <pubDate>Sun, 28 Feb 2010 16:45:17 +0000</pubDate>
-    <title>Taste of Bitter Love</title>
-    <description><![CDATA[276 Hackney Road, E2 7SJ]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">000480abdb7e35371c2b0</guid> 
+    <pubDate>Sun, 28 Feb 2010 16:45:17 +0000</pubDate> 
+    <title>Taste of Bitter Love</title> 
+    <description><![CDATA[276 Hackney Road, E2 7SJ]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.530972 -0.068460
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">000480abe2b1484e47f7f</guid>
-    <pubDate>Sun, 28 Feb 2010 16:47:17 +0000</pubDate>
-    <title>ScooterCaffe</title>
-    <description><![CDATA[132 Lower Marsh, SE1 7AE]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">000480abe2b1484e47f7f</guid> 
+    <pubDate>Sun, 28 Feb 2010 16:47:17 +0000</pubDate> 
+    <title>ScooterCaffe</title> 
+    <description><![CDATA[132 Lower Marsh, SE1 7AE]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.500546 -0.113741
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">000480abe46661c36c053</guid>
-    <pubDate>Sun, 28 Feb 2010 16:47:46 +0000</pubDate>
-    <title>Dose Espresso</title>
-    <description><![CDATA[69 Long Lane, EC1A 9EJ]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">000480abe46661c36c053</guid> 
+    <pubDate>Sun, 28 Feb 2010 16:47:46 +0000</pubDate> 
+    <title>Dose Espresso</title> 
+    <description><![CDATA[69 Long Lane, EC1A 9EJ]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.519207 -0.099896
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">000481203159ed31b519b</guid>
-    <pubDate>Sat, 06 Mar 2010 11:32:53 +0000</pubDate>
-    <title>Caravan</title>
-    <description><![CDATA[11-13 Exmouth Market, EC1R 4QD]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">000481203159ed31b519b</guid> 
+    <pubDate>Sat, 06 Mar 2010 11:32:53 +0000</pubDate> 
+    <title>Caravan</title> 
+    <description><![CDATA[11-13 Exmouth Market, EC1R 4QD]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.525532 -0.110085
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">00048123f3aa5e328a8d2</guid>
-    <pubDate>Sat, 06 Mar 2010 16:01:58 +0000</pubDate>
-    <title>Sacred Cafe Holloway</title>
-    <description><![CDATA[8 Hornsey Street, N7 8EG]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">00048123f3aa5e328a8d2</guid> 
+    <pubDate>Sat, 06 Mar 2010 16:01:58 +0000</pubDate> 
+    <title>Sacred Cafe Holloway</title> 
+    <description><![CDATA[8 Hornsey Street, N7 8EG]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.551144 -0.114173
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">0004849695964e89dd31c</guid>
-    <pubDate>Mon, 19 Apr 2010 13:03:16 +0000</pubDate>
-    <title>Bea&#39;s of Bloomsbury Cakes</title>
-    <description><![CDATA[44 Theobald's Rd, WC1X 8NW]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">0004849695964e89dd31c</guid> 
+    <pubDate>Mon, 19 Apr 2010 13:03:16 +0000</pubDate> 
+    <title>Bea&#39;s of Bloomsbury Cakes</title> 
+    <description><![CDATA[44 Theobald's Rd, WC1X 8NW]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.521015 -0.116066
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">00048496a77f0859f2fac</guid>
-    <pubDate>Mon, 19 Apr 2010 13:08:16 +0000</pubDate>
-    <title>Flat Cap Coffee</title>
-    <description><![CDATA[Strutton Ground, SW1]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">00048496a77f0859f2fac</guid> 
+    <pubDate>Mon, 19 Apr 2010 13:08:16 +0000</pubDate> 
+    <title>Flat Cap Coffee</title> 
+    <description><![CDATA[Strutton Ground, SW1]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.497459 -0.133901
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-  <item>
-    <guid isPermaLink="false">00048496b20a381c0e973</guid>
-    <pubDate>Mon, 19 Apr 2010 13:11:13 +0000</pubDate>
-    <title>The Roastery Cafe</title>
-    <description><![CDATA[789 Wandsworth Rd, SW8 3JQ]]></description>
-    <author>markholdsworth</author>
-    <georss:point>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">00048496b20a381c0e973</guid> 
+    <pubDate>Mon, 19 Apr 2010 13:11:13 +0000</pubDate> 
+    <title>The Roastery Cafe</title> 
+    <description><![CDATA[789 Wandsworth Rd, SW8 3JQ]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
       51.466709 -0.147790
-    </georss:point>
-    <georss:elev>0.000000</georss:elev>
-  </item>
-</channel>
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">00048a91729218e536c9d</guid> 
+    <pubDate>Sun, 04 Jul 2010 15:26:43 +0000</pubDate> 
+    <title>Look mum no hands!</title> 
+    <description><![CDATA[49 Old Street, London EC1V 9HX]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
+      51.523949 -0.097234
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">00048c481db788ec3753d</guid> 
+    <pubDate>Mon, 26 Jul 2010 10:47:50 +0000</pubDate> 
+    <title>Pitch 42 @ Whitecross Market</title> 
+    <description><![CDATA[Pitch 42, Whitecross St, EC1Y]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
+      51.523083 -0.093133
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">00048c49acedd48d76f34</guid> 
+    <pubDate>Mon, 26 Jul 2010 12:39:28 +0000</pubDate> 
+    <title>Ginger &amp; White</title> 
+    <description><![CDATA[4 Perrins Court, NW3 1QS]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
+      51.555702 -0.177760
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">00048c4c07878ecf5beea</guid> 
+    <pubDate>Mon, 26 Jul 2010 15:27:58 +0000</pubDate> 
+    <title>Federation Coffee</title> 
+    <description><![CDATA[Unit 46, Brixton Village Market, SW9 8PS]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
+      51.462620 -0.111807
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">00048c4ce0ad2b5b97715</guid> 
+    <pubDate>Mon, 26 Jul 2010 16:28:41 +0000</pubDate> 
+    <title>Sacred Cafe Westfield</title> 
+    <description><![CDATA[Westfield London, The Atrium (Main Entrance), W12 7GQ]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
+      51.508453 -0.227502
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+  <item> 
+    <guid isPermaLink="false">00048c8406b2069a49fec</guid> 
+    <pubDate>Thu, 29 Jul 2010 10:16:22 +0000</pubDate> 
+    <title>The Espresso Room</title> 
+    <description><![CDATA[31 Great Ormond Street, WC1N 3HZ]]></description> 
+    <author>markholdsworth</author> 
+    <georss:point> 
+      51.521748 -0.120188
+    </georss:point> 
+    <georss:elev>0.000000</georss:elev> 
+  </item> 
+</channel> 
 </rss>

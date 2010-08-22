@@ -19,7 +19,7 @@
 
 - (void)addCoffeeShops:(NSArray *)coffeeShops userLocation:(CLLocation*)userLocation {
 	for(CoffeeShop *shop in coffeeShops) {		
-		NSNumber* absoluteDistanceFromUser = [shop getDistanceFrom:userLocation];
+		NSNumber* absoluteDistanceFromUser = [shop distanceFromLocation:userLocation];
 		[sortedShops addObject:absoluteDistanceFromUser];
 		[coffeeShopsWithDistance setValue:shop forKey:[absoluteDistanceFromUser stringValue]];
 	}

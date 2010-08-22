@@ -62,11 +62,11 @@
 }
 
 - (NSNumber*) distanceFromUser {
-	return [self getDistanceFrom:userLocation];
+	return [self distanceFromLocation:userLocation];
 }
 
-- (NSNumber*) getDistanceFrom:(CLLocation*)otherLocation {
-	double distanceFromUser = [location getDistanceFrom:otherLocation];
+- (NSNumber*) distanceFromLocation:(CLLocation*)otherLocation {
+	double distanceFromUser = [location distanceFromLocation:otherLocation];
 	distanceFromUser = distanceFromUser < 0 ? distanceFromUser * -1 : distanceFromUser;
 	return [[[NSNumber alloc]initWithDouble:distanceFromUser] autorelease];
 }

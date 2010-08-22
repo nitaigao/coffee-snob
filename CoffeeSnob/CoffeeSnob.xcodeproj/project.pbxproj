@@ -151,7 +151,6 @@
 		29B97314FDCFA39411CA2CEA /* CoffeeSnob */ = {
 			isa = PBXGroup;
 			children = (
-				4CC3D9C91135C97300E0925C /* Specs */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources-iPhone */,
@@ -253,21 +252,6 @@
 				4C493D161145737700186899 /* CoffeeShopListTableCell.m */,
 			);
 			name = Views;
-			sourceTree = "<group>";
-		};
-		4CC3D9C91135C97300E0925C /* Specs */ = {
-			isa = PBXGroup;
-			children = (
-				4CC3DA481135D01B00E0925C /* Model */,
-			);
-			name = Specs;
-			sourceTree = "<group>";
-		};
-		4CC3DA481135D01B00E0925C /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Model;
 			sourceTree = "<group>";
 		};
 		4CE587F81134A4DF00BFC93A /* Controllers */ = {
@@ -429,7 +413,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F728667C-9264-4C47-8D73-F53A582A65DD";
-				SDKROOT = iphoneos3.1.2;
+				SDKROOT = iphoneos3.2;
 			};
 			name = Distribution;
 		};
@@ -462,9 +446,11 @@
 					"Vendor/UISpec/Headers/**",
 					/usr/include/libxml2,
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				SDKROOT = iphoneos3.1.2;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
