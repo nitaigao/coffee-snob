@@ -47,6 +47,20 @@
 		4CEFEECC111DDB78001B5381 /* CoffeeShopRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFEECB111DDB78001B5381 /* CoffeeShopRepository.m */; };
 		4CEFEF70111DE1D4001B5381 /* CoffeeShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEFEF6F111DE1D4001B5381 /* CoffeeShop.m */; };
 		4CF7E84F1146476000F94F15 /* shops.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4CF7E84E1146476000F94F15 /* shops.xml */; };
+		A46C31F112304BA200B343F1 /* milk bar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A46C31F012304BA200B343F1 /* milk bar.jpg */; };
+		A46C31F712304F1500B343F1 /* fernandez & wells coffee bar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A46C31F412304F1500B343F1 /* fernandez & wells coffee bar.jpg */; };
+		A46C31F812304F1500B343F1 /* monmouth coffee borough.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A46C31F512304F1500B343F1 /* monmouth coffee borough.jpg */; };
+		A46C31F912304F1500B343F1 /* monmouth coffee house.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A46C31F612304F1500B343F1 /* monmouth coffee house.jpg */; };
+		A46C31FF12304FB800B343F1 /* federation coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A46C31FE12304FB800B343F1 /* federation coffee.jpg */; };
+		A46C320B123051B200B343F1 /* sacred cafe holloway.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A46C3209123051B200B343F1 /* sacred cafe holloway.jpg */; };
+		A46C320C123051B200B343F1 /* sacred cafe london.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A46C320A123051B200B343F1 /* sacred cafe london.jpg */; };
+		A46C32171230558000B343F1 /* flat white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A46C32161230558000B343F1 /* flat white.jpg */; };
+		A46C321B123056D200B343F1 /* kaffeine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A46C321A123056D200B343F1 /* kaffeine.jpg */; };
+		A46C321F123057EE00B343F1 /* nude espresso.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A46C321E123057EE00B343F1 /* nude espresso.jpg */; };
+		A46C322512305A9700B343F1 /* farm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A46C322412305A9700B343F1 /* farm.jpg */; };
+		A46C322812305AA100B343F1 /* caffe vergnano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A46C322612305AA100B343F1 /* caffe vergnano.jpg */; };
+		A46C322912305AA100B343F1 /* farm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A46C322712305AA100B343F1 /* farm.jpg */; };
+		A46C322F12305BDD00B343F1 /* gwilym's coffee cart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A46C322E12305BDD00B343F1 /* gwilym's coffee cart.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -107,6 +121,20 @@
 		4CEFEF6F111DE1D4001B5381 /* CoffeeShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoffeeShop.m; sourceTree = "<group>"; };
 		4CF7E84E1146476000F94F15 /* shops.xml */ = {isa = PBXFileReference; explicitFileType = text.xml; fileEncoding = 4; path = shops.xml; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CoffeeSnob-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CoffeeSnob-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A46C31F012304BA200B343F1 /* milk bar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "milk bar.jpg"; path = "images/milk bar.jpg"; sourceTree = "<group>"; };
+		A46C31F412304F1500B343F1 /* fernandez & wells coffee bar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "fernandez & wells coffee bar.jpg"; path = "images/fernandez & wells coffee bar.jpg"; sourceTree = "<group>"; };
+		A46C31F512304F1500B343F1 /* monmouth coffee borough.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "monmouth coffee borough.jpg"; path = "images/monmouth coffee borough.jpg"; sourceTree = "<group>"; };
+		A46C31F612304F1500B343F1 /* monmouth coffee house.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "monmouth coffee house.jpg"; path = "images/monmouth coffee house.jpg"; sourceTree = "<group>"; };
+		A46C31FE12304FB800B343F1 /* federation coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "federation coffee.jpg"; path = "images/federation coffee.jpg"; sourceTree = "<group>"; };
+		A46C3209123051B200B343F1 /* sacred cafe holloway.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "sacred cafe holloway.jpg"; path = "images/sacred cafe holloway.jpg"; sourceTree = "<group>"; };
+		A46C320A123051B200B343F1 /* sacred cafe london.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "sacred cafe london.jpg"; path = "images/sacred cafe london.jpg"; sourceTree = "<group>"; };
+		A46C32161230558000B343F1 /* flat white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "flat white.jpg"; path = "images/flat white.jpg"; sourceTree = "<group>"; };
+		A46C321A123056D200B343F1 /* kaffeine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kaffeine.jpg; path = images/kaffeine.jpg; sourceTree = "<group>"; };
+		A46C321E123057EE00B343F1 /* nude espresso.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "nude espresso.jpg"; path = "images/nude espresso.jpg"; sourceTree = "<group>"; };
+		A46C322412305A9700B343F1 /* farm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = farm.jpg; path = images/farm.jpg; sourceTree = "<group>"; };
+		A46C322612305AA100B343F1 /* caffe vergnano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "caffe vergnano.jpg"; path = "images/caffe vergnano.jpg"; sourceTree = "<group>"; };
+		A46C322712305AA100B343F1 /* farm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = farm.jpg; path = images/farm.jpg; sourceTree = "<group>"; };
+		A46C322E12305BDD00B343F1 /* gwilym's coffee cart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "gwilym's coffee cart.jpg"; path = "images/gwilym's coffee cart.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +202,20 @@
 		29B97317FDCFA39411CA2CEA /* Resources-iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				A46C322412305A9700B343F1 /* farm.jpg */,
+				A46C321A123056D200B343F1 /* kaffeine.jpg */,
+				A46C322E12305BDD00B343F1 /* gwilym's coffee cart.jpg */,
+				A46C322612305AA100B343F1 /* caffe vergnano.jpg */,
+				A46C322712305AA100B343F1 /* farm.jpg */,
+				A46C32161230558000B343F1 /* flat white.jpg */,
+				A46C321E123057EE00B343F1 /* nude espresso.jpg */,
+				A46C3209123051B200B343F1 /* sacred cafe holloway.jpg */,
+				A46C320A123051B200B343F1 /* sacred cafe london.jpg */,
+				A46C31FE12304FB800B343F1 /* federation coffee.jpg */,
+				A46C31F412304F1500B343F1 /* fernandez & wells coffee bar.jpg */,
+				A46C31F512304F1500B343F1 /* monmouth coffee borough.jpg */,
+				A46C31F612304F1500B343F1 /* monmouth coffee house.jpg */,
+				A46C31F012304BA200B343F1 /* milk bar.jpg */,
 				4C6B49E9117E17C900C06F8D /* bea's of bloomsbury cakes.jpg */,
 				4C6B49EA117E17C900C06F8D /* caravan.jpg */,
 				4C6B49EB117E17C900C06F8D /* climpson & sons.jpg */,
@@ -331,6 +373,20 @@
 				4C6B49FC117E17C900C06F8D /* tina, we salute you.jpg in Resources */,
 				4C6B49FD117E17C900C06F8D /* tomtom coffee house.jpg in Resources */,
 				4C6B49FE117E17C900C06F8D /* wilton's.jpg in Resources */,
+				A46C31F112304BA200B343F1 /* milk bar.jpg in Resources */,
+				A46C31F712304F1500B343F1 /* fernandez & wells coffee bar.jpg in Resources */,
+				A46C31F812304F1500B343F1 /* monmouth coffee borough.jpg in Resources */,
+				A46C31F912304F1500B343F1 /* monmouth coffee house.jpg in Resources */,
+				A46C31FF12304FB800B343F1 /* federation coffee.jpg in Resources */,
+				A46C320B123051B200B343F1 /* sacred cafe holloway.jpg in Resources */,
+				A46C320C123051B200B343F1 /* sacred cafe london.jpg in Resources */,
+				A46C32171230558000B343F1 /* flat white.jpg in Resources */,
+				A46C321B123056D200B343F1 /* kaffeine.jpg in Resources */,
+				A46C321F123057EE00B343F1 /* nude espresso.jpg in Resources */,
+				A46C322512305A9700B343F1 /* farm.jpg in Resources */,
+				A46C322812305AA100B343F1 /* caffe vergnano.jpg in Resources */,
+				A46C322912305AA100B343F1 /* farm.jpg in Resources */,
+				A46C322F12305BDD00B343F1 /* gwilym's coffee cart.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
