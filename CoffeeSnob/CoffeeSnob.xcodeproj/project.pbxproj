@@ -57,10 +57,10 @@
 		A46C32171230558000B343F1 /* flat white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A46C32161230558000B343F1 /* flat white.jpg */; };
 		A46C321B123056D200B343F1 /* kaffeine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A46C321A123056D200B343F1 /* kaffeine.jpg */; };
 		A46C321F123057EE00B343F1 /* nude espresso.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A46C321E123057EE00B343F1 /* nude espresso.jpg */; };
-		A46C322512305A9700B343F1 /* farm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A46C322412305A9700B343F1 /* farm.jpg */; };
-		A46C322812305AA100B343F1 /* caffe vergnano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A46C322612305AA100B343F1 /* caffe vergnano.jpg */; };
-		A46C322912305AA100B343F1 /* farm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A46C322712305AA100B343F1 /* farm.jpg */; };
-		A46C322F12305BDD00B343F1 /* gwilym's coffee cart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A46C322E12305BDD00B343F1 /* gwilym's coffee cart.jpg */; };
+		A4CC7AF512313F4A0026AD74 /* taylor st baristas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4CC7AF412313F4A0026AD74 /* taylor st baristas.jpg */; };
+		A4E644741233D30600BDFC1B /* caffe vergnano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4E644711233D30600BDFC1B /* caffe vergnano.jpg */; };
+		A4E644751233D30600BDFC1B /* farm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4E644721233D30600BDFC1B /* farm.jpg */; };
+		A4E644761233D30600BDFC1B /* look mum no hands!.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4E644731233D30600BDFC1B /* look mum no hands!.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -131,10 +131,10 @@
 		A46C32161230558000B343F1 /* flat white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "flat white.jpg"; path = "images/flat white.jpg"; sourceTree = "<group>"; };
 		A46C321A123056D200B343F1 /* kaffeine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kaffeine.jpg; path = images/kaffeine.jpg; sourceTree = "<group>"; };
 		A46C321E123057EE00B343F1 /* nude espresso.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "nude espresso.jpg"; path = "images/nude espresso.jpg"; sourceTree = "<group>"; };
-		A46C322412305A9700B343F1 /* farm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = farm.jpg; path = images/farm.jpg; sourceTree = "<group>"; };
-		A46C322612305AA100B343F1 /* caffe vergnano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "caffe vergnano.jpg"; path = "images/caffe vergnano.jpg"; sourceTree = "<group>"; };
-		A46C322712305AA100B343F1 /* farm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = farm.jpg; path = images/farm.jpg; sourceTree = "<group>"; };
-		A46C322E12305BDD00B343F1 /* gwilym's coffee cart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "gwilym's coffee cart.jpg"; path = "images/gwilym's coffee cart.jpg"; sourceTree = "<group>"; };
+		A4CC7AF412313F4A0026AD74 /* taylor st baristas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "taylor st baristas.jpg"; path = "images/taylor st baristas.jpg"; sourceTree = "<group>"; };
+		A4E644711233D30600BDFC1B /* caffe vergnano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "caffe vergnano.jpg"; path = "images/caffe vergnano.jpg"; sourceTree = "<group>"; };
+		A4E644721233D30600BDFC1B /* farm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = farm.jpg; path = images/farm.jpg; sourceTree = "<group>"; };
+		A4E644731233D30600BDFC1B /* look mum no hands!.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "look mum no hands!.jpg"; path = "images/look mum no hands!.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,11 +202,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources-iPhone */ = {
 			isa = PBXGroup;
 			children = (
-				A46C322412305A9700B343F1 /* farm.jpg */,
+				A4E644711233D30600BDFC1B /* caffe vergnano.jpg */,
+				A4E644721233D30600BDFC1B /* farm.jpg */,
+				A4E644731233D30600BDFC1B /* look mum no hands!.jpg */,
+				A4CC7AF412313F4A0026AD74 /* taylor st baristas.jpg */,
 				A46C321A123056D200B343F1 /* kaffeine.jpg */,
-				A46C322E12305BDD00B343F1 /* gwilym's coffee cart.jpg */,
-				A46C322612305AA100B343F1 /* caffe vergnano.jpg */,
-				A46C322712305AA100B343F1 /* farm.jpg */,
 				A46C32161230558000B343F1 /* flat white.jpg */,
 				A46C321E123057EE00B343F1 /* nude espresso.jpg */,
 				A46C3209123051B200B343F1 /* sacred cafe holloway.jpg */,
@@ -383,10 +383,10 @@
 				A46C32171230558000B343F1 /* flat white.jpg in Resources */,
 				A46C321B123056D200B343F1 /* kaffeine.jpg in Resources */,
 				A46C321F123057EE00B343F1 /* nude espresso.jpg in Resources */,
-				A46C322512305A9700B343F1 /* farm.jpg in Resources */,
-				A46C322812305AA100B343F1 /* caffe vergnano.jpg in Resources */,
-				A46C322912305AA100B343F1 /* farm.jpg in Resources */,
-				A46C322F12305BDD00B343F1 /* gwilym's coffee cart.jpg in Resources */,
+				A4CC7AF512313F4A0026AD74 /* taylor st baristas.jpg in Resources */,
+				A4E644741233D30600BDFC1B /* caffe vergnano.jpg in Resources */,
+				A4E644751233D30600BDFC1B /* farm.jpg in Resources */,
+				A4E644761233D30600BDFC1B /* look mum no hands!.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
