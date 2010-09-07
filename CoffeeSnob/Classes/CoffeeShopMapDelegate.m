@@ -15,7 +15,6 @@ NSString * const SELECTED = @"selected";
 NSString * const ANNOTATION_SELECTED = @"annotationselected";
 NSString * const PINANNOTATION_ID = @"CustomPinAnnotation";
 
-
 - (MKAnnotationView *)createAnnotationView:(MKMapView *)map annotation:(id)annotation  {	
 	CoffeeShopMapAnnotationView* view = (CoffeeShopMapAnnotationView*)[map dequeueReusableAnnotationViewWithIdentifier:PINANNOTATION_ID];
 	if (!view)

@@ -117,4 +117,10 @@ NSString* const LIST = @"List";
 	navigationBar.rightBarButtonItem = isList ? nil : nextButton; 
 }
 
+- (void)showLocationError {
+	[loadingView stopAnimatingAndHide];
+	UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Location problem" message:@"There was a problem accessing your location. Please check the Location Services Settings in your iPhone Settings and ensure The Coffee Map is allowed to access your location." delegate:self cancelButtonTitle:nil otherButtonTitles:nil];
+	[alert show];	
+}
+
 @end

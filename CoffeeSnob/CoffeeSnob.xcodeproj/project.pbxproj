@@ -57,6 +57,9 @@
 		A46C32171230558000B343F1 /* flat white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A46C32161230558000B343F1 /* flat white.jpg */; };
 		A46C321B123056D200B343F1 /* kaffeine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A46C321A123056D200B343F1 /* kaffeine.jpg */; };
 		A46C321F123057EE00B343F1 /* nude espresso.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A46C321E123057EE00B343F1 /* nude espresso.jpg */; };
+		A4873D691235192D00BA495A /* the espresso room.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4873D681235192D00BA495A /* the espresso room.jpg */; };
+		A4873D6E12351BD100BA495A /* the providores and tapa room.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4873D6D12351BD100BA495A /* the providores and tapa room.jpg */; };
+		A4873D7012351C2300BA495A /* ginger & white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4873D6F12351C2300BA495A /* ginger & white.jpg */; };
 		A4CC7AF512313F4A0026AD74 /* taylor st baristas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4CC7AF412313F4A0026AD74 /* taylor st baristas.jpg */; };
 		A4E644741233D30600BDFC1B /* caffe vergnano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4E644711233D30600BDFC1B /* caffe vergnano.jpg */; };
 		A4E644751233D30600BDFC1B /* farm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4E644721233D30600BDFC1B /* farm.jpg */; };
@@ -131,6 +134,9 @@
 		A46C32161230558000B343F1 /* flat white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "flat white.jpg"; path = "images/flat white.jpg"; sourceTree = "<group>"; };
 		A46C321A123056D200B343F1 /* kaffeine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kaffeine.jpg; path = images/kaffeine.jpg; sourceTree = "<group>"; };
 		A46C321E123057EE00B343F1 /* nude espresso.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "nude espresso.jpg"; path = "images/nude espresso.jpg"; sourceTree = "<group>"; };
+		A4873D681235192D00BA495A /* the espresso room.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "the espresso room.jpg"; path = "images/the espresso room.jpg"; sourceTree = "<group>"; };
+		A4873D6D12351BD100BA495A /* the providores and tapa room.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "the providores and tapa room.jpg"; path = "images/the providores and tapa room.jpg"; sourceTree = "<group>"; };
+		A4873D6F12351C2300BA495A /* ginger & white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "ginger & white.jpg"; path = "images/ginger & white.jpg"; sourceTree = "<group>"; };
 		A4CC7AF412313F4A0026AD74 /* taylor st baristas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "taylor st baristas.jpg"; path = "images/taylor st baristas.jpg"; sourceTree = "<group>"; };
 		A4E644711233D30600BDFC1B /* caffe vergnano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "caffe vergnano.jpg"; path = "images/caffe vergnano.jpg"; sourceTree = "<group>"; };
 		A4E644721233D30600BDFC1B /* farm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = farm.jpg; path = images/farm.jpg; sourceTree = "<group>"; };
@@ -203,6 +209,9 @@
 			isa = PBXGroup;
 			children = (
 				A4E644711233D30600BDFC1B /* caffe vergnano.jpg */,
+				A4873D6D12351BD100BA495A /* the providores and tapa room.jpg */,
+				A4873D6F12351C2300BA495A /* ginger & white.jpg */,
+				A4873D681235192D00BA495A /* the espresso room.jpg */,
 				A4E644721233D30600BDFC1B /* farm.jpg */,
 				A4E644731233D30600BDFC1B /* look mum no hands!.jpg */,
 				A4CC7AF412313F4A0026AD74 /* taylor st baristas.jpg */,
@@ -387,6 +396,9 @@
 				A4E644741233D30600BDFC1B /* caffe vergnano.jpg in Resources */,
 				A4E644751233D30600BDFC1B /* farm.jpg in Resources */,
 				A4E644761233D30600BDFC1B /* look mum no hands!.jpg in Resources */,
+				A4873D691235192D00BA495A /* the espresso room.jpg in Resources */,
+				A4873D6E12351BD100BA495A /* the providores and tapa room.jpg in Resources */,
+				A4873D7012351C2300BA495A /* ginger & white.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

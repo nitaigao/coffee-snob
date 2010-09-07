@@ -27,5 +27,6 @@
 - (void)showDirectionsToSelectedCoffeeShop;
 - (void)shopsLoaded:(CoffeeShopList*)shops;
 - (void)selectShop:(CoffeeShop*)coffeeShop;
+- (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error;
 
 @end

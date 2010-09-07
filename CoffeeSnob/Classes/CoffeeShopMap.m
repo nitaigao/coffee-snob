@@ -111,4 +111,9 @@ NSInteger const ONE_KILOMETER = 10000;
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
 }
 
+
+- (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error {
+	[viewController showLocationError];
+}
+
 @end
