@@ -15,7 +15,7 @@
 NSInteger const FIVE_MINUTES = 300;
 NSInteger const ONE_HUNDRED_METRES = 100;
 NSInteger const FIVE_HUNDRED_METRES = 500;
-NSInteger const ONE_KILOMETER = 10000;
+NSInteger const ONE_KILOMETER = 1000;
 
 - (id)init {
 	[super init];
